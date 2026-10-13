@@ -1,0 +1,425 @@
+{
+  "app": "ShadowFoxTV Movies & Series",
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionCode": 4,
+  "versionName": "0.2.2",
+  "apkSha256": "e7db78ab547c832f5138b89c4af931c9663af96a4fd5ebd4795dbb7076a08343",
+  "apkSizeBytes": 10559799,
+  "signerSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "signatureVerification": "PASS",
+  "iconPackSha256": "f903c744f68a2937a87d6e045771636d67c11e18eef1d1aec834a3ce5b5788e6",
+  "embeddedArtworkVisiblePixelAndAlphaMatches": 30,
+  "pngCompilerNormalization": "AAPT may zero RGB beneath alpha=0; all visible pixels, alpha and dimensions match exactly",
+  "embeddedArtwork": [
+    {
+      "resource": "drawable/ic_launcher_background",
+      "density": "mdpi",
+      "apkPath": "res/lP.png",
+      "source": "drawable-mdpi/ic_launcher_background.png",
+      "dimensions": [
+        108,
+        108
+      ],
+      "visibleRgbaSha256": "df15e2d328814b93bed0c04f45eb913bab57947db70b0a215165496a4002cd94",
+      "sourceRgbaSha256": "df15e2d328814b93bed0c04f45eb913bab57947db70b0a215165496a4002cd94",
+      "compiledRgbaSha256": "df15e2d328814b93bed0c04f45eb913bab57947db70b0a215165496a4002cd94"
+    },
+    {
+      "resource": "drawable/ic_launcher_background",
+      "density": "hdpi",
+      "apkPath": "res/ku.png",
+      "source": "drawable-hdpi/ic_launcher_background.png",
+      "dimensions": [
+        162,
+        162
+      ],
+      "visibleRgbaSha256": "87dea66683e8deebfd5ef23eecb84c272c7f38804ebdaa2343cefe1d9bf13329",
+      "sourceRgbaSha256": "87dea66683e8deebfd5ef23eecb84c272c7f38804ebdaa2343cefe1d9bf13329",
+      "compiledRgbaSha256": "87dea66683e8deebfd5ef23eecb84c272c7f38804ebdaa2343cefe1d9bf13329"
+    },
+    {
+      "resource": "drawable/ic_launcher_background",
+      "density": "xhdpi",
+      "apkPath": "res/pt.png",
+      "source": "drawable-xhdpi/ic_launcher_background.png",
+      "dimensions": [
+        216,
+        216
+      ],
+      "visibleRgbaSha256": "aa98038d443aed3a1216039ccb7e871679c2be96371e2831e72fa43068eaaa1a",
+      "sourceRgbaSha256": "aa98038d443aed3a1216039ccb7e871679c2be96371e2831e72fa43068eaaa1a",
+      "compiledRgbaSha256": "aa98038d443aed3a1216039ccb7e871679c2be96371e2831e72fa43068eaaa1a"
+    },
+    {
+      "resource": "drawable/ic_launcher_background",
+      "density": "xxhdpi",
+      "apkPath": "res/9e.png",
+      "source": "drawable-xxhdpi/ic_launcher_background.png",
+      "dimensions": [
+        324,
+        324
+      ],
+      "visibleRgbaSha256": "ca35a2313e99ffb327d51421abba24d60b7c9672f542d74b5ade034ce95609ca",
+      "sourceRgbaSha256": "ca35a2313e99ffb327d51421abba24d60b7c9672f542d74b5ade034ce95609ca",
+      "compiledRgbaSha256": "ca35a2313e99ffb327d51421abba24d60b7c9672f542d74b5ade034ce95609ca"
+    },
+    {
+      "resource": "drawable/ic_launcher_background",
+      "density": "xxxhdpi",
+      "apkPath": "res/6Y.png",
+      "source": "drawable-xxxhdpi/ic_launcher_background.png",
+      "dimensions": [
+        432,
+        432
+      ],
+      "visibleRgbaSha256": "a91839cce4c9c8d024963a72fea5d9ee98e0d81f9f831fc8bde9a6bbdcaae667",
+      "sourceRgbaSha256": "a91839cce4c9c8d024963a72fea5d9ee98e0d81f9f831fc8bde9a6bbdcaae667",
+      "compiledRgbaSha256": "a91839cce4c9c8d024963a72fea5d9ee98e0d81f9f831fc8bde9a6bbdcaae667"
+    },
+    {
+      "resource": "drawable/ic_launcher_foreground",
+      "density": "mdpi",
+      "apkPath": "res/bB.png",
+      "source": "drawable-mdpi/ic_launcher_foreground.png",
+      "dimensions": [
+        108,
+        108
+      ],
+      "visibleRgbaSha256": "8db8d5a083a2ad141ae503f44a18627fee84b5e1b4da880b192ec70bdbeabaf3",
+      "sourceRgbaSha256": "4000f4271eeaea3431ff1b4ffaa4613466e87579416b1de8530f091cbddb3ef5",
+      "compiledRgbaSha256": "8db8d5a083a2ad141ae503f44a18627fee84b5e1b4da880b192ec70bdbeabaf3"
+    },
+    {
+      "resource": "drawable/ic_launcher_foreground",
+      "density": "hdpi",
+      "apkPath": "res/yi.png",
+      "source": "drawable-hdpi/ic_launcher_foreground.png",
+      "dimensions": [
+        162,
+        162
+      ],
+      "visibleRgbaSha256": "3bff084d38040e386899cdf56722521f336257b65251619e0d868f09a32f7fcd",
+      "sourceRgbaSha256": "d68ae3fc1be88dd8f1552bafbf6266c8478edb9e57c59d4edba97992f2235338",
+      "compiledRgbaSha256": "3bff084d38040e386899cdf56722521f336257b65251619e0d868f09a32f7fcd"
+    },
+    {
+      "resource": "drawable/ic_launcher_foreground",
+      "density": "xhdpi",
+      "apkPath": "res/tP.png",
+      "source": "drawable-xhdpi/ic_launcher_foreground.png",
+      "dimensions": [
+        216,
+        216
+      ],
+      "visibleRgbaSha256": "4e687709dd99faf52090674ca0e9a3a60896757a32fe1eec28cb2e4c8ff70c9d",
+      "sourceRgbaSha256": "d868526af7b33952cd2c3e8d53484a2fc5547b680a1849859e6bc7b8e0cef511",
+      "compiledRgbaSha256": "4e687709dd99faf52090674ca0e9a3a60896757a32fe1eec28cb2e4c8ff70c9d"
+    },
+    {
+      "resource": "drawable/ic_launcher_foreground",
+      "density": "xxhdpi",
+      "apkPath": "res/BM.png",
+      "source": "drawable-xxhdpi/ic_launcher_foreground.png",
+      "dimensions": [
+        324,
+        324
+      ],
+      "visibleRgbaSha256": "8d54991c19d571d6ca00aa7526c309ab50e794c4d0d8763709d59fa7e9b1cb25",
+      "sourceRgbaSha256": "17bca8216995914cdcf3614edac4de404f6ae3d72026723ee1c4b41ae3f11283",
+      "compiledRgbaSha256": "17bca8216995914cdcf3614edac4de404f6ae3d72026723ee1c4b41ae3f11283"
+    },
+    {
+      "resource": "drawable/ic_launcher_foreground",
+      "density": "xxxhdpi",
+      "apkPath": "res/CH.png",
+      "source": "drawable-xxxhdpi/ic_launcher_foreground.png",
+      "dimensions": [
+        432,
+        432
+      ],
+      "visibleRgbaSha256": "36026a785526e91d6d1fc6ac3db08ac1fc9fe92970636fe37670e150229d9e57",
+      "sourceRgbaSha256": "b2e96946c194b3953bbe33187d275812eb5d76c22accb215152847a60a764bbc",
+      "compiledRgbaSha256": "b2e96946c194b3953bbe33187d275812eb5d76c22accb215152847a60a764bbc"
+    },
+    {
+      "resource": "drawable/shadowfox_cutout",
+      "density": "mdpi",
+      "apkPath": "res/jf.png",
+      "source": "drawable-mdpi/shadowfox_cutout.png",
+      "dimensions": [
+        80,
+        80
+      ],
+      "visibleRgbaSha256": "dd569dac4960381dbd589cfc16568ebd57f25f1546f93e395732e80758120665",
+      "sourceRgbaSha256": "061273077e6e5dd007153f298eb3e5f341110a32f9f2e5edf7d95cf1e0c816fd",
+      "compiledRgbaSha256": "dd569dac4960381dbd589cfc16568ebd57f25f1546f93e395732e80758120665"
+    },
+    {
+      "resource": "drawable/shadowfox_cutout",
+      "density": "hdpi",
+      "apkPath": "res/An.png",
+      "source": "drawable-hdpi/shadowfox_cutout.png",
+      "dimensions": [
+        120,
+        120
+      ],
+      "visibleRgbaSha256": "5bd12d34a05733c2944d38c3c35e66db7a13ed9dfa678e02b52a2735efdb363a",
+      "sourceRgbaSha256": "26ef8e4c6054f0885c90e60ffb5d88e2259a6c157b46110b4a3b2971f90ee96c",
+      "compiledRgbaSha256": "5bd12d34a05733c2944d38c3c35e66db7a13ed9dfa678e02b52a2735efdb363a"
+    },
+    {
+      "resource": "drawable/shadowfox_cutout",
+      "density": "xhdpi",
+      "apkPath": "res/Ox.png",
+      "source": "drawable-xhdpi/shadowfox_cutout.png",
+      "dimensions": [
+        160,
+        160
+      ],
+      "visibleRgbaSha256": "00f623cd8db615787039e3ef23d7aad5772af887b79e53b1e0d811fbe0f85f90",
+      "sourceRgbaSha256": "f75d0baafafc05a2da45aa5adc05dd6a976439d4211c8253ebd080b2da8f7da9",
+      "compiledRgbaSha256": "f75d0baafafc05a2da45aa5adc05dd6a976439d4211c8253ebd080b2da8f7da9"
+    },
+    {
+      "resource": "drawable/shadowfox_cutout",
+      "density": "xxhdpi",
+      "apkPath": "res/20.png",
+      "source": "drawable-xxhdpi/shadowfox_cutout.png",
+      "dimensions": [
+        240,
+        240
+      ],
+      "visibleRgbaSha256": "f319647aa6023342ccaeaf827079d34caef80ac63a5ad6ddf852aa85147f7128",
+      "sourceRgbaSha256": "7d8826cb0f8fd88fc3d474fc54070c4de747db76d93fe25893789d3a995e224d",
+      "compiledRgbaSha256": "7d8826cb0f8fd88fc3d474fc54070c4de747db76d93fe25893789d3a995e224d"
+    },
+    {
+      "resource": "drawable/shadowfox_cutout",
+      "density": "xxxhdpi",
+      "apkPath": "res/QT.png",
+      "source": "drawable-xxxhdpi/shadowfox_cutout.png",
+      "dimensions": [
+        320,
+        320
+      ],
+      "visibleRgbaSha256": "e85613f9fd832854e0412540ed9c636fafbba880eb85c1dd92eb9c7ba15c05ae",
+      "sourceRgbaSha256": "ea70dd0841c6c64ae5ed7077f1d490156a8ae1901e79b9890b468ce9e1a9a704",
+      "compiledRgbaSha256": "ea70dd0841c6c64ae5ed7077f1d490156a8ae1901e79b9890b468ce9e1a9a704"
+    },
+    {
+      "resource": "drawable/tv_banner",
+      "density": "mdpi",
+      "apkPath": "res/O5.png",
+      "source": "drawable-mdpi/tv_banner.png",
+      "dimensions": [
+        160,
+        90
+      ],
+      "visibleRgbaSha256": "f98d8fbba9c55e5808a22c8562f8c84d46e32e1f9433b98458a66f37bbc4e51b",
+      "sourceRgbaSha256": "0c0486cf3c6799c3ca437c0b12e466ba0a35a5fae14b6c1701bb813dcbe28f57",
+      "compiledRgbaSha256": "f98d8fbba9c55e5808a22c8562f8c84d46e32e1f9433b98458a66f37bbc4e51b"
+    },
+    {
+      "resource": "drawable/tv_banner",
+      "density": "hdpi",
+      "apkPath": "res/A0.png",
+      "source": "drawable-hdpi/tv_banner.png",
+      "dimensions": [
+        240,
+        135
+      ],
+      "visibleRgbaSha256": "bce140ecc9c2bf2d700f3a9d28e921a64f7b9d5d9164f455f64390d04dc852de",
+      "sourceRgbaSha256": "6e8708164a9f227439599fb2398350c2f17186f1a073703194034b86c0486619",
+      "compiledRgbaSha256": "bce140ecc9c2bf2d700f3a9d28e921a64f7b9d5d9164f455f64390d04dc852de"
+    },
+    {
+      "resource": "drawable/tv_banner",
+      "density": "xhdpi",
+      "apkPath": "res/9n.png",
+      "source": "drawable-xhdpi/tv_banner.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "visibleRgbaSha256": "9f6653df88004d55b21bc81faed59da6241835e61b24533297977506f82006ae",
+      "sourceRgbaSha256": "126202ea97d7ca965e789c9c777e733a511d156439db619283e943c26ef154dc",
+      "compiledRgbaSha256": "126202ea97d7ca965e789c9c777e733a511d156439db619283e943c26ef154dc"
+    },
+    {
+      "resource": "drawable/tv_banner",
+      "density": "xxhdpi",
+      "apkPath": "res/TH.png",
+      "source": "drawable-xxhdpi/tv_banner.png",
+      "dimensions": [
+        480,
+        270
+      ],
+      "visibleRgbaSha256": "6a51416c194274e26e45bc3b04d83eab0b7a41469cddc419c26c61ba6f2e70c7",
+      "sourceRgbaSha256": "855bd39483b0e15484996027d33a74ea64d10afc8c01be7d30d8d6e8a775aaf2",
+      "compiledRgbaSha256": "855bd39483b0e15484996027d33a74ea64d10afc8c01be7d30d8d6e8a775aaf2"
+    },
+    {
+      "resource": "drawable/tv_banner",
+      "density": "xxxhdpi",
+      "apkPath": "res/hB.png",
+      "source": "drawable-xxxhdpi/tv_banner.png",
+      "dimensions": [
+        640,
+        360
+      ],
+      "visibleRgbaSha256": "b1d274e5928e493680b6534721cd32e74aaf7ad7b9fd9d8e008db28720ec3a54",
+      "sourceRgbaSha256": "ab99a3ffb5a7b4dc29f026ba7b8c6a4489d6266389fec6f5d3efe752027fb786",
+      "compiledRgbaSha256": "ab99a3ffb5a7b4dc29f026ba7b8c6a4489d6266389fec6f5d3efe752027fb786"
+    },
+    {
+      "resource": "mipmap/ic_launcher",
+      "density": "mdpi",
+      "apkPath": "res/9w.png",
+      "source": "mipmap-mdpi/ic_launcher.png",
+      "dimensions": [
+        80,
+        80
+      ],
+      "visibleRgbaSha256": "2419537eb50e98855872f6c285818faf90cf1cfcd09102730244751a9db0e050",
+      "sourceRgbaSha256": "1d849e55f2c9747d7572edef98c25fc040f57b2a7e867b2f3e8358a7f06a7510",
+      "compiledRgbaSha256": "1d849e55f2c9747d7572edef98c25fc040f57b2a7e867b2f3e8358a7f06a7510"
+    },
+    {
+      "resource": "mipmap/ic_launcher",
+      "density": "hdpi",
+      "apkPath": "res/yn.png",
+      "source": "mipmap-hdpi/ic_launcher.png",
+      "dimensions": [
+        120,
+        120
+      ],
+      "visibleRgbaSha256": "02a6a6f4e909e9fed2fd3887bf78dd1ae7025bfdeb1772138c552a165be15669",
+      "sourceRgbaSha256": "96f27f7954ffaa733b3a104911fe8ce435588705457500798d6ddafbb69abb40",
+      "compiledRgbaSha256": "02a6a6f4e909e9fed2fd3887bf78dd1ae7025bfdeb1772138c552a165be15669"
+    },
+    {
+      "resource": "mipmap/ic_launcher",
+      "density": "xhdpi",
+      "apkPath": "res/FS.png",
+      "source": "mipmap-xhdpi/ic_launcher.png",
+      "dimensions": [
+        160,
+        160
+      ],
+      "visibleRgbaSha256": "f15fc714f7d35f7b8b68b3d0dea473cad56a46ec8a4f563212c54f544a6abcfe",
+      "sourceRgbaSha256": "4b08c794451b01c64b5d449b38eb028c77687aec1d6aca28dab5c720c950604a",
+      "compiledRgbaSha256": "f15fc714f7d35f7b8b68b3d0dea473cad56a46ec8a4f563212c54f544a6abcfe"
+    },
+    {
+      "resource": "mipmap/ic_launcher",
+      "density": "xxhdpi",
+      "apkPath": "res/RJ.png",
+      "source": "mipmap-xxhdpi/ic_launcher.png",
+      "dimensions": [
+        240,
+        240
+      ],
+      "visibleRgbaSha256": "52394b252a7179e47eb2688c8d68225c8ddccc341c7c52db1c230d25e83f4738",
+      "sourceRgbaSha256": "646e2b40c06f5cbeb55947b969a26b14b1ccc9922f81932d0a00ffc57e6a2655",
+      "compiledRgbaSha256": "646e2b40c06f5cbeb55947b969a26b14b1ccc9922f81932d0a00ffc57e6a2655"
+    },
+    {
+      "resource": "mipmap/ic_launcher",
+      "density": "xxxhdpi",
+      "apkPath": "res/o-.png",
+      "source": "mipmap-xxxhdpi/ic_launcher.png",
+      "dimensions": [
+        320,
+        320
+      ],
+      "visibleRgbaSha256": "f89712b7eb7d908594dbf6a0b077a1175de6e0dd3921ff04804aa4d5c4c3565d",
+      "sourceRgbaSha256": "82644b5c3654429b80119393ffa84c677126f6a74880dbbdc2fe205c7d7617b8",
+      "compiledRgbaSha256": "82644b5c3654429b80119393ffa84c677126f6a74880dbbdc2fe205c7d7617b8"
+    },
+    {
+      "resource": "mipmap/ic_launcher_round",
+      "density": "mdpi",
+      "apkPath": "res/zR.png",
+      "source": "mipmap-mdpi/ic_launcher_round.png",
+      "dimensions": [
+        80,
+        80
+      ],
+      "visibleRgbaSha256": "950a4dbd29753a7661cd50f9596f5c4c83fbeb6bafed2ebc55976f164e78bb72",
+      "sourceRgbaSha256": "159e88eabf43b8adbd40ca1e59e6231136b9e92cd34372a2033dd21316f0da7d",
+      "compiledRgbaSha256": "950a4dbd29753a7661cd50f9596f5c4c83fbeb6bafed2ebc55976f164e78bb72"
+    },
+    {
+      "resource": "mipmap/ic_launcher_round",
+      "density": "hdpi",
+      "apkPath": "res/8c.png",
+      "source": "mipmap-hdpi/ic_launcher_round.png",
+      "dimensions": [
+        120,
+        120
+      ],
+      "visibleRgbaSha256": "1b9102ef486c97e9001c5b9c18ec6515444141811efd8b0b8586249ae8e4a5fc",
+      "sourceRgbaSha256": "5e9f037d973f7eeee2f8b80ac259c12e3efa8bae80c4303d68a3b05279a6c54f",
+      "compiledRgbaSha256": "1b9102ef486c97e9001c5b9c18ec6515444141811efd8b0b8586249ae8e4a5fc"
+    },
+    {
+      "resource": "mipmap/ic_launcher_round",
+      "density": "xhdpi",
+      "apkPath": "res/wb.png",
+      "source": "mipmap-xhdpi/ic_launcher_round.png",
+      "dimensions": [
+        160,
+        160
+      ],
+      "visibleRgbaSha256": "6b4117d4373f170446f8cb7461996b3106516e65e582f728abff4b6473d224a7",
+      "sourceRgbaSha256": "ec73961d8e0934ccb3755b79d4dd2a45d3a2cfe4c71d508cfa34b78fbd14dd38",
+      "compiledRgbaSha256": "6b4117d4373f170446f8cb7461996b3106516e65e582f728abff4b6473d224a7"
+    },
+    {
+      "resource": "mipmap/ic_launcher_round",
+      "density": "xxhdpi",
+      "apkPath": "res/fO.png",
+      "source": "mipmap-xxhdpi/ic_launcher_round.png",
+      "dimensions": [
+        240,
+        240
+      ],
+      "visibleRgbaSha256": "51223b6bece8139691f3d25a7e426d9430c351ac389943b001de708c199c98e7",
+      "sourceRgbaSha256": "bb52f519c8a0dd98bdbac4490562d06df52132152805956f827c7cf8dbbd83aa",
+      "compiledRgbaSha256": "51223b6bece8139691f3d25a7e426d9430c351ac389943b001de708c199c98e7"
+    },
+    {
+      "resource": "mipmap/ic_launcher_round",
+      "density": "xxxhdpi",
+      "apkPath": "res/Gc.png",
+      "source": "mipmap-xxxhdpi/ic_launcher_round.png",
+      "dimensions": [
+        320,
+        320
+      ],
+      "visibleRgbaSha256": "d4606952d464a675721491c537e4241cdb1b0674626111c0fa28e527de22c3a4",
+      "sourceRgbaSha256": "c8cf0ba3dfbfc46dd97dba877993644800aaadd4457830a34251db320a1ff86b",
+      "compiledRgbaSha256": "c8cf0ba3dfbfc46dd97dba877993644800aaadd4457830a34251db320a1ff86b"
+    }
+  ],
+  "oldBrandResourcesAbsent": true,
+  "unitTests": {
+    "tests": 95,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "debug": {
+      "errors": 0,
+      "warnings": 73
+    },
+    "release": {
+      "errors": 0,
+      "warnings": 73
+    }
+  },
+  "physicalTanixTested": false,
+  "bootstrapRequiredFrom": "0.2.0",
+  "channel": "movies-series/update.json"
+}
