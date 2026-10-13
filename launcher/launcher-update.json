@@ -1,0 +1,8 @@
+{
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "versionCode": 17,
+  "versionName": "1.4.9",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.9.apk",
+  "sha256": "c197ef83f11fdf932b45e89057bd11a5fbbb9d92f58c3e9abe9f891a4bd32ca1",
+  "notes": "Adds Navigation sounds On/Off and in-app launcher updates. Retains your existing launcher setup."
+}
