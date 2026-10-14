@@ -1,0 +1,41 @@
+{
+  "version": "1.4.10",
+  "home_closes_settings": true,
+  "home_closes_wallpaper": true,
+  "home_closes_unsaved_rename": true,
+  "stock_wallpaper_restored": true,
+  "wallpaper_import_dimensions": [
+    3840,
+    2160
+  ],
+  "custom_icon_import_dimensions": [
+    480,
+    480
+  ],
+  "custom_icon_restored": true,
+  "navigation_sounds_readback_verified": true,
+  "playback_volume_preserved": true,
+  "category_controls_accessible": true,
+  "rename_dialog_accessible": true,
+  "bluetooth_on": true,
+  "background_4k_wallpaper_save_verified": true,
+  "home_responsive_during_wallpaper_save": true,
+  "home_check_seconds_including_ui_dump": 4.9,
+  "version_code": 18,
+  "package": "com.shadowfox.tvlauncher.review",
+  "apk_sha256": "f96189fd7ed70ba70e869acfe8e1317369e247dac67527313b3382b9e61ac5aa",
+  "signature_verified": true,
+  "stock_wallpaper_bytes_unchanged": true,
+  "github_published": true,
+  "published_commit": "66f0fcd30cd1a5c9bf2c249aafd5fe3a5322b947",
+  "public_feed_and_apk_bytes_verified": true,
+  "h96_native_updater_download_verified": true,
+  "h96_native_android_installer_upgrade_17_to_18": true,
+  "h96_hidden_names_retained_during_update": true,
+  "original_app_name_visibility_restored": true,
+  "h96_installed_apk_matches_published_apk": true,
+  "h96_write_settings_permission": "one-time ADB grant; settings flushed to disk",
+  "navigation_sound_audibility_tested": false,
+  "firetv_installed": false,
+  "tanix_installed": false
+}
