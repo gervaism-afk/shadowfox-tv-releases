@@ -1,0 +1,22 @@
+{
+  "versionName": "0.2.3",
+  "versionCode": 5,
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "sha256": "9579f39195816f8858971f17dc47ae10198537a1792cc1b2631886afbd59d5eb",
+  "sizeBytes": 10559799,
+  "signerSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "recoveryChecks": {
+    "apkCrc": "PASS",
+    "signature": "PASS",
+    "manifest": "PASS",
+    "bothPerformanceIndexesInDex": "PASS"
+  },
+  "priorBuildChecks": {
+    "unitTestsPassed": 100,
+    "hostSqliteScenariosPassed": 120,
+    "lintErrors": 0,
+    "lintWarningsPerVariant": 73
+  },
+  "physicalDeviceTested": false,
+  "sourceHandoff": "Final source upload was interrupted. Saved checkpoint recovery is incomplete; do not treat v0.2.2 source as the source for this APK."
+}

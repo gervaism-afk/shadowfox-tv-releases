@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 4,
-  "versionName": "0.2.2",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.2.apk",
-  "sha256": "e7db78ab547c832f5138b89c4af931c9663af96a4fd5ebd4795dbb7076a08343",
+  "versionCode": 5,
+  "versionName": "0.2.3",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.3.apk",
+  "sha256": "9579f39195816f8858971f17dc47ae10198537a1792cc1b2631886afbd59d5eb",
   "sizeBytes": 10559799,
-  "notes": "Final Movies & Series TV icon pack, automatic update checks, verified downloads and Android installer support. Retains v0.2.0 Tanix loading, memory and library stability improvements."
+  "notes": "Large Movies & Series catalogue performance update: indexed browsing, less repeated page work and bounded import batches. First launch creates indexes once. Retains Tanix fixes and final TV artwork."
 }
