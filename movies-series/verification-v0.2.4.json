@@ -1,0 +1,29 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionCode": 6,
+  "versionName": "0.2.4",
+  "sha256": "760da6fed62a51f1f0ed210059dbd57543919c275b1a721c534bb9b6df3a97f5",
+  "sizeBytes": 10559843,
+  "signerSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "mobileLauncher": true,
+  "tvLauncher": true,
+  "embeddedPngsMatchV023": true,
+  "performanceIndexesPresent": true,
+  "unitTests": {
+    "tests": 100,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "debug": {
+      "Warning": 99,
+      "Information": 7
+    },
+    "release": {
+      "Warning": 85,
+      "Information": 7
+    }
+  },
+  "physicalDeviceTested": false
+}

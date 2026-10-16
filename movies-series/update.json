@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 5,
-  "versionName": "0.2.3",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.3.apk",
-  "sha256": "9579f39195816f8858971f17dc47ae10198537a1792cc1b2631886afbd59d5eb",
-  "sizeBytes": 10559799,
-  "notes": "Large Movies & Series catalogue performance update: indexed browsing, less repeated page work and bounded import batches. First launch creates indexes once. Retains Tanix fixes and final TV artwork."
+  "versionCode": 6,
+  "versionName": "0.2.4",
+  "sha256": "760da6fed62a51f1f0ed210059dbd57543919c275b1a721c534bb9b6df3a97f5",
+  "sizeBytes": 10559843,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.4.apk",
+  "notes": "Adds a phone/tablet app drawer icon while retaining Android TV launch support, compatible signing and large-catalogue performance improvements. Existing landscape interface."
 }
