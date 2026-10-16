@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "apk": {
+    "status": "PASS",
+    "file": "ShadowFoxTV-Movies-Series-0.2.9.apk",
+    "package": "ca.shadowfoxtv.movieseries",
+    "versionCode": 11,
+    "versionName": "0.2.9",
+    "signer_sha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+    "sha256": "d9264f063f8041932bfb0e4d9267d1c885e1625c96671106276d846a22bbce82",
+    "bytes": 6626152,
+    "zip_crc": "PASS"
+  },
+  "artwork_resources_verified": 25,
+  "source_archive": {
+    "source_zip": "ShadowFoxTV-Movies-Series-0.2.9-source.zip",
+    "sha256": "ad768d69354c98582239a3a8b9fb1c4bb470dede5213cf214c680096c2240ddc",
+    "bytes": 3538572,
+    "tests": {
+      "tests": 117,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "private_signing_material_excluded": true
+  },
+  "h96_search_qa": {
+    "device": "H96 Max 3518",
+    "app_version": "0.2.9",
+    "versionCode": 11,
+    "separate_histories": true,
+    "survives_app_restart": true,
+    "section_clear_preserves_other": true,
+    "recall_verified": true,
+    "recall_input": "TV remote",
+    "clear_current_query_verified": true,
+    "clear_current_query_input": "clear button touch action",
+    "clear_history_input": "TV remote",
+    "compact_posters_above_keyboard_verified": true,
+    "login_retained": true,
+    "movie_results_for_test_query": 72,
+    "series_results_for_test_query": 13,
+    "compact_first_row_complete_posters": 11,
+    "keyboard_hidden_restores_normal_layout": true,
+    "screenshots": [
+      "H96-v029-Movies-Keyboard.png",
+      "H96-v029-Series-Keyboard.png",
+      "H96-v029-Series-History.png",
+      "H96-v029-History-Cleared.png"
+    ]
+  }
+}
