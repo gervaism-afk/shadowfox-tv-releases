@@ -1,0 +1,65 @@
+{
+  "app": "ShadowFoxTV Movies & Series",
+  "channel": "ui-preview",
+  "versionName": "0.3.0",
+  "versionCode": 12,
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "minSdk": 25,
+  "targetSdk": 34,
+  "apk": {
+    "url": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/movies-series-ui-preview/movies-series/ui-preview/ShadowFoxTV-Movies-Series-0.3.0.apk",
+    "bytes": 6638440,
+    "sha256": "108bbf50f8198364a834cd6cf4273f2960255a6305217baeed7fa63e8419875f",
+    "gitBlobSha": "f1e39eb1d28b3c39b651e9742476cb0c2f1bdcde"
+  },
+  "signerSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "signatureVerified": {
+    "v2": true,
+    "v3": true
+  },
+  "build": {
+    "assembleRelease": "PASS",
+    "lintVitalRelease": "PASS",
+    "testDebugUnitTest": {
+      "tests": 121,
+      "failures": 0,
+      "errors": 0
+    },
+    "lintRelease": {
+      "status": "FAIL_EXISTING_BASELINE_ISSUE",
+      "issues": [
+        {
+          "id": "UnsafeOptInUsageError",
+          "file": "app/src/main/java/nl/vanvrouwerff/iptv/player/StreamFormatRecovery.kt",
+          "line": 16,
+          "description": "Media3 UnstableApi opt-in annotation; file is byte-identical to v0.2.9 source."
+        }
+      ]
+    }
+  },
+  "artwork": {
+    "baselinePngs": 249,
+    "previewPngs": 249,
+    "allPreviousEmbeddedPngBytesRetained": true,
+    "zipCrc": "PASS"
+  },
+  "baseline": {
+    "version": "0.2.9",
+    "sourceSha256": "ad768d69354c98582239a3a8b9fb1c4bb470dede5213cf214c680096c2240ddc",
+    "searchHistoryAndPlaybackFixesRetained": true,
+    "roomSchemaChanged": false
+  },
+  "source": {
+    "url": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/movies-series-ui-preview/movies-series/ui-preview/ShadowFoxTV-Movies-Series-0.3.0-source-checkpoint.zip",
+    "sha256": "3b0275dfea752e8ead6230ea8c2b8b32304170c47c60a19869bc85eddb3363d5",
+    "ciPatch": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/movies-series-ui-preview/movies-series/ui-preview/ci-fixes.patch",
+    "productionSourceUnchangedFromCheckpoint": true,
+    "privateKeysExcluded": true,
+    "localSettingsExcluded": true
+  },
+  "limitations": [
+    "Preview has not been installed or physically tested on H96/Fire TV in this environment.",
+    "Headless PixelCopy screenshot capture timed out. Screenshot step removed from regression test; touch and D-pad assertions retained and pass.",
+    "Stable Movies & Series updater remains v0.2.9; Platinum Player unchanged."
+  ]
+}
