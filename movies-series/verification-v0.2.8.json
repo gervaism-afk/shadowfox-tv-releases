@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "apk": {
+    "status": "PASS",
+    "file": "ShadowFoxTV-Movies-Series-0.2.8.apk",
+    "package": "ca.shadowfoxtv.movieseries",
+    "versionCode": 10,
+    "versionName": "0.2.8",
+    "signer_sha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+    "sha256": "619c78800d8b7114b00c0e3569c7fb84c9ec44149bee93523c178dc91f63d018",
+    "bytes": 6626152,
+    "zip_crc": "PASS"
+  },
+  "artwork_resources_verified": 25,
+  "source_archive": {
+    "source_zip": "outputs\\ShadowFoxTV-Movies-Series-0.2.8-source.zip",
+    "sha256": "adaca841adb71be6108230763fecdeeb52d6ece785411b9e78b8eaaacd49b245",
+    "bytes": 3535662,
+    "tests": {
+      "tests": 112,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "private_signing_material_excluded": true
+  },
+  "h96_playback": {
+    "device": "H96 Max 3518",
+    "app_version": "0.2.8",
+    "versionCode": 10,
+    "title": "Chicago Med S12E01",
+    "provider_advertised_format": "m3u8",
+    "actual_response_format": "video/x-matroska",
+    "provider_format_fallback_observed": true,
+    "first_video_frame_rendered": true,
+    "audio_track_selected": true,
+    "position_ms": 22745,
+    "duration_ms": 2466464,
+    "progress_advanced": true
+  }
+}

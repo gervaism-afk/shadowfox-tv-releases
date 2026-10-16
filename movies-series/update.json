@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 7,
-  "versionName": "0.2.5",
-  "sha256": "ae19c1dee72865bc3dee7011d27cb118120f90db1a878b327c60f407c22507df",
-  "sizeBytes": 6595101,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.5.apk",
-  "notes": "Fire OS 6 / Android 7.1 compatibility: API 25 minimum, backported date/time APIs and compatible verified updater. Retains phone and TV launchers, final artwork and catalogue performance fixes."
+  "versionCode": 10,
+  "versionName": "0.2.8",
+  "sha256": "619c78800d8b7114b00c0e3569c7fb84c9ec44149bee93523c178dc91f63d018",
+  "sizeBytes": 6626152,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.8.apk",
+  "notes": "Fixes TV remote search editing and keeps Movies/Series searches separate. Loads episodes when optional provider metadata is blank. Automatically recovers when the provider labels an MKV/MP4 video as an HLS playlist. Tested on H96; retains saved login and existing artwork. Android 7.1+."
 }
