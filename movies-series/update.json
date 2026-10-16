@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 6,
-  "versionName": "0.2.4",
-  "sha256": "760da6fed62a51f1f0ed210059dbd57543919c275b1a721c534bb9b6df3a97f5",
-  "sizeBytes": 10559843,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.4.apk",
-  "notes": "Adds a phone/tablet app drawer icon while retaining Android TV launch support, compatible signing and large-catalogue performance improvements. Existing landscape interface."
+  "versionCode": 7,
+  "versionName": "0.2.5",
+  "sha256": "ae19c1dee72865bc3dee7011d27cb118120f90db1a878b327c60f407c22507df",
+  "sizeBytes": 6595101,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.5.apk",
+  "notes": "Fire OS 6 / Android 7.1 compatibility: API 25 minimum, backported date/time APIs and compatible verified updater. Retains phone and TV launchers, final artwork and catalogue performance fixes."
 }
