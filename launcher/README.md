@@ -1,4 +1,8 @@
-# ShadowFoxTV Launcher Pro 1.4.10
+# ShadowFoxTV Launcher Pro 1.4.11
+
+Home skips icon-pack work when original app icons are selected. App names are loaded once per row refresh, and the full icon catalog is prepared only when browsing it. The H96 cold-start checks changed from a median 6468 ms in 1.4.10 to 2355 ms in this release (three runs each); times depend on the device and current load.
+
+Home also closes the full icon browser. The existing appearance and app layout are retained.
 
 Press Home to return to your app row, including from launcher settings or an unsaved label/category editor. The launcher uses a single Home activity and closes its editing panels on Home without saving unsaved text.
 
@@ -12,8 +16,8 @@ Install this APK as an update to the existing ShadowFoxTV Launcher Pro, without 
 
 Settings → Launcher updates → Check for updates uses the existing GitHub feed. The launcher verifies the downloaded APK's SHA-256, package, version and signing certificate before opening Android's installer. It requires the device's installation permission for the launcher.
 
-H96 checks and update-flow results are in launcher-pro-1.4.10-verification.json. This release was not installed on Fire TV or the unavailable Tanix. The H96 Bluetooth repair remains a separate installed helper and is unaffected by this launcher update.
+H96 checks and update-flow results are in launcher-pro-1.4.11-verification.json. This release was not installed on Fire TV or the unavailable Tanix. The H96 Bluetooth repair remains a separate installed helper and is unaffected by this launcher update.
 
-APK: https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.10.apk
+APK: https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.11.apk
 
 The source archive excludes signing keys, device preferences and test snapshots. Rebuilding requires your signing key, Android SDK 35/build-tools 35.0.0, Java and Python, with local paths adjusted in build_launcher_review.py.

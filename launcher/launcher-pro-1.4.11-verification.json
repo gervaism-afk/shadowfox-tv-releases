@@ -1,0 +1,26 @@
+{
+  "version": "1.4.11",
+  "versionCode": 19,
+  "sha256": "0c104417c4c6ce8699382745c5dec78edb1a1ea01fed0e5fd7e42e90bbe4853d",
+  "device_model": "H96_Max_3518_TS",
+  "preferences_preserved_after_install": true,
+  "rename_and_reset_verified": true,
+  "projectivy_selection_verified": true,
+  "icon_browser_count": "1173 icons \u00b7 OK applies artwork",
+  "home_closes_icon_browser": true,
+  "exact_original_preferences_restored": true,
+  "final_apk_cold_start_ms": 2194,
+  "bluetooth_on": true,
+  "cold_start_before_ms": [
+    7142,
+    6468,
+    5378
+  ],
+  "cold_start_after_ms": [
+    3825,
+    2335,
+    2355
+  ],
+  "median_before_ms": 6468,
+  "median_after_ms": 2355
+}

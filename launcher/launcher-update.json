@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 18,
-  "versionName": "1.4.10",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.10.apk",
-  "sha256": "f96189fd7ed70ba70e869acfe8e1317369e247dac67527313b3382b9e61ac5aa",
-  "notes": "Home closes launcher settings and unsaved editing panels. Wallpaper and icon selection prefers folder/storage browsing with a gallery fallback. Large images save in the background. Keeps your existing launcher setup."
+  "versionCode": 19,
+  "versionName": "1.4.11",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.11.apk",
+  "sha256": "0c104417c4c6ce8699382745c5dec78edb1a1ea01fed0e5fd7e42e90bbe4853d",
+  "notes": "Faster Home startup: icon-pack browsing loads only when needed and app labels are reused while arranging Home. Home now closes the full icon browser. Keeps your existing launcher setup."
 }
