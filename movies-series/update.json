@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 11,
-  "versionName": "0.2.9",
-  "sha256": "d9264f063f8041932bfb0e4d9267d1c885e1625c96671106276d846a22bbce82",
-  "sizeBytes": 6626152,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.2.9.apk",
-  "notes": "Separate saved search histories for Movies and Series: recall recent searches, clear current text or clear each section history. Smaller posters and more space for results while the on-screen keyboard is open. Retains v0.2.8 search, episode-list and stream-format fixes. Tested on H96; saved login retained. Android 7.1+."
+  "versionCode": 13,
+  "versionName": "0.3.1",
+  "sha256": "b35457248604cef93499d7522822fed9187eb0a9961716e62f44f1625dd012eb",
+  "sizeBytes": 6628353,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.1.apk",
+  "notes": "Mobile touch fix for Connect and account controls, Apple TV-inspired Home, and automatic startup update notices. Updates download and verify in-app; Android confirms installation. Retains search histories, playback fixes and Tanix settings."
 }

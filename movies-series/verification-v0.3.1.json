@@ -1,0 +1,30 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionCode": 13,
+  "versionName": "0.3.1",
+  "sha256": "b35457248604cef93499d7522822fed9187eb0a9961716e62f44f1625dd012eb",
+  "sizeBytes": 6628353,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.1.apk",
+  "notes": "Mobile touch fix for Connect and account controls, Apple TV-inspired Home, and automatic startup update notices. Updates download and verify in-app; Android confirms installation. Retains search histories, playback fixes and Tanix settings.",
+  "signerSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "sourceUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.1-source.zip",
+  "sourceSha256": "23c69f30978fde55ad2a59e64495f8e93434ec2280dc5faa4f2a9d64eddbfb4c",
+  "sourceSizeBytes": 3554720,
+  "verification": {
+    "unitTests": 129,
+    "failures": 0,
+    "errors": 0,
+    "releaseAssembly": "PASS",
+    "lintVitalRelease": "PASS",
+    "signatureV2": true,
+    "apkCrc": "PASS",
+    "embeddedPngCount": 249,
+    "previousPngBytesRetained": true,
+    "touchRegression": "Baseline failed; fixed phone, landscape and remote tests pass",
+    "startupPrompt": "Policy and touch/remote dismissal tests pass; prompt string verified in DEX",
+    "physicalDeviceTest": false,
+    "fullLint": "Not rerun; prior unchanged Media3 UnsafeOptInUsageError exists"
+  },
+  "installation": "Install over existing app without uninstalling. Android confirmation required. Startup checks offer future newer versions.",
+  "scope": "Movies & Series only; Platinum Player unchanged"
+}
