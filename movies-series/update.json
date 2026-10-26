@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 13,
-  "versionName": "0.3.1",
-  "sha256": "b35457248604cef93499d7522822fed9187eb0a9961716e62f44f1625dd012eb",
+  "versionCode": 14,
+  "versionName": "0.3.2",
+  "sha256": "0c18a3e85d6b4cb783a58b5a3b861b6c8975c3f1657d1d08af388ce372b2c85f",
   "sizeBytes": 6628353,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.1.apk",
-  "notes": "Mobile touch fix for Connect and account controls, Apple TV-inspired Home, and automatic startup update notices. Updates download and verify in-app; Android confirms installation. Retains search histories, playback fixes and Tanix settings."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.2.apk",
+  "notes": "Apple TV-inspired Home retained. Phone featured titles use the full available width, with larger Play, Details and navigation touch targets. Install over the existing app to preserve your saved account and settings. Startup update notices retained."
 }

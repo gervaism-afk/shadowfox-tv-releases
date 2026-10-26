@@ -1,0 +1,23 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionCode": 14,
+  "versionName": "0.3.2",
+  "sha256": "0c18a3e85d6b4cb783a58b5a3b861b6c8975c3f1657d1d08af388ce372b2c85f",
+  "sizeBytes": 6628353,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.2.apk",
+  "notes": "Apple TV-inspired Home retained. Phone featured titles use the full available width, with larger Play, Details and navigation touch targets. Install over the existing app to preserve your saved account and settings. Startup update notices retained.",
+  "certificateSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "checks": {
+    "apkSignatureV2": "PASS, reverified with apksigner on recovered APK",
+    "packageVersionMinSdk": "PASS, minSdk25 targetSdk34",
+    "crc": "PASS",
+    "automatedTests": "130 passed in completed build record; not rerun after workspace recovery",
+    "releaseLint": "Passed in completed build record; not rerun after workspace recovery",
+    "physicalUpgradeLoginRetention": "Pending user device confirmation"
+  },
+  "sourceCheckpoint": {
+    "gitBlob": "a47588ffaa3f09e0c4c619d79ebfa852d920bc8a",
+    "note": "Pre-build source checkpoint retained. Final build corrected the phone test width assertion to use density-independent units. Exact final test-source archive and build logs were lost during workspace maintenance; checkpoint is not claimed to be byte-identical final tested source."
+  },
+  "scope": "Movies & Series only; Platinum Player unchanged"
+}
