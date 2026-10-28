@@ -1,0 +1,56 @@
+{
+  "versionName": "0.3.3",
+  "versionCode": 15,
+  "package": "ca.shadowfoxtv.movieseries",
+  "apk": "ShadowFoxTV-Movies-Series-0.3.3.apk",
+  "sizeBytes": 6628361,
+  "sha256": "4e400097734fe0dc6b897a2221ca134cef2acc96eda953f79943c2e84d8cf539",
+  "signingCertificateSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "signature": "APK Signature Scheme v2; matches published 0.3.2 and recovered private key",
+  "sourceCheckpointSha256": "197d4ad09b0fe37a2a1d8dece9fcd479610204ee105d4270eac29d8849b4d06b",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.3-source.zip",
+  "sourceArchiveSha256": "a95e3ca949050a29fb2c508cdd29ab33540a1899ec70bf0464ad7cb60d9369b1",
+  "tests": {
+    "total": 135,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 89
+  },
+  "verified": [
+    "release build",
+    "signature and package/version inspection",
+    "in-place installation over 0.3.2 (14) without uninstalling",
+    "synthetic saved account and 12 movie / 6 series catalogue retained",
+    "phone portrait home/library/details",
+    "touch navigation and scrolling",
+    "portrait-landscape-portrait library rotation; same process and screen",
+    "Android TV landscape welcome and remote D-pad into Settings"
+  ],
+  "unchangedCode": [
+    "account storage",
+    "database schemas",
+    "updater implementation",
+    "touch input wrappers"
+  ],
+  "limitations": [
+    "Physical streamer remained unauthorized over ADB.",
+    "No real provider playback tested."
+  ],
+  "changedFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/AndroidManifest.xml",
+    "app/src/main/java/nl/vanvrouwerff/iptv/BrowsingOrientation.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/MainActivity.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/player/StreamFormatRecovery.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/detail/DetailScaffold.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/BrowsingOrientationTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomePhoneNavigationTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/library/PhonePosterColumnsTest.kt",
+    "BUILD_STATUS.md",
+    "MOBILE_RELEASE_0.3.3.md"
+  ]
+}
