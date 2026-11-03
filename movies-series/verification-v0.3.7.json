@@ -1,0 +1,67 @@
+{
+  "versionName": "0.3.7",
+  "versionCode": 19,
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "apk": "ShadowFoxTV-Movies-Series-0.3.7.apk",
+  "sizeBytes": 6645893,
+  "sha256": "1794eb2d046942fcc8aca76ff61cef9ca9f377840ad9c65b845132a9f6b236f0",
+  "signingCertificateSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.7-source.zip",
+  "sourceArchiveSha256": "a6df52c1e40107e3a1f6135bc6e2142bfce50615243b1e6d622e8461d4f98a0c",
+  "tests": {
+    "total": 147,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 100
+  },
+  "unchangedCode": [
+    "database schema and persisted content",
+    "account storage",
+    "player",
+    "updater",
+    "orientation policy",
+    "touch input wrappers"
+  ],
+  "changedFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsNavigationTest.kt",
+    "BUILD_STATUS.md",
+    "SETTINGS_EDITOR_RELEASE_0.3.7.md"
+  ],
+  "visualChecks": [
+    "Google TV Streamer: fixed Settings header and remote scrolling to the About footer",
+    "Google TV keyboard visible: Done and Cancel remain fully above the keyboard",
+    "Three editor open/cancel cycles returned to Settings without typing or saving",
+    "Remote OK opens the editor; Back dismisses keyboard and editor, restoring account-row focus"
+  ],
+  "limitations": [
+    "Real provider playback was not exercised for this Settings-only change. Phone editing is covered by automated tests; this release was live-tested on Google TV Streamer."
+  ],
+  "streamerSettings": {
+    "device": "Google TV Streamer",
+    "versionName": "0.3.7",
+    "versionCode": 19,
+    "dpadReachedAbout": true,
+    "browseDownSteps": 24,
+    "browsingNeverOpenedEditor": true,
+    "headerRemainedVisible": true,
+    "deliberateEditorOpened": true,
+    "cancelReturnedToSettings": true,
+    "cancelCyclesWithKeyboardVisible": 3,
+    "noTypingSavingOrAccountChangesDuringValidation": true,
+    "remoteOkOpenedEditor": true,
+    "remoteBackClosedEditor": true,
+    "remoteBackPresses": 2,
+    "remoteFocusReturnedToAccountRow": true
+  },
+  "installation": {
+    "inPlace": true,
+    "installedVersionName": "0.3.7",
+    "installedVersionCode": 19,
+    "originalFirstInstallTime": "2026-11-02 12:37:41",
+    "firstInstallTimeUnchanged": true
+  }
+}
