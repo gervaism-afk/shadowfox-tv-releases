@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 18,
-  "versionName": "0.3.6",
-  "sha256": "927d17f1f8f07de52115a12dde169708ae893e0d9f2711220c4c7f2bd52b6ce3",
-  "sizeBytes": 6644809,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.6.apk",
-  "notes": "Fixed TV Settings scrolling: moving through account fields no longer opens the keyboard or traps the remote. Press OK to edit a field deliberately. The Settings header and Back remain visible, and About is reachable with the D-pad. Phone editing, saved account, watch progress, cinematic Home and New picks are retained. Install over the existing app."
+  "versionCode": 19,
+  "versionName": "0.3.7",
+  "sha256": "1794eb2d046942fcc8aca76ff61cef9ca9f377840ad9c65b845132a9f6b236f0",
+  "sizeBytes": 6645893,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.7.apk",
+  "notes": "Fixed Google TV Settings editor overlap: Done and Cancel stay above the keyboard. Remote scrolling reaches About without opening an editor, the header and Back stay visible, and TV fields open only on OK. Repeated keyboard-visible Cancel and remote Back checks passed on Google TV Streamer. Phone editing, saved account, watch progress, cinematic Home, fresh picks, portrait browsing and touch controls are retained. Install over the existing app."
 }
