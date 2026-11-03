@@ -1,0 +1,2 @@
+927d17f1f8f07de52115a12dde169708ae893e0d9f2711220c4c7f2bd52b6ce3  ShadowFoxTV-Movies-Series-0.3.6.apk
+d1efd9661134c4e61a3981dae82c7fecb56326cca2288decaada5ae7cbe64bd1  ShadowFoxTV-Movies-Series-0.3.6-source.zip
