@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 15,
-  "versionName": "0.3.3",
-  "sha256": "4e400097734fe0dc6b897a2221ca134cef2acc96eda953f79943c2e84d8cf539",
-  "sizeBytes": 6628361,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.3.apk",
-  "notes": "Phone portrait and landscape browsing now work, with the current screen retained during rotation. Narrow library, settings and detail layouts adapt to phones. Apple TV-inspired Home, touch controls and TV landscape are retained. Install over the existing app to preserve your saved account and progress."
+  "versionCode": 17,
+  "versionName": "0.3.5",
+  "sha256": "68e73ed34b21f94ac70655922b5995e28885649dd7fdff186c423944126f3232",
+  "sizeBytes": 6628377,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.5.apk",
+  "notes": "Cinematic Home, refined artwork and typography, warm accents, and cleaner TV/phone navigation. Home now selects fresh movies and series on a new launch; use New picks for an immediate change. Returning from details keeps your current picks. Saved accounts, My List, watch progress and the updater are retained. Install over the existing app."
 }
