@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 19,
-  "versionName": "0.3.7",
-  "sha256": "1794eb2d046942fcc8aca76ff61cef9ca9f377840ad9c65b845132a9f6b236f0",
-  "sizeBytes": 6645893,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.7.apk",
-  "notes": "Fixed Google TV Settings editor overlap: Done and Cancel stay above the keyboard. Remote scrolling reaches About without opening an editor, the header and Back stay visible, and TV fields open only on OK. Repeated keyboard-visible Cancel and remote Back checks passed on Google TV Streamer. Phone editing, saved account, watch progress, cinematic Home, fresh picks, portrait browsing and touch controls are retained. Install over the existing app."
+  "versionCode": 20,
+  "versionName": "0.3.8",
+  "sha256": "8e17555235696218b64dd0f80c7e2c5f6fd71b1258f4a8a009196becb9276d4a",
+  "sizeBytes": 6662277,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.8.apk",
+  "notes": "Improved first-run TV setup: the whole QR code and phone-setup link fit at 1080p, and the panel is reachable with the remote. Fixed phone forms not opening Settings after a previous visit and Back to Welcome. Receiving a form still requires an explicit Save. Validated locally with 152 automated tests and Android TV navigation checks. Saved account storage, Home/discovery, Settings keyboard fixes, portrait support, touch controls, player and updater are retained. Install over the existing app."
 }
