@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 17,
-  "versionName": "0.3.5",
-  "sha256": "68e73ed34b21f94ac70655922b5995e28885649dd7fdff186c423944126f3232",
-  "sizeBytes": 6628377,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.5.apk",
-  "notes": "Cinematic Home, refined artwork and typography, warm accents, and cleaner TV/phone navigation. Home now selects fresh movies and series on a new launch; use New picks for an immediate change. Returning from details keeps your current picks. Saved accounts, My List, watch progress and the updater are retained. Install over the existing app."
+  "versionCode": 18,
+  "versionName": "0.3.6",
+  "sha256": "927d17f1f8f07de52115a12dde169708ae893e0d9f2711220c4c7f2bd52b6ce3",
+  "sizeBytes": 6644809,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.6.apk",
+  "notes": "Fixed TV Settings scrolling: moving through account fields no longer opens the keyboard or traps the remote. Press OK to edit a field deliberately. The Settings header and Back remain visible, and About is reachable with the D-pad. Phone editing, saved account, watch progress, cinematic Home and New picks are retained. Install over the existing app."
 }
