@@ -1,0 +1,71 @@
+{
+  "versionName": "0.3.8",
+  "versionCode": 20,
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "apk": "ShadowFoxTV-Movies-Series-0.3.8.apk",
+  "sizeBytes": 6662277,
+  "sha256": "8e17555235696218b64dd0f80c7e2c5f6fd71b1258f4a8a009196becb9276d4a",
+  "signingCertificateSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.8-source.zip",
+  "sourceArchiveSha256": "25a7f651481396f8b32b66502b9d7ae098b0ea1c655ffaf4b17295cd2dc057e1",
+  "tests": {
+    "total": 152,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 101
+  },
+  "unchangedCode": [
+    "database schema and persisted content",
+    "account storage",
+    "player",
+    "updater",
+    "orientation policy",
+    "touch input wrappers"
+  ],
+  "changedFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/PhoneSetupPanel.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsViewModel.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/wizard/WelcomeScreen.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/wizard/WelcomeLayoutTest.kt",
+    "BUILD_STATUS.md",
+    "WELCOME_RELEASE_0.3.8.md"
+  ],
+  "visualChecks": [
+    "Local TV: the full welcome QR code and setup URL are visible at 1080p",
+    "D-pad can focus the phone-setup panel; enlarged-text layout is covered by regression tests",
+    "Phone submission opens Settings after a prior visit and Back to Welcome; receiving does not save automatically",
+    "Fictional catalogue: connection test, explicit Save, Home/library poster focus, search and navigation return paths passed"
+  ],
+  "limitations": [
+    "Physical streamer was in use: 0.3.8 was validated locally and was not installed on it.",
+    "Real provider playback was not exercised. Fictional QA catalogue and artwork are not bundled with the app."
+  ],
+  "localTvChecks": {
+    "versionName": "0.3.8",
+    "versionCode": 20,
+    "device": "Local Android TV emulator",
+    "physicalStreamerTouched": false,
+    "inPlaceFixtureAccountPreserved": true,
+    "fullQrAndUrlVisible": true,
+    "remoteCanFocusPhoneSetup": true,
+    "phoneHandoffAfterSettingsBack": true,
+    "receivedFormNotAutomaticallySaved": true,
+    "fixtureConnectionTestAndExplicitSave": true,
+    "homePosterFocusRestored": true,
+    "libraryPosterFocusRestored": true,
+    "searchTypingAndBackPassed": true,
+    "seriesSavedSettingsNavigationPassed": true,
+    "onlyFictionalCatalogueAndTestAccountUsed": true,
+    "realProviderPlaybackExercised": false
+  },
+  "installation": {
+    "localInPlaceFixtureAccountPreserved": true,
+    "physicalStreamerUpdated": false,
+    "physicalStreamerLastInstalledVersion": "0.3.7",
+    "reason": "User requested local checks while the streamer is in use"
+  }
+}
