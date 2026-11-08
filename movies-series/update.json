@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 20,
-  "versionName": "0.3.8",
-  "sha256": "8e17555235696218b64dd0f80c7e2c5f6fd71b1258f4a8a009196becb9276d4a",
+  "versionCode": 21,
+  "versionName": "0.3.9",
+  "sha256": "5d7551e75ba21c43022d173faa103c6d47218a1b748e1670db17a17823dc0884",
   "sizeBytes": 6662277,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.8.apk",
-  "notes": "Improved first-run TV setup: the whole QR code and phone-setup link fit at 1080p, and the panel is reachable with the remote. Fixed phone forms not opening Settings after a previous visit and Back to Welcome. Receiving a form still requires an explicit Save. Validated locally with 152 automated tests and Android TV navigation checks. Saved account storage, Home/discovery, Settings keyboard fixes, portrait support, touch controls, player and updater are retained. Install over the existing app."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.9.apk",
+  "notes": "Home picks now span the catalogue, reduce recent repeats and add shelves for recognizable provider genres. The spotlight shows provider artwork, synopsis, year, rating and genre where available. Display titles are cleaner and quality labels are separate. Verified on local TV and portrait phone emulators with 170 automated tests. Install over the existing app."
 }
