@@ -1,0 +1,133 @@
+{
+  "versionName": "0.3.9",
+  "versionCode": 21,
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "apk": "ShadowFoxTV-Movies-Series-0.3.9.apk",
+  "sizeBytes": 6662277,
+  "sha256": "5d7551e75ba21c43022d173faa103c6d47218a1b748e1670db17a17823dc0884",
+  "signingCertificateSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.9-source.zip",
+  "sourceArchiveSha256": "e190590f7e078438d4b659afa58e31d58f550e99e7a21f41496289c2a623abfb",
+  "tests": {
+    "total": 170,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 101
+  },
+  "unchangedCode": [
+    "database schema and persisted content",
+    "account storage",
+    "player",
+    "updater",
+    "orientation policy",
+    "touch input wrappers"
+  ],
+  "changedFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/data/db/ChannelDao.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/data/db/HomeCategoryCount.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/detail/MovieDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeDiscovery.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeDiscoveryRepository.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeSpotlightRepository.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeTitles.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeViewModel.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/seriesdetail/SeriesDetailScreen.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomeDiscoveryRepositoryTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomeRichSpotlightTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomeSpotlightTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomeSpreadTest.kt",
+    "BUILD_STATUS.md",
+    "DISCOVERY_RELEASE_0.3.9.md"
+  ],
+  "visualChecks": [
+    "Reviewed the TV and portrait phone spotlight renders with a fictional catalogue and provider shaped metadata",
+    "Confirmed clean titles, separate quality labels, ratings, synopsis and widescreen art",
+    "Exercised remote and touch navigation through the genre shelves"
+  ],
+  "limitations": [
+    "Real provider playback was not exercised. Visual catalogue screenshots use fictional QA titles/artwork, which are not bundled with the app."
+  ],
+  "localTvChecks": {
+    "versionName": "0.3.9",
+    "versionCode": 21,
+    "device": "Local Android TV emulator",
+    "physicalStreamerUsed": false,
+    "inPlaceFixtureAccountPreserved": true,
+    "realProviderMetadataShapeRendered": true,
+    "titleCleanedForDisplay": true,
+    "synopsisYearRatingVisible": true,
+    "visibleMoviePicksSpanAtLeastThreeCatalogueQuarters": true,
+    "visibleMovieIdsBefore": [
+      6,
+      96,
+      125,
+      180,
+      213,
+      242
+    ],
+    "visibleMovieIdsAfter": [
+      12,
+      46,
+      94,
+      138,
+      159,
+      285
+    ],
+    "freshVisibleMoviesDoNotRepeat": true,
+    "detailReturnAfterSixSecondsRetainsSpotlightAndTiles": true,
+    "genreShelvesReachable": [
+      "Action series",
+      "Mystery movies"
+    ],
+    "metadataFailureFallbackChecked": true,
+    "lateResponseIsolationChecked": true,
+    "onlyFictionalCatalogueAndTestAccountUsed": true,
+    "realProviderPlaybackExercised": false
+  },
+  "localPhoneChecks": {
+    "versionName": "0.3.9",
+    "versionCode": 21,
+    "device": "Local portrait phone emulator",
+    "physicalStreamerUsed": false,
+    "inPlaceFixtureAccountPreserved": true,
+    "realProviderMetadataShapeRendered": true,
+    "titleCleanedForDisplay": true,
+    "synopsisYearRatingVisible": true,
+    "visibleMoviePicksSpanAtLeastThreeCatalogueQuarters": true,
+    "visibleMovieIdsBefore": [
+      22,
+      86,
+      168,
+      204,
+      291
+    ],
+    "visibleMovieIdsAfter": [
+      26,
+      90,
+      122,
+      210,
+      239
+    ],
+    "freshVisibleMoviesDoNotRepeat": true,
+    "detailReturnAfterSixSecondsRetainsSpotlightAndTiles": true,
+    "genreShelvesReachable": [
+      "Drama series",
+      "Mystery movies"
+    ],
+    "metadataFailureFallbackChecked": false,
+    "lateResponseIsolationChecked": false,
+    "onlyFictionalCatalogueAndTestAccountUsed": true,
+    "realProviderPlaybackExercised": false
+  },
+  "installation": {
+    "localTvInPlaceUpdate": true,
+    "localPortraitPhoneInPlaceUpdate": true,
+    "fixtureAccountPreserved": true,
+    "physicalStreamerUpdated": false
+  }
+}
