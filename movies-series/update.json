@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 22,
-  "versionName": "0.3.10",
-  "sha256": "414b4a9bfa4d53d53dd0226e9d2de793b615e8e2d46ef0e887a5260bec031d70",
-  "sizeBytes": 6678661,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.10.apk",
-  "notes": "Settings is organized into Account, Playback, Library, Profiles, Updates and About. Cleaner cards, responsive phone fields and wrapping controls; TV remote editing and focus restoration retained. Install over your existing app to retain your saved login and library."
+  "versionCode": 23,
+  "versionName": "0.3.11",
+  "sha256": "a758e80043cea2d296ad68ee02dc56bedb5b7490889ef95ec4784fc4ec503243",
+  "sizeBytes": 6661733,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.11.apk",
+  "notes": "Removed the About section from Settings. Install over your existing app to keep your saved account and library."
 }
