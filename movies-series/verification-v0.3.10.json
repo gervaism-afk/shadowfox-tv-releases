@@ -1,0 +1,14 @@
+{
+  "sizeBytes": 6678661,
+  "sha256": "414b4a9bfa4d53d53dd0226e9d2de793b615e8e2d46ef0e887a5260bec031d70",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "versionCode": 22,
+  "versionName": "0.3.10",
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "previousVersion": "0.3.9",
+  "certificateMatchesPreviousRelease": true,
+  "selectedTests": 10,
+  "testFailures": 0,
+  "physicalDeviceValidation": "Pending user installation",
+  "sourceSha256": "8b27484101afca2508de2fc756ecf29e9aa30ee1e370b69b857205344e2939f8"
+}

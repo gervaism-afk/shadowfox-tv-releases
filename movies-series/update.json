@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 21,
-  "versionName": "0.3.9",
-  "sha256": "5d7551e75ba21c43022d173faa103c6d47218a1b748e1670db17a17823dc0884",
-  "sizeBytes": 6662277,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.9.apk",
-  "notes": "Home picks now span the catalogue, reduce recent repeats and add shelves for recognizable provider genres. The spotlight shows provider artwork, synopsis, year, rating and genre where available. Display titles are cleaner and quality labels are separate. Verified on local TV and portrait phone emulators with 170 automated tests. Install over the existing app."
+  "versionCode": 22,
+  "versionName": "0.3.10",
+  "sha256": "414b4a9bfa4d53d53dd0226e9d2de793b615e8e2d46ef0e887a5260bec031d70",
+  "sizeBytes": 6678661,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.10.apk",
+  "notes": "Settings is organized into Account, Playback, Library, Profiles, Updates and About. Cleaner cards, responsive phone fields and wrapping controls; TV remote editing and focus restoration retained. Install over your existing app to retain your saved login and library."
 }
