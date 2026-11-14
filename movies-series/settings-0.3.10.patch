@@ -1,0 +1,452 @@
+diff --git a/.gitignore b/.gitignore
+index 5a2c00f..5103402 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -20,3 +20,8 @@ local.properties
+ 
+ # macOS
+ .DS_Store
++
++# Private update-signing material
++/signing/
++*.keystore
++*.jks
+diff --git a/app/build.gradle.kts b/app/build.gradle.kts
+index e43cb85..ee28ae1 100644
+--- a/app/build.gradle.kts
++++ b/app/build.gradle.kts
+@@ -24,8 +24,8 @@ android {
+         applicationId = "ca.shadowfoxtv.movieseries"
+         minSdk = 25
+         targetSdk = 34
+-        versionCode = 21
+-        versionName = "0.3.9"
++        versionCode = 22
++        versionName = "0.3.10"
+ 
+         buildConfigField("String", "TMDB_BEARER_TOKEN", "\"$tmdbBearerToken\"")
+     }
+diff --git a/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/PhoneSetupPanel.kt b/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/PhoneSetupPanel.kt
+index dee1c02..80d8032 100644
+--- a/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/PhoneSetupPanel.kt
++++ b/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/PhoneSetupPanel.kt
+@@ -4,6 +4,10 @@ import android.graphics.Bitmap
+ import androidx.compose.foundation.Image
+ import androidx.compose.foundation.background
+ import androidx.compose.foundation.layout.Column
++import androidx.compose.foundation.layout.FlowRow
++import androidx.compose.foundation.layout.Arrangement
++import androidx.compose.foundation.layout.ExperimentalLayoutApi
++import androidx.compose.foundation.layout.widthIn
+ import androidx.compose.foundation.layout.Row
+ import androidx.compose.foundation.layout.Spacer
+ import androidx.compose.foundation.layout.padding
+@@ -51,11 +55,13 @@ fun PhoneSetupPanel(qrSize: Dp = 150.dp, modifier: Modifier = Modifier) {
+ }
+ 
+ /** Render separately so constrained layouts can be checked without opening a LAN server. */
++@OptIn(ExperimentalLayoutApi::class)
+ @Composable
+ internal fun PhoneSetupContent(url: String?, qrSize: Dp = 150.dp, modifier: Modifier = Modifier) {
+     val qr = remember(url) { url?.let { encodeQr(it) } }
+ 
+-    Row(modifier = modifier, verticalAlignment = Alignment.CenterVertically) {
++    FlowRow(modifier = modifier, horizontalArrangement = Arrangement.spacedBy(20.dp),
++        verticalArrangement = Arrangement.spacedBy(16.dp)) {
+         if (qr != null) {
+             Image(
+                 bitmap = qr,
+@@ -67,7 +73,7 @@ internal fun PhoneSetupContent(url: String?, qrSize: Dp = 150.dp, modifier: Modi
+                     .background(Color.White)
+                     .padding(8.dp),
+             )
+-            Spacer(Modifier.width(20.dp))
++
+         }
+         Column {
+             Text(
+@@ -79,7 +85,7 @@ internal fun PhoneSetupContent(url: String?, qrSize: Dp = 150.dp, modifier: Modi
+                 text = if (url != null) stringResource(R.string.phone_setup_body) else stringResource(R.string.phone_setup_offline),
+                 style = MaterialTheme.typography.bodySmall,
+                 color = IptvPalette.TextSecondary,
+-                modifier = Modifier.width(360.dp),
++                modifier = Modifier.widthIn(max = 360.dp),
+             )
+             url?.let {
+                 Text(
+diff --git a/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt b/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt
+index 008cc3d..54d33b7 100644
+--- a/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt
++++ b/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt
+@@ -51,11 +51,12 @@ import nl.vanvrouwerff.iptv.ui.theme.tvFocus
+ 
+ /** Fixed navigation above one bounded scroll viewport; no header disappears while browsing. */
+ @Composable
+-internal fun SettingsPage(onBack: () -> Unit, content: @Composable ColumnScope.() -> Unit) {
++internal fun SettingsPage(onBack: () -> Unit, pageKey: Any = Unit, navigation: @Composable () -> Unit = {}, content: @Composable ColumnScope.() -> Unit) {
+     val phone = LocalConfiguration.current.screenWidthDp < 600
+-    val scroll = rememberScrollState()
+-    Column(Modifier.fillMaxSize().background(Cinema.Background)) {
+-        Row(Modifier.fillMaxWidth().padding(horizontal = if (phone) 20.dp else 64.dp, vertical = 16.dp),
++    val scroll = key(pageKey) { rememberScrollState() }
++    Column(Modifier.fillMaxSize().background(Cinema.Background).safeDrawingPadding().imePadding(),
++        horizontalAlignment = Alignment.CenterHorizontally) {
++        Row(Modifier.widthIn(max = 1100.dp).fillMaxWidth().padding(horizontal = if (phone) 16.dp else 48.dp, vertical = 16.dp),
+             verticalAlignment = Alignment.CenterVertically) {
+             Column(Modifier.weight(1f)) {
+                 Text("Settings", color = Color.White, fontSize = if (phone) 28.sp else 32.sp,
+@@ -64,10 +65,13 @@ internal fun SettingsPage(onBack: () -> Unit, content: @Composable ColumnScope.(
+             }
+             CinemaChip("Back", onClick = onBack)
+         }
++        Box(Modifier.widthIn(max = 1100.dp).fillMaxWidth().padding(horizontal = if (phone) 16.dp else 48.dp, vertical = 8.dp)) {
++            navigation()
++        }
+         Box(Modifier.weight(1f).fillMaxWidth().testTag("settings-viewport")) {
+-            Column(Modifier.fillMaxSize().verticalScroll(scroll)
+-                .padding(horizontal = if (phone) 16.dp else 64.dp, vertical = 24.dp),
+-                verticalArrangement = Arrangement.spacedBy(28.dp), content = content)
++            Column(Modifier.align(Alignment.TopCenter).widthIn(max = 1100.dp).fillMaxWidth()
++                .verticalScroll(scroll).padding(horizontal = if (phone) 16.dp else 48.dp, vertical = 16.dp),
++                verticalArrangement = Arrangement.spacedBy(20.dp), content = content)
+             Canvas(Modifier.align(Alignment.CenterEnd).padding(end = if (phone) 4.dp else 18.dp, top = 16.dp, bottom = 16.dp)
+                 .fillMaxHeight().width(3.dp)) {
+                 if (scroll.maxValue > 0) {
+@@ -87,7 +91,7 @@ internal fun SettingsAccountField(label: String, value: String, onValueChange: (
+     password: Boolean = false, modifier: Modifier = Modifier) {
+     val television = LocalConfiguration.current.uiMode and Configuration.UI_MODE_TYPE_MASK == Configuration.UI_MODE_TYPE_TELEVISION
+     if (!television) {
+-        OutlinedTextField(value, onValueChange, modifier = modifier.width(720.dp),
++        OutlinedTextField(value, onValueChange, modifier = modifier.fillMaxWidth(),
+             label = { androidx.compose.material3.Text(label) }, singleLine = true,
+             visualTransformation = if (password) PasswordVisualTransformation() else VisualTransformation.None,
+             keyboardOptions = KeyboardOptions(keyboardType = if (password) KeyboardType.Password else KeyboardType.Text))
+@@ -106,7 +110,7 @@ internal fun SettingsAccountField(label: String, value: String, onValueChange: (
+         }
+     }
+     Surface(onClick = { editing = true; restoreFocus = true },
+-        modifier = modifier.width(720.dp).heightIn(min = 88.dp).focusRequester(requester)
++        modifier = modifier.fillMaxWidth().heightIn(min = 88.dp).focusRequester(requester)
+             .onFocusChanged { focused = it.isFocused }.tvFocus(focused, shape),
+         shape = ClickableSurfaceDefaults.shape(shape),
+         scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+@@ -168,7 +172,7 @@ internal fun AccountFieldEditor(label: String, value: String, password: Boolean,
+ internal fun SettingsInformation(content: @Composable ColumnScope.() -> Unit) {
+     var focused by remember { mutableStateOf(false) }
+     val shape = RoundedCornerShape(12.dp)
+-    Column(Modifier.width(720.dp).clip(shape).background(Cinema.Surface)
++    Column(Modifier.fillMaxWidth().clip(shape).background(Cinema.Surface)
+         .onFocusChanged { focused = it.isFocused }
+         .border(if (focused) 2.dp else 0.dp, if (focused) Color.White else Color.Transparent, shape)
+         .focusable().padding(18.dp).testTag("settings-information"),
+diff --git a/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt b/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt
+index 5c87238..604abdc 100644
+--- a/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt
++++ b/app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt
+@@ -14,11 +14,7 @@ import androidx.compose.foundation.layout.height
+ import androidx.compose.foundation.layout.padding
+ import androidx.compose.foundation.layout.size
+ import androidx.compose.foundation.layout.width
+-import androidx.compose.foundation.rememberScrollState
+ import androidx.compose.foundation.shape.RoundedCornerShape
+-import androidx.compose.foundation.text.KeyboardOptions
+-import androidx.compose.foundation.verticalScroll
+-import androidx.compose.material3.OutlinedTextField
+ import androidx.compose.runtime.Composable
+ import androidx.compose.runtime.LaunchedEffect
+ import androidx.compose.runtime.collectAsState
+@@ -26,6 +22,9 @@ import androidx.compose.runtime.getValue
+ import androidx.compose.runtime.mutableStateOf
+ import androidx.compose.runtime.remember
+ import androidx.compose.runtime.setValue
++import androidx.compose.runtime.saveable.rememberSaveable
++import androidx.compose.foundation.layout.heightIn
++import nl.vanvrouwerff.iptv.BuildConfig
+ import androidx.compose.ui.Alignment
+ import androidx.compose.ui.Modifier
+ import androidx.compose.ui.platform.LocalConfiguration
+@@ -36,8 +35,6 @@ import androidx.compose.ui.focus.onFocusChanged
+ import androidx.compose.ui.graphics.Color
+ import androidx.compose.ui.res.stringResource
+ import androidx.compose.ui.text.font.FontWeight
+-import androidx.compose.ui.text.input.KeyboardType
+-import androidx.compose.ui.text.input.PasswordVisualTransformation
+ import androidx.compose.ui.unit.dp
+ import androidx.lifecycle.viewmodel.compose.viewModel
+ import nl.vanvrouwerff.iptv.ui.input.Button
+@@ -53,6 +50,12 @@ import nl.vanvrouwerff.iptv.ui.theme.FocusStyle
+ import nl.vanvrouwerff.iptv.ui.theme.IptvPalette
+ import nl.vanvrouwerff.iptv.ui.theme.tvFocus
+ 
++internal enum class SettingsCategory(val label: String) {
++    Account("Account"), Playback("Playback"), Library("Library"),
++    Profiles("Profiles"), Updates("Updates"), About("About"),
++}
++
++@OptIn(ExperimentalLayoutApi::class)
+ @Composable
+ fun SettingsScreen(
+     onSaved: () -> Unit,
+@@ -63,20 +66,28 @@ fun SettingsScreen(
+     val state by vm.state.collectAsState()
+     LaunchedEffect(vm) { vm.receivePhoneSubmissions() }
+     var pinDialog by remember { mutableStateOf(false) }
++    var category by rememberSaveable { mutableStateOf(SettingsCategory.Account) }
+ 
+     // BACK goes back without saving — matches the "Terug"-labelled button below, so the
+     // remote BACK key is no longer a no-op on this screen.
+     BackHandler(enabled = true, onBack = onBack)
+ 
+     Box(modifier = Modifier.fillMaxSize().background(IptvPalette.BackgroundDeep)) {
+-        SettingsPage(onBack = onBack) {
+-            nl.vanvrouwerff.iptv.updates.UpdatePanel()
++        SettingsPage(onBack = onBack, pageKey = category, navigation = {
++            SettingsCategories(category, onSelect = { category = it })
++        }) {
++            if (category == SettingsCategory.Updates) {
++                SettingsSection("App updates") {
++                    Text("Installed version ${BuildConfig.VERSION_NAME}", color = IptvPalette.TextSecondary)
++                    nl.vanvrouwerff.iptv.updates.UpdatePanel()
++                }
++            }
+ 
+-            SettingsSection(title = stringResource(R.string.settings_section_source)) {
++            if (category == SettingsCategory.Account) SettingsSection(title = "Your account") {
+                 SourceSection(state = state, vm = vm, onSaved = onSaved, onBack = onBack)
+             }
+ 
+-            SettingsSection(title = stringResource(R.string.settings_section_display)) {
++            if (category == SettingsCategory.Playback) SettingsSection(title = "Playback & languages") {
+                 SwitchRow(
+                     title = stringResource(R.string.settings_trailers_title),
+                     body = stringResource(R.string.settings_trailers_body),
+@@ -112,12 +123,12 @@ fun SettingsScreen(
+                 )
+             }
+ 
+-            SettingsSection(title = stringResource(R.string.settings_section_refresh)) {
+-                Row(
++            if (category == SettingsCategory.Library) SettingsSection(title = "Library refresh") {
++                FlowRow(
+                     horizontalArrangement = Arrangement.spacedBy(12.dp),
+-                    verticalAlignment = Alignment.CenterVertically,
++                    verticalArrangement = Arrangement.spacedBy(12.dp),
+                 ) {
+-                    Button(onClick = { vm.refreshNow() }) {
++                    Button(onClick = { vm.refreshNow() }, enabled = !state.refreshing) {
+                         Text(
+                             if (state.refreshing) stringResource(R.string.status_refreshing)
+                             else stringResource(R.string.settings_refresh_now),
+@@ -150,9 +161,9 @@ fun SettingsScreen(
+                     onToggle = { vm.setAutoRefreshEnabled(!state.autoRefreshEnabled) },
+                 )
+                 if (state.autoRefreshEnabled) {
+-                    Row(
++                    FlowRow(
+                         horizontalArrangement = Arrangement.spacedBy(12.dp),
+-                        verticalAlignment = Alignment.CenterVertically,
++                        verticalArrangement = Arrangement.spacedBy(12.dp),
+                     ) {
+                         Button(onClick = { vm.bumpAutoRefreshHour(-1) }) {
+                             Text(stringResource(R.string.settings_auto_refresh_hour_prev))
+@@ -169,7 +180,7 @@ fun SettingsScreen(
+                 }
+             }
+ 
+-            SettingsSection(title = stringResource(R.string.profiles_title)) {
++            if (category == SettingsCategory.Profiles) SettingsSection(title = "Profiles & parental controls") {
+                 Text(
+                     stringResource(R.string.profiles_body),
+                     style = MaterialTheme.typography.bodyMedium,
+@@ -203,7 +214,7 @@ fun SettingsScreen(
+ 
+             // About + required attributions. The TMDB disclaimer wording is dictated by
+             // their API terms of use.
+-            SettingsSection(title = stringResource(R.string.about_title)) {
++            if (category == SettingsCategory.About) SettingsSection(title = stringResource(R.string.about_title)) {
+                 SettingsInformation {
+                 listOf(
+                     R.string.about_open_source,
+@@ -234,6 +245,18 @@ fun SettingsScreen(
+     }
+ }
+ 
++@OptIn(ExperimentalLayoutApi::class)
++@Composable
++internal fun SettingsCategories(selected: SettingsCategory, onSelect: (SettingsCategory) -> Unit) {
++    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp),
++        verticalArrangement = Arrangement.spacedBy(6.dp)) {
++        SettingsCategory.entries.forEach { category ->
++            nl.vanvrouwerff.iptv.ui.theme.CinemaChip(category.label, active = selected == category,
++                onClick = { onSelect(category) })
++        }
++    }
++}
++
+ @OptIn(ExperimentalLayoutApi::class)
+ @Composable
+ private fun SourceSection(
+@@ -243,8 +266,9 @@ private fun SourceSection(
+     onBack: () -> Unit,
+ ) {
+     Text(
+-        text = "Xtream Codes account",
+-        style = MaterialTheme.typography.titleMedium,
++        text = "Edit your connection details, then choose Save. Playback preferences save automatically.",
++        style = MaterialTheme.typography.bodySmall,
++        color = IptvPalette.TextSecondary,
+     )
+     if (state.filledFromPhone) {
+         Text(
+@@ -261,7 +285,7 @@ private fun SourceSection(
+             SettingsAccountField(stringResource(R.string.settings_xtream_pass), state.password, vm::setPassword, password = true)
+             SettingsAccountField(stringResource(R.string.settings_category_filter), state.categoryFilter, vm::setCategoryFilter)
+             Text(stringResource(R.string.settings_category_filter_hint), style = MaterialTheme.typography.bodySmall,
+-                color = IptvPalette.TextSecondary, modifier = Modifier.width(720.dp))
++                color = IptvPalette.TextSecondary, modifier = Modifier.fillMaxWidth())
+         }
+     }
+ 
+@@ -270,8 +294,8 @@ private fun SourceSection(
+     }
+ 
+     FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+-        Button(onClick = { vm.save(onSaved) }) { Text(stringResource(R.string.settings_save)) }
+-        Button(onClick = vm::testConnection) {
++        Button(onClick = { vm.save(onSaved) }, enabled = !state.saving && !state.testing) { Text(stringResource(R.string.settings_save)) }
++        Button(onClick = vm::testConnection, enabled = !state.testing && !state.saving) {
+             Text(stringResource(if (state.testing) R.string.settings_testing else R.string.settings_test))
+         }
+         // Label matches BackHandler above — "Terug" is unambiguous about whether edits are
+@@ -317,7 +341,9 @@ private fun formatCount(n: Int): String =
+ 
+ @Composable
+ private fun SettingsSection(title: String, content: @Composable ColumnScope.() -> Unit) {
+-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
++    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(20.dp))
++        .background(IptvPalette.BackgroundLift).padding(20.dp),
++        verticalArrangement = Arrangement.spacedBy(16.dp)) {
+         Text(
+             text = title,
+             style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+@@ -350,7 +376,8 @@ internal fun SwitchRow(title: String, body: String?, checked: Boolean, onToggle:
+         ),
+         scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+         modifier = Modifier
+-            .width(720.dp)
++            .fillMaxWidth()
++            .heightIn(min = 64.dp)
+             .onFocusChanged { focused = it.isFocused }
+             .tvFocus(focused, shape),
+     ) {
+@@ -406,20 +433,25 @@ private fun ChoiceRow(title: String, value: String, onClick: () -> Unit) {
+         ),
+         scale = ClickableSurfaceDefaults.scale(focusedScale = 1f),
+         modifier = Modifier
+-            .width(720.dp)
++            .fillMaxWidth()
++            .heightIn(min = 64.dp)
+             .onFocusChanged { focused = it.isFocused }
+             .tvFocus(focused, shape),
+     ) {
+-        Row(
+-            modifier = Modifier.padding(horizontal = 18.dp, vertical = 14.dp),
+-            verticalAlignment = Alignment.CenterVertically,
+-        ) {
+-            Text(title, style = MaterialTheme.typography.titleSmall, modifier = Modifier.weight(1f))
+-            Text(
+-                text = "$value  ›",
+-                style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.SemiBold),
+-                color = IptvPalette.AccentSoft,
+-            )
++        val compact = LocalConfiguration.current.screenWidthDp < 600
++        if (compact) {
++            Column(Modifier.fillMaxWidth().padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
++                Text(title, style = MaterialTheme.typography.titleSmall)
++                Text("$value  ›", color = IptvPalette.AccentSoft, style = MaterialTheme.typography.bodyMedium)
++            }
++        } else {
++            Row(Modifier.fillMaxWidth().padding(horizontal = 18.dp, vertical = 16.dp),
++                horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.CenterVertically) {
++                Text(title, style = MaterialTheme.typography.titleSmall, modifier = Modifier.weight(1f))
++                Text("$value  ›", style = MaterialTheme.typography.titleSmall,
++                    color = IptvPalette.AccentSoft, modifier = Modifier.weight(1f),
++                    textAlign = androidx.compose.ui.text.style.TextAlign.End)
++            }
+         }
+     }
+ }
+diff --git a/app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsCategoriesTest.kt b/app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsCategoriesTest.kt
+new file mode 100644
+index 0000000..7351adc
+--- /dev/null
++++ b/app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsCategoriesTest.kt
+@@ -0,0 +1,68 @@
++package nl.vanvrouwerff.iptv.ui.settings
++
++import android.app.Application
++import androidx.compose.runtime.*
++import androidx.compose.ui.input.key.Key
++import androidx.compose.ui.semantics.SemanticsActions
++import androidx.compose.ui.test.*
++import androidx.compose.ui.test.junit4.createComposeRule
++import androidx.tv.material3.Text
++import nl.vanvrouwerff.iptv.ui.theme.IptvTheme
++import org.junit.Assert.*
++import org.junit.Rule
++import org.junit.Test
++import org.junit.runner.RunWith
++import org.robolectric.RobolectricTestRunner
++import org.robolectric.annotation.Config
++import org.robolectric.annotation.GraphicsMode
++
++@RunWith(RobolectricTestRunner::class)
++@Config(sdk = [28], application = Application::class, qualifiers = "w960dp-h540dp-land-television-xhdpi")
++@GraphicsMode(GraphicsMode.Mode.NATIVE)
++@OptIn(ExperimentalTestApi::class)
++class SettingsCategoriesTest {
++    @get:Rule val compose = createComposeRule()
++
++    @Test fun remoteSelectsPlaybackAndMovesIntoItsControlsWithoutOpeningKeyboard() {
++        var selected by mutableStateOf(SettingsCategory.Account)
++        compose.setContent { IptvTheme {
++            SettingsPage(onBack = {}, pageKey = selected, navigation = {
++                SettingsCategories(selected) { selected = it }
++            }) {
++                if (selected == SettingsCategory.Account) SettingsAccountField("Server", "fixture", {})
++                else SwitchRow("Autoplay trailers", "Play trailers automatically", true, {})
++            }
++        } }
++        compose.onNodeWithText("Playback").performSemanticsAction(SemanticsActions.RequestFocus)
++        compose.onNodeWithText("Playback").performKeyInput { pressKey(Key.DirectionCenter) }
++        compose.onNodeWithText("Playback").assertIsSelected()
++        compose.onNodeWithText("Server").assertDoesNotExist()
++        compose.onNodeWithText("Playback").performKeyInput { pressKey(Key.DirectionDown) }
++        compose.onNodeWithText("Autoplay trailers").assertIsFocused()
++        compose.onAllNodes(hasSetTextAction()).assertCountEquals(0)
++    }
++
++    @Test
++    @Config(qualifiers = "w320dp-h640dp-port-notnight-xhdpi")
++    fun narrowPhoneFitsCategoriesAndAccountFieldsAndKeepsDraftWhenChangingSection() {
++        var selected by mutableStateOf(SettingsCategory.Account)
++        var draft by mutableStateOf("fixture")
++        compose.setContent { IptvTheme {
++            SettingsPage(onBack = {}, pageKey = selected, navigation = {
++                SettingsCategories(selected) { selected = it }
++            }) {
++                if (selected == SettingsCategory.Account) SettingsAccountField("Username", draft, { draft = it })
++                else Text("Playback settings")
++            }
++        } }
++        SettingsCategory.entries.forEach { compose.onNodeWithText(it.label).assertIsDisplayed() }
++        val field = compose.onNode(hasSetTextAction()).fetchSemanticsNode().boundsInRoot
++        val viewport = compose.onRoot().fetchSemanticsNode().boundsInRoot
++        assertTrue(field.left >= viewport.left && field.right <= viewport.right)
++        compose.onNode(hasSetTextAction()).performTextReplacement("unsaved-draft")
++        compose.onNodeWithText("Playback").performClick()
++        compose.onNodeWithText("Playback settings").assertIsDisplayed()
++        compose.onNodeWithText("Account").performClick()
++        compose.onNodeWithText("unsaved-draft").assertIsDisplayed()
++    }
++}

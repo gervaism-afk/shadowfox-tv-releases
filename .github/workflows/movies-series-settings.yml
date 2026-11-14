@@ -1,0 +1,42 @@
+name: Movies and Series settings checks
+on:
+  pull_request:
+    paths:
+      - 'movies-series/settings-0.3.10.patch'
+      - '.github/workflows/movies-series-settings.yml'
+  push:
+    branches: ['codex/movies-settings-layout']
+    paths:
+      - 'movies-series/settings-0.3.10.patch'
+      - '.github/workflows/movies-series-settings.yml'
+permissions:
+  contents: read
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: movies-series/build/ShadowFoxTV_Movies_Series
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract candidate source
+        working-directory: .
+        run: |
+          unzip -q movies-series/ShadowFoxTV-Movies-Series-0.3.9-source.zip -d movies-series/build
+          git apply --directory=movies-series/build/ShadowFoxTV_Movies_Series movies-series/settings-0.3.10.patch
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Install Android build dependencies
+        run: sdkmanager 'platforms;android-34' 'build-tools;34.0.0'
+      - name: Compile app and verify settings interactions
+        run: bash gradlew --no-daemon --max-workers=2 assembleDebug testDebugUnitTest --tests 'nl.vanvrouwerff.iptv.ui.settings.*' --tests 'nl.vanvrouwerff.iptv.data.settings.SourceSetupTest'
+      - name: Preserve test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: movies-series-settings-test-results
+          path: movies-series/build/ShadowFoxTV_Movies_Series/app/build/reports/tests/testDebugUnitTest/
