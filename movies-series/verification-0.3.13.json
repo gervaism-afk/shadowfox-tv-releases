@@ -1,0 +1,90 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.13",
+  "versionCode": 25,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.13.apk",
+  "sizeBytes": 13022298,
+  "sha256": "3f8e9c95318665fb6e6822733dff80914e86be4102846f12e38e02ca8c102fe4",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.13-source.zip",
+  "sourceArchiveSha256": "d5b195875a0d514004695afaf87e4af95686298890efbc10dda4a02c858d4588",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 178,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 130,
+  "sourceProvenance": "Published 0.3.10 redesigned checkpoint; 0.3.11 About removal and documented 0.3.12 grouped categories restored locally because their source checkpoints were not published.",
+  "unchanged": [
+    "account storage",
+    "database schema",
+    "updater",
+    "orientation policy"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Tanix TX68",
+    "android": 14,
+    "versionName": "0.3.13",
+    "versionCode": 25,
+    "installedApkMatchesDeliveredApk": true,
+    "upgradePreservedSavedAccount": true,
+    "continueWatchingSurvivedUpgrade": true,
+    "display": "1920x1080 at density 240 retained",
+    "playback": [
+      {
+        "title": "UHF (1989)",
+        "video": "1920x1080 AVC hardware decoding",
+        "audio": "stereo DTS decoded by ffmpegLavc60.31.102-dca",
+        "observedClock": "0:27 / 1:37:10",
+        "build": "0.3.13 release candidate; identical final audio implementation and native libraries"
+      },
+      {
+        "title": "Absolution (2024)",
+        "video": "1920x1080 AVC hardware decoding",
+        "audio": "six-channel DTS decoded by ffmpegLavc60.31.102-dca",
+        "candidateObservedClock": "0:38 / 1:52:18",
+        "finalObservedClock": "1:30 / 1:52:18",
+        "finalStatsDroppedFrames": 0,
+        "finalStatsBufferSeconds": 6
+      },
+      {
+        "title": "64,000,000 Years Ago (1981)",
+        "video": "1440x1080 AVC hardware decoding",
+        "audio": "AAC retained c2.android.aac.decoder",
+        "finalObservedClock": "9:38 / 11:30",
+        "resumePreserved": true
+      }
+    ],
+    "controls": {
+      "remoteStreamInfoOpenAndClose": "pass",
+      "touchVideoOpensControls": "pass",
+      "focusedCloseButton": "pass",
+      "vendorAppsScreenAvoided": true
+    },
+    "categories": {
+      "movieComedyCount": 19236,
+      "movieComedyPages": 321,
+      "seriesProviderCategory": "Brand New Shows",
+      "seriesCount": 27,
+      "typeScope": "pass",
+      "unavailableProviderGenresOmitted": true
+    },
+    "settings": {
+      "redesignedCategoriesRetained": true,
+      "aboutCategoryAbsent": true,
+      "updatesShowsInstalledVersion": "0.3.13",
+      "updateCheck": "Your app is up to date"
+    },
+    "monitoring": {
+      "sampleCount": 121,
+      "maximumTemperatureC": 85.274,
+      "bootChanges": 0,
+      "newPlaybackExceptionsObserved": false
+    },
+    "limitations": [
+      "Physical speaker audibility was not confirmed because the user was away from the TV.",
+      "The earlier 4K Tigerdump cause remains unresolved; 4K was not retested in this audio fix.",
+      "These are selected-stream checks, not a guarantee for every provider title or network."
+    ]
+  },
+  "packagedTmdbConfigurationMatchesPreviousRelease": true
+}

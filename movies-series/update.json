@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 24,
-  "versionName": "0.3.12",
-  "sha256": "e79083b31bf0c5b5adfe23e1bcac3500b02c9d0e6a6e617890961d978d5dc256",
-  "sizeBytes": 6678117,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.12.apk",
-  "notes": "New Categories button for Movies and Series. Browse Horror, Comedy, Drama, Adult and other genres where supplied by your provider. Adult opens without a PIN. Install over your existing app to retain your saved account and library."
+  "versionCode": 25,
+  "versionName": "0.3.13",
+  "sha256": "3f8e9c95318665fb6e6822733dff80914e86be4102846f12e38e02ca8c102fe4",
+  "sizeBytes": 13022298,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.13.apk",
+  "notes": "DTS audio playback fixes, plus Stream info in the playback controls for TV remote and touch. Keeps category browsing, the redesigned Settings, saved accounts and library. Install over the existing app."
 }

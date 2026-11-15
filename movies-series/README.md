@@ -1,15 +1,15 @@
-# ShadowFoxTV Movies & Series v0.2.9
+# ShadowFoxTV Movies & Series 0.3.13
 
-[Download single APK](ShadowFoxTV-Movies-Series-0.2.9.apk) · [Source ZIP](ShadowFoxTV-Movies-Series-0.2.9-source.zip) · [Updater feed](update.json) · [Verification](verification-v0.2.9.json)
+[Download signed APK](ShadowFoxTV-Movies-Series-0.3.13.apk) · [Complete source checkpoint](ShadowFoxTV-Movies-Series-0.3.13-source.zip) · [Updater feed](update.json) · [Verification](verification-0.3.13.json)
 
-Movies and Series each keep six recent searches per profile, newest first, without case-insensitive duplicates. Finish a search with the keyboard Search key, close the keyboard, select a title, close Search or switch sections to save it. Recent search buttons beneath the bar recall the complete query. Clear history affects only the current section; the X in the bar clears the current text. History survives app restarts.
+DTS playback now uses an audio-only software decoder while video stays on hardware. Stream info is available in the normal playback controls for TV remote and touch, with a focused Close button. Playback actions wrap on narrow phones. This avoids relying on the Tanix blue key, which also opens its manufacturer's Apps screen.
 
-While the keyboard is open, smaller complete posters use the full width above it. Navigation, category sidebar and history return when it closes. H96 window-visibility quirks are handled using the actual unobscured window height. Verified on the physical H96; all 117 tests pass.
+Keeps the Apple TV inspired interface, redesigned Settings without About, provider-derived movie/series categories, saved accounts, library, watch progress, updater and existing phone/TV orientation policy. Categories are grouped only when recognized provider labels exist; original provider groups remain selectable. Existing kids-profile visibility settings apply.
 
-Includes v0.2.8 fixes for TV search text/caret, separate movie/series result scopes, blank optional provider episode metadata, and video files mislabeled as HLS playlists. Provider availability and codec support can still affect individual titles.
+Package `ca.shadowfoxtv.movieseries`, version code 25, Android 7.1/API 25 or newer. Install over the existing app to retain your data. Signed with the original compatible certificate. This update feed is isolated from Platinum Player.
 
-Package `ca.shadowfoxtv.movieseries`, version code 11. Install over the existing app to retain login and library. Existing updater users can use Settings > App updates. Android 7.1/API 25 and newer; includes 32-bit ARM libraries and mobile/TV launchers. Fire OS 6 compatibility retained; physical Firestick playback still requires confirmation. v0.2.0 users need one manual bootstrap update.
+178 automated tests passed; release lint has no errors. Tanix checks covered DTS stereo, DTS six-channel, AAC, resume, touch/remote Stream info, category scopes and Settings. The installed final APK hash matches this download. Physical speaker audibility was not confirmed. The device temperature peaked at 85.274 C during these checks; no reboot was observed. The earlier 4K Tigerdump cause remains unresolved; this release's device checks used 1080p AVC samples.
 
-Final artwork and database schema 18 are retained. Source excludes private signing keys and local machine settings. Official updates require the privately retained compatible signing key.
+The complete source checkpoint includes four-ABI native audio libraries, FFmpeg source, provenance and licenses. It is based on the published redesigned 0.3.10 source; the documented 0.3.11 and 0.3.12 changes were restored because their source checkpoints were not published. Private signing keys and local configuration are excluded.
 
-Source based on SERFF/iptv-app (Apache 2.0); original attribution and LICENSE retained. This updater feed is isolated from Platinum Player.
+Based on SERFF/iptv-app and AndroidX Media3 (Apache 2.0). FFmpeg 6.1.6 is used under LGPL 2.1 or later; its license and source are included. Original project attribution and LICENSE are retained.
