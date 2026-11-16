@@ -1,0 +1,86 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.15",
+  "versionCode": 27,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.15.apk",
+  "sizeBytes": 13621315,
+  "sha256": "a11a6378e0ea0710a7d8459fb385a2a4d434b590a8234709b3251caa08aba384",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.15-source.zip",
+  "sourceArchiveSha256": "f4e512ba76eb15dbd1ac5dfc5043364d9b93f94c59d0802ab9a3dbdfe646fa98",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 193,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "saved account and playback preference logic",
+    "database schema",
+    "paging and queries",
+    "updater",
+    "phone rotation and TV landscape",
+    "touch controls",
+    "native audio",
+    "player handlers"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/data/settings/SettingsStore.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/MainActivity.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/player/PlayerActivity.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/player/PlayerControlsOverlay.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/player/PlayerScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/detail/MovieDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/seriesdetail/SeriesDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsViewModel.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/theme/CinemaComponents.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/theme/Focus.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/theme/Theme.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsCategoriesTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "versionName": "0.3.15",
+    "versionCode": 27,
+    "themeChoiceAndPersistence": "Both selectable; Exclusive retained after process restart",
+    "activeTheme": "ShadowFox Exclusive",
+    "visualChecks": [
+      "Home",
+      "movie library",
+      "movie detail",
+      "Appearance",
+      "Playback",
+      "Updates"
+    ],
+    "savedAccountAndExistingLibraryRetained": true,
+    "remoteDetailReturnSameFocusAndBounds": true,
+    "settingsReturnSameFocusAndBounds": true,
+    "continuousScrollPageButtonsAbsent": true,
+    "phoneSupport": "320dp portrait touch selection and bounds verified by Robolectric",
+    "providerMediaPlaybackInitiated": false,
+    "firestickCommandsIssued": false,
+    "limitations": [
+      "Physical phone hardware was not used.",
+      "Playback was not rerun for this theme release.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}
