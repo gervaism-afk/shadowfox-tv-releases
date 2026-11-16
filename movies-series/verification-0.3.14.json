@@ -1,0 +1,87 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.14",
+  "versionCode": 26,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.14.apk",
+  "sizeBytes": 13072421,
+  "sha256": "f02d023135360e68e946a317a010d9ac152713b062fcf35174307e79b208b4f7",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.14-source.zip",
+  "sourceArchiveSha256": "5371dbec823788e9ca40c9945f09d608f37d28d991cc7a0681283702b35bbefe",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 187,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "continuousBrowsing": {
+    "batchSize": 60,
+    "prefetchDistance": 20,
+    "cacheTargetItems": 180,
+    "virtualPlaceholders": true
+  },
+  "adultAvailability": "Visible shortcut; current provider returns no Adult movie/series categories. Provider must supply matching categories to populate it. No fabricated titles.",
+  "settingsSections": [
+    "Account",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "unchanged": [
+    "account storage",
+    "database schema",
+    "player",
+    "native audio libraries",
+    "updater",
+    "orientation policy"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "versionName": "0.3.14",
+    "versionCode": 26,
+    "installedApkMatchesDeliveredApk": true,
+    "upgradeInPlace": true,
+    "movieLibraryCountRetained": 103316,
+    "continuousScroll": {
+      "verifiedIndex": 70,
+      "title": "Mortdecai (2015)",
+      "pageButtonsAbsent": true
+    },
+    "remoteNavigation": {
+      "initialFocus": "Movies",
+      "headerDown": "first title",
+      "gridLeftAndSidebarRight": "pass",
+      "detailReturnSameFocusAndBounds": true,
+      "settingsBackRetainsScrollAndSettingsFocus": true,
+      "emptyAdultHeaderDown": "Categories",
+      "categoriesLeft": "Adult",
+      "sidebarUpReturnsToHeader": true
+    },
+    "settings": {
+      "sections": [
+        "Account",
+        "Playback",
+        "Library",
+        "Updates"
+      ],
+      "profilesAbsent": true,
+      "aboutAbsent": true
+    },
+    "adult": {
+      "movieAndSeriesShortcutsVisible": true,
+      "providerReturnsAdultCategories": false,
+      "providerAvailabilityMessageVisible": true,
+      "noFabricatedTitles": true
+    },
+    "candidateAdditionalChecks": {
+      "searchCompletionFocusesFirstResult": true,
+      "searchScrollBeyond60": true,
+      "seriesAdultShortcutAndMessage": true
+    },
+    "providerMediaPlaybackInitiated": false,
+    "limitations": [
+      "The provider supplies no Adult movie or series categories for the tested account; the section is visible and explains this.",
+      "Playback was not rerun in this navigation release. Player and native audio libraries are byte-identical to0.3.13.",
+      "The earlier Tanix4K reset/heat investigation remains unresolved and is not claimed fixed."
+    ]
+  }
+}
