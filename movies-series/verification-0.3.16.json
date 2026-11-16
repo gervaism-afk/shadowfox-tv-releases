@@ -1,0 +1,77 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.16",
+  "versionCode": 28,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.16.apk",
+  "sizeBytes": 13622595,
+  "sha256": "7827e80847f7810f1c5282c30e82fd9801eafa027c8dd74b8f4d3b85188ebdec",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.16-source.zip",
+  "sourceArchiveSha256": "19498eda164fbdbb55ef0054a2ffa80a9ce263a40d196aa4aee1398176979151",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 201,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "account and appearance storage",
+    "database schema",
+    "paging and queries",
+    "updater",
+    "orientation",
+    "native audio",
+    "player activity/decoders",
+    "remote seek acceleration and callbacks"
+  ],
+  "improvements": [
+    "consistent Exclusive detail/player action style",
+    "48dp timeline touch target",
+    "clamped swipe seeking without play/pause",
+    "accessible progress adjustment",
+    "phone-specific timeline hint"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/player/PlayerControlsOverlay.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/detail/MovieDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/seriesdetail/SeriesDetailScreen.kt",
+    "app/src/main/res/values/strings.xml"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "versionName": "0.3.16",
+    "versionCode": 28,
+    "appearanceRetained": "ShadowFox Exclusive",
+    "visualChecks": [
+      "movie primary/secondary focus",
+      "series primary/secondary focus",
+      "Appearance",
+      "Updates"
+    ],
+    "movieAndSeriesDetailReturnSameTileAndBounds": true,
+    "savedAccountAndLibraryRetained": true,
+    "playbackControlsValidation": "Fixed-clock Robolectric UI, remote and touch tests; no provider stream",
+    "phoneValidation": "320dp portrait automated touch/bounds and software render",
+    "providerPlaybackInitiated": false,
+    "firestickCommandsIssued": false,
+    "limitations": [
+      "No physical phone playback was tested.",
+      "No provider playback was initiated for this polish release.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}

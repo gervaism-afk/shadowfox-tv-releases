@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 27,
-  "versionName": "0.3.15",
-  "sha256": "a11a6378e0ea0710a7d8459fb385a2a4d434b590a8234709b3251caa08aba384",
-  "sizeBytes": 13621315,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.15.apk",
-  "notes": "New selectable ShadowFox Exclusive theme: charcoal surfaces, cyan focus and bundled Inter fonts. Choose Settings > Appearance. Cinema remains available. Continuous scrolling, saved accounts, touch controls and updater retained."
+  "versionCode": 28,
+  "versionName": "0.3.16",
+  "sha256": "7827e80847f7810f1c5282c30e82fd9801eafa027c8dd74b8f4d3b85188ebdec",
+  "sizeBytes": 13622595,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.16.apk",
+  "notes": "Polished Exclusive detail/player buttons with consistent cyan focus. Larger timeline supports swipe seeking and accessible progress adjustment. Remote seek controls, saved accounts, continuous scrolling, Cinema theme and updater retained."
 }
