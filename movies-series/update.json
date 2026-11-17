@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 29,
-  "versionName": "0.3.17",
-  "sha256": "91e15141aea9c2692fbba309307d03026ae6684edffa23188c732c86284d3e6e",
-  "sizeBytes": 13622595,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.17.apk",
-  "notes": "Rebuilt TV Settings navigation: fixed section menu, predictable Up/Down controls, Right/OK enters, Left/Back returns to the same section. Remembers each section\u2019s last control and scroll position; keeps focused rows visible. Saved logins, themes, phone touch, player and updater retained."
+  "versionCode": 30,
+  "versionName": "0.3.18",
+  "sha256": "ae9318081b46cafc7c7f0f2e44b87b3892f75b0f277f9938ed63ea7db2fa2080",
+  "sizeBytes": 13638979,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.18.apk",
+  "notes": "Series Play/Continue now starts with the main season, preserves the next episode\u2019s saved position and skips watched following episodes. Specials are listed after main seasons and remain selectable. Saved logins, watch history, Settings navigation, player and updater retained."
 }

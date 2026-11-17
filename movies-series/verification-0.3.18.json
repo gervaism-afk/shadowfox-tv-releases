@@ -1,0 +1,76 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.18",
+  "versionCode": 30,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.18.apk",
+  "sizeBytes": 13638979,
+  "sha256": "ae9318081b46cafc7c7f0f2e44b87b3892f75b0f277f9938ed63ea7db2fa2080",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.18-source.zip",
+  "sourceArchiveSha256": "0941ffd9ca36b9c90456b1b637f4bb86f50d044922b788261869be0e46a08525",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 235,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "account/theme storage and Settings navigation",
+    "database schema and watch-history writes",
+    "series network/auth/cache and active-profile progress queries",
+    "player/native audio and callbacks",
+    "orientation",
+    "updater"
+  ],
+  "improvements": [
+    "main seasons before Specials",
+    "first playable main season selected",
+    "saved next-episode resume retained",
+    "watched following episodes skipped",
+    "intentional Specials resume retained",
+    "prepared selection plan without rewriting history"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/seriesdetail/SeriesDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/seriesdetail/SeriesDetailViewModel.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "versionName": "0.3.18",
+    "versionCode": 30,
+    "metadataCase": "Percy Jackson and the Olympians (2023)",
+    "oldPrimary": "Play S0:E1",
+    "newPrimary": "Play S1:E1",
+    "displayedSeasonOrder": [
+      "Season 1",
+      "Season 2",
+      "Specials"
+    ],
+    "specialsRemainManuallySelectable": true,
+    "detailBackRestoresSameTileAndBounds": true,
+    "savedAccountThemeAndLibraryRetained": true,
+    "resumeValidation": "Pure saved-progress fixtures and actual Play/Continue button callbacks; no media engine",
+    "providerPlaybackInitiated": false,
+    "watchHistoryEdited": false,
+    "firestickOrPhoneCommandsIssued": false,
+    "limitations": [
+      "No provider stream or physical-phone playback was tested.",
+      "Player cross-season autoplay was not changed or tested.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}
