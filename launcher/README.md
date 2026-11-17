@@ -1,23 +1,24 @@
-# ShadowFoxTV Launcher Pro 1.4.11
+# ShadowFoxTV Launcher Pro 1.5.0
 
-Home skips icon-pack work when original app icons are selected. App names are loaded once per row refresh, and the full icon catalog is prepared only when browsing it. The H96 cold-start checks changed from a median 6468 ms in 1.4.10 to 2355 ms in this release (three runs each); times depend on the device and current load.
+Version code: 22. Package: `com.shadowfox.tvlauncher.review`.
 
-Home also closes the full icon browser. The existing appearance and app layout are retained.
+This release replaces the settings menu with a full-screen TV workspace. A category rail leads to Appearance, Home screen, Wallpaper, Apps & groups, Sound & device, and Updates. Rows separate the setting name, explanation, and current value. Option pickers and app checklists share a dark palette, rounded controls, and clear focus borders.
 
-Press Home to return to your app row, including from launcher settings or an unsaved label/category editor. The launcher uses a single Home activity and closes its editing panels on Home without saving unsaved text.
+The existing preference keys, categories, app order, labels, icons, wallpaper, and update verification remain in use. Settings typography stays readable independently of the Home font or colour theme. Android device settings open above the dashboard, so Back returns to the originating control. The Home button closes launcher dialogs and discards unsaved checklist changes.
 
-Settings → Wallpaper → Choose an image and Hold OK on an app → Change icon → Choose an image prefer Android's folder/storage file picker. Devices without a supported file picker fall back to an image/gallery picker. Storage providers determine available local, USB and cloud locations. The launcher copies the selected image into its own storage; it does not need permanent access to the original file. Android's [Storage Access Framework documentation](https://developer.android.com/training/data-storage/shared/documents-files) describes this picker mechanism.
+## Install
 
-Image decoding, resizing and saving run in the background. You can return Home while an image saves. The supplied 3840×2160 stock wallpaper is unchanged. Large custom wallpaper images retain up to 3840 pixels on their longest edge; custom app icons are prepared as square images up to 512 pixels. Invalid image files leave the previous image intact.
+Install the signed APK as an update over the existing launcher. Do not uninstall it or clear its data. The release uses the existing ShadowFox TV Home signing certificate. If Android asks for a Home app, choose ShadowFoxTV Launcher Pro.
 
-Settings → Navigation sounds controls Android's standard navigation effects, without changing playback volume. Apps playing their own custom sounds may require their own setting. Some TV firmware lacks Android's Modify system settings permission page; the tested H96 needed a one-time grant through ADB. Its On/Off readback and unchanged playback volumes were verified.
+## Build on Windows
 
-Install this APK as an update to the existing ShadowFoxTV Launcher Pro, without uninstalling or clearing data, to keep your apps, categories, order, labels, icons, wallpaper and appearance. Its internal package remains com.shadowfox.tvlauncher.review and it retains the existing signing identity. Select ShadowFoxTV Launcher Pro → Always if Android asks you to choose Home.
+Requires Python 3, a Java JDK, Android SDK platform 35, and Android build-tools 35.0.0. No Gradle dependency download is required.
 
-Settings → Launcher updates → Check for updates uses the existing GitHub feed. The launcher verifies the downloaded APK's SHA-256, package, version and signing certificate before opening Android's installer. It requires the device's installation permission for the launcher.
+Set `JAVA_HOME` to the JDK directory and `ANDROID_HOME` to the Android SDK directory if they differ from the script's Android Studio defaults. Set `SHADOWFOX_SIGNING_DIR` to a private directory containing the existing `shadowfox-home.p12` and its `password.txt`. Signing material is intentionally excluded from this source archive.
 
-H96 checks and update-flow results are in launcher-pro-1.4.11-verification.json. This release was not installed on Fire TV or the unavailable Tanix. The H96 Bluetooth repair remains a separate installed helper and is unaffected by this launcher update.
+Run `python build_launcher_review.py` from this directory. The signed output is `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.5.0.apk`. The resource cache is regenerated when resource content changes.
 
-APK: https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.11.apk
+## Verification scope
 
-The source archive excludes signing keys, device preferences and test snapshots. Rebuilding requires your signing key, Android SDK 35/build-tools 35.0.0, Java and Python, with local paths adjusted in build_launcher_review.py.
+The settings flow was exercised in an Android TV API 36 emulator at 1920 × 1080 and 1280 × 720, including an in-place upgrade from 1.4.13. Verification covers focus navigation, saved font retention, changing options, scrolling, clock and wallpaper controls, app checklist Save/Cancel, and Back from Android device settings. The final release was signature-verified against 1.4.13. Physical-device checks and publishing to the live update feed are separate from this build.
+

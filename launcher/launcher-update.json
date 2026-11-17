@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 19,
-  "versionName": "1.4.11",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.4.11.apk",
-  "sha256": "0c104417c4c6ce8699382745c5dec78edb1a1ea01fed0e5fd7e42e90bbe4853d",
-  "notes": "Faster Home startup: icon-pack browsing loads only when needed and app labels are reused while arranging Home. Home now closes the full icon browser. Keeps your existing launcher setup."
+  "versionCode": 22,
+  "versionName": "1.5.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.5.0.apk",
+  "sha256": "35465851b9a0d8c8445b3ae4a408835de23481ad63edfbe4517841cc13184de0",
+  "notes": "Rebuilt full-screen settings with six organised sections, clear current values, matching option screens and visible remote focus. Keeps your apps, groups, artwork and saved setup. Back from Android device settings returns to the launcher settings page."
 }

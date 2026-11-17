@@ -1,0 +1,37 @@
+{
+  "version": "1.5.0",
+  "versionCode": 22,
+  "apkSha256": "35465851b9a0d8c8445b3ae4a408835de23481ad63edfbe4517841cc13184de0",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "sameCertificateAs1_4_13": true,
+  "deliveredApkMatchesEmulatorInstalledApk": true,
+  "platform": "Android TV API 36 emulator",
+  "testedResolutions": [
+    "1280x720",
+    "1920x1080"
+  ],
+  "checksPassed": [
+    "In-place upgrade from 1.4.13 retains saved font",
+    "D-pad navigation across six settings sections",
+    "Option changes restore focus to originating row",
+    "Home screen page scrolls to final control",
+    "Date and time toggle",
+    "Wallpaper dimming selection",
+    "App checklist Cancel discards changes",
+    "App checklist Save persists changes",
+    "Back from Android settings returns to originating dashboard control",
+    "Live update check completes successfully",
+    "Home dismisses dashboard",
+    "Home dismisses option picker",
+    "Home dismisses update screen",
+    "Home dismisses app checklist",
+    "Saved font persists through cold restart",
+    "Back from dashboard focuses settings gear",
+    "APK signature verification",
+    "Delivered APK bytes match installed APK",
+    "Emulator crash buffer empty"
+  ],
+  "physicalDeviceTested": false,
+  "emulatorSystemLauncherRestored": true,
+  "releaseFeed": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/launcher-update.json"
+}
