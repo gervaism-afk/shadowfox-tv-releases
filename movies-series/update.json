@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 28,
-  "versionName": "0.3.16",
-  "sha256": "7827e80847f7810f1c5282c30e82fd9801eafa027c8dd74b8f4d3b85188ebdec",
+  "versionCode": 29,
+  "versionName": "0.3.17",
+  "sha256": "91e15141aea9c2692fbba309307d03026ae6684edffa23188c732c86284d3e6e",
   "sizeBytes": 13622595,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.16.apk",
-  "notes": "Polished Exclusive detail/player buttons with consistent cyan focus. Larger timeline supports swipe seeking and accessible progress adjustment. Remote seek controls, saved accounts, continuous scrolling, Cinema theme and updater retained."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.17.apk",
+  "notes": "Rebuilt TV Settings navigation: fixed section menu, predictable Up/Down controls, Right/OK enters, Left/Back returns to the same section. Remembers each section\u2019s last control and scroll position; keeps focused rows visible. Saved logins, themes, phone touch, player and updater retained."
 }

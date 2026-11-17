@@ -1,0 +1,80 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.17",
+  "versionCode": 29,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.17.apk",
+  "sizeBytes": 13622595,
+  "sha256": "91e15141aea9c2692fbba309307d03026ae6684edffa23188c732c86284d3e6e",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.17-source.zip",
+  "sourceArchiveSha256": "029cec7c4e10f61b9adccc8b9833d6e4c9a3859b7165fb6f62bb330df3f3d13d",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 212,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "account and appearance storage",
+    "SettingsViewModel save/test callbacks",
+    "database and paging",
+    "player and native audio",
+    "orientation",
+    "updater check/download/verification/install flow"
+  ],
+  "improvements": [
+    "fixed TV section rail",
+    "explicit initial/menu/control focus paths",
+    "ordered enabled controls and bottom stop",
+    "Left/Back returns to same section",
+    "per-section focus and scroll restoration",
+    "fully visible fixed-size focus rows",
+    "disabled-action focus recovery",
+    "phone touch retained"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/AppearanceSettings.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/updates/UpdatePanel.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "versionName": "0.3.17",
+    "versionCode": 29,
+    "appearanceRetained": "ShadowFox Exclusive",
+    "initialSectionFocus": "Account",
+    "accountRightEntersFields": true,
+    "editorCancelRestoresUsername": true,
+    "noAccountTextEnteredOrSaved": true,
+    "menuAndContentDirectionalPaths": "pass",
+    "playbackBottomAndFirstRowVisible": true,
+    "leftReturnsToPlaybackInsteadOfAccount": true,
+    "lastControlAndScrollRestoredAcrossSections": true,
+    "backReturnsToMenuThenExits": true,
+    "appearanceAndLibraryPaths": "pass",
+    "updaterButtonReachableAndCheckCompletes": true,
+    "savedAccountAndLibraryRetained": true,
+    "providerPlaybackInitiated": false,
+    "firestickOrPhoneCommandsIssued": false,
+    "limitations": [
+      "Phone touch/editor behavior tested automatically; no physical phone used.",
+      "Playback was not initiated for this Settings release.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}
