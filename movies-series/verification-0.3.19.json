@@ -1,0 +1,74 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.19",
+  "versionCode": 31,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.19.apk",
+  "sizeBytes": 13638983,
+  "sha256": "cca7172a9ca9f81a291d416487ae7fea1376352ff058eb7412b50c2c9080f504",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.19-source.zip",
+  "sourceArchiveSha256": "765b17758c484ac8944df4433e87e9f2b81c93a2d9e377cfa86e3d962e568a27",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 243,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "account/theme storage and Settings navigation",
+    "database schema and watch-history writes",
+    "series network/auth/cache and active-profile progress queries",
+    "player/native audio and callbacks",
+    "orientation",
+    "updater"
+  ],
+  "improvements": [
+    "seamless featured artwork and palette-aware background",
+    "aligned navigation/hero/shelf gutters",
+    "clear primary action and quieter supporting actions",
+    "complete portrait art and readable Continue Watching progress",
+    "compact TV layout with a complete first Continue card",
+    "remote header-to-primary and return paths"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "versionName": "0.3.19",
+    "versionCode": 31,
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "heroAndShelfGuttersAligned": true,
+    "firstContinueCardFullyVisible": true,
+    "firstContinueCardBounds": [
+      48,
+      671,
+      477,
+      839
+    ],
+    "portraitArtworkAndReadableProgress": true,
+    "headerDownPrimaryUpHome": true,
+    "detailBackRestoresSameCardAndBounds": true,
+    "savedAccountThemeAndLibraryRetained": true,
+    "providerPlaybackInitiated": false,
+    "watchHistoryEdited": false,
+    "firestickOrPhoneCommandsIssued": false,
+    "limitations": [
+      "No provider stream or physical-phone playback tested.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}

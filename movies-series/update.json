@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 30,
-  "versionName": "0.3.18",
-  "sha256": "ae9318081b46cafc7c7f0f2e44b87b3892f75b0f277f9938ed63ea7db2fa2080",
-  "sizeBytes": 13638979,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.18.apk",
-  "notes": "Series Play/Continue now starts with the main season, preserves the next episode\u2019s saved position and skips watched following episodes. Specials are listed after main seasons and remain selectable. Saved logins, watch history, Settings navigation, player and updater retained."
+  "versionCode": 31,
+  "versionName": "0.3.19",
+  "sha256": "cca7172a9ca9f81a291d416487ae7fea1376352ff058eb7412b50c2c9080f504",
+  "sizeBytes": 13638983,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.19.apk",
+  "notes": "Redesigned Home with seamless featured artwork, aligned shelves, a clear primary action and full portrait Continue Watching cards with readable progress. Improved Home remote focus. Saved logins, both themes, watch history, player, phone controls and updater retained."
 }
