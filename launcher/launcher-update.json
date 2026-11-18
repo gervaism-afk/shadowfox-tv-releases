@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 29,
-  "versionName": "1.7.3",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.3.apk",
-  "sha256": "c38d8699b046ffc389cf88b5eb46a77596c358d02f44c534490274a8bfb42ed4",
-  "notes": "Fixes Fire TV updates reporting that the APK has no signing certificate. Adds compatible certificate metadata lookup while keeping download hash, package/version and signer matching checks. Keeps your saved launcher setup and the latest transparency and box-free icon options."
+  "versionCode": 30,
+  "versionName": "1.7.4",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.4.apk",
+  "sha256": "7b4204c65e8b23db82b2e89c1bb8bbe30172342ffded26e15ec22b16940a41e1",
+  "notes": "Fire TV compatibility: fixes missing-certificate update errors and narrow or clipped settings dialogs. Keeps download hash, package/version and signer checks enabled. Settings, option panels and wallpaper selection now use the full intended space. Keeps your saved launcher setup."
 }

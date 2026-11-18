@@ -1,17 +1,17 @@
-# ShadowFoxTV Launcher Pro 1.7.3
+# ShadowFoxTV Launcher Pro 1.7.4
 
-Version code 29 · package `com.shadowfox.tvlauncher.review`.
+Version code 30 · package `com.shadowfox.tvlauncher.review`.
 
-Fixes the Fire TV update error **The update has no signing certificate**. On the tested Amazon AFTHA004 running Fire OS/API 28, PackageManager returns the installed launcher's certificate with GET_SIGNING_CERTIFICATES, but omits certificate data for an APK archive when that flag is requested alone. Requesting both GET_SIGNING_CERTIFICATES and GET_SIGNATURES returns the verified archive certificate. The updater now requests both on Android 9 and newer, with a legacy certificate-field fallback only when modern metadata is absent.
+Fixes Fire TV update compatibility and the narrow, clipped settings window seen on the tested Amazon AFTHA004 / Fire OS API 28.
 
-APK SHA-256, package name, exact expected version, newer-version requirement and nonempty signer-set equality are still enforced. A mismatching modern certificate does not fall back to a different certificate. HTTPS certificate validation remains enabled. The signing key and Android permissions are unchanged.
+The updater requests both modern and legacy signing-certificate metadata on Android 9 and newer. Fire OS returned no archive certificate for the modern flag alone, but returned the correct certificate when both flags were requested. SHA-256, package identity, expected/newer version and exact nonempty signer-set checks remain enforced. HTTPS validation stays enabled; the signing key and permissions are unchanged.
 
-Older affected installations cannot download their own fix through the broken verifier. The affected Fire TV received a one-time signed repair bridge as an in-place update; its app data was retained. The final 1.7.3 release is delivered through the normal updater. Other devices receive the normal in-app release.
+Custom settings, option panels, wallpaper selector and icon browser now own their dialog content frames directly. This avoids Fire OS's fixed-size native alert-content container while retaining the app's existing fullscreen and side-panel sizing, remote navigation and Back behavior. Native confirmation and text-entry dialogs are unchanged.
 
-Wallpaper choices, transparency controls, box-free app tiles, labels, icon choices and app groups are unchanged from 1.7.2. APK and source files are backups; normal distribution is through the existing HTTPS update feed.
+Affected older installations need a one-time signed repair bridge because their updater cannot validate the fix itself. That repair uses an in-place update and retains app data. The final release is then downloaded and installed through the normal launcher updater. Wallpaper choices, app labels, groups, icons and transparency settings keep their existing preference keys.
 
 ## Build on Windows
 
 Requires Python 3, a Java JDK, Android SDK platform 35 and build-tools 35.0.0. Set `JAVA_HOME` and `ANDROID_HOME` if needed. Set `SHADOWFOX_SIGNING_DIR` to a private directory containing the existing `shadowfox-home.p12` and `password.txt`, then run `python build_launcher_review.py`.
 
-Output: `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.7.3.apk`. The source archive excludes the private repair bridge, diagnostic app, signing material, device preferences, build outputs and test captures. Physical-device and delivery checks are recorded separately.
+Output: `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.7.4.apk`. APK and source files are backups; normal delivery uses the in-app update feed. The source archive excludes repair bridge APKs, diagnostics, signing material, device preferences, build outputs and test captures. Device and delivery checks are recorded separately.

@@ -1,0 +1,55 @@
+{
+  "version": "1.7.4",
+  "versionCode": 30,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "7b4204c65e8b23db82b2e89c1bb8bbe30172342ffded26e15ec22b16940a41e1",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Amazon AFTHA004 Fire OS API 28",
+  "platformProbe": {
+    "device": "Amazon AFTHA004 / Fire OS API 28",
+    "installedLauncher": "1.4.9",
+    "archiveTested": "1.7.2",
+    "expectedSignerSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+    "modernFlagOnly": {
+      "installedSignerPresent": true,
+      "apkArchiveSignerPresent": false,
+      "tmpArchiveSignerPresent": false
+    },
+    "legacyFlagOnly": {
+      "installedSignerMatches": true,
+      "apkArchiveSignerMatches": true,
+      "tmpArchiveSignerMatches": true
+    },
+    "combinedFlags": {
+      "installedModernAndLegacyMatch": true,
+      "apkArchiveModernAndLegacyMatch": true,
+      "tmpArchiveModernAndLegacyMatch": true
+    }
+  },
+  "checksPassed": [
+    "Reproduced missing archive certificate on Fire TV 1.4.9",
+    "Modern-plus-legacy flags return the matching certificate on the physical Fire TV",
+    "One-time repair bridge installed in place without uninstalling launcher",
+    "Fullscreen settings render at intended width on physical Fire TV",
+    "Downloaded 1.7.3 reaches Ready to install through repaired normal updater",
+    "Exact nonempty signer-set, SHA-256 and package/version checks remain enforced",
+    "All packaged artwork matches 1.7.3",
+    "APK and source archive integrity verified; private repair files excluded",
+    "Physical Fire TV wallpaper selector preview and cancel passed",
+    "Physical Fire TV option panel and Back passed",
+    "Android TV emulator settings, wallpaper selector and option-panel regression passed"
+  ],
+  "fireTvDialogChecks": {
+    "platform": "192.168.2.34:5555",
+    "fullscreenSettingsPassed": true,
+    "wallpaperPreviewAndCancelPassed": true,
+    "optionPanelAndBackPassed": true
+  },
+  "androidTvRegression": {
+    "platform": "emulator-5598",
+    "fullscreenSettingsPassed": true,
+    "wallpaperPreviewAndCancelPassed": true,
+    "optionPanelAndBackPassed": true
+  }
+}
