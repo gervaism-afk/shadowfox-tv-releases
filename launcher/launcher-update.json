@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 24,
-  "versionName": "1.6.1",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.6.1.apk",
-  "sha256": "b1a661b38dad4b1ef03e7f763893bc4cd0934f20ef6d209fd1701bb8a31cfcef",
-  "notes": "More transparent Home header and app dock, with lighter shading to reveal your wallpaper. Settings and option panels now use lighter glass surfaces over your wallpaper, with readable text and clear blue/amber focus. Keeps your saved setup."
+  "versionCode": 25,
+  "versionName": "1.6.2",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.6.2.apk",
+  "sha256": "1b5877f8c5411c58ce8d13f2b89e5efe1a7345bdc116736ae07b6c2c16c7d31a",
+  "notes": "New Studio wallpaper with your ShadowFox TV logo, graphite glass and blue/amber lighting. Choose Wallpaper → Studio wallpaper. Original artwork remains available, and existing saved wallpaper choices and customization are retained."
 }

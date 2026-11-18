@@ -1,20 +1,18 @@
-# ShadowFoxTV Launcher Pro 1.6.1
+# ShadowFoxTV Launcher Pro 1.6.2
 
-Version code 24 · package `com.shadowfox.tvlauncher.review`.
+Version code 25 · package `com.shadowfox.tvlauncher.review`.
 
-This update makes the 1.6.0 glass design more transparent. With a wallpaper selected, the Home header uses approximately 39% opacity and the app dock 37%. The lower-screen shading is also lighter so more artwork remains visible. Focused controls retain a stronger tint and the existing blue-to-amber border for readability.
+Adds the Studio wallpaper: graphite and smoked-glass textures, blue and amber edge lighting, and the ShadowFox TV shield logo. The logo sits above the app dock and the top and lower areas stay quiet for the transparent interface. The selected native wallpaper asset is an opaque 1672 × 941 PNG; Android scales/crops it to the display. The separate original wallpaper remains 3840 × 2160.
 
-Settings now renders its translucent surfaces above your wallpaper, with lighter category, heading and option surfaces. The wallpaper is shown without the Home header or app labels behind the settings text. Option panels use less background dimming, and app selectors and icon browsing share the more transparent materials. Plain Home colour themes and the user's individual app-tile background choice retain their existing behaviour.
+Choose Settings → Wallpaper → Studio wallpaper. Studio is the default when no wallpaper mode has been saved. A previously saved Original artwork, Theme background or custom image choice is retained. Original artwork remains available as a separate option.
 
-The original stock wallpaper, custom wallpaper, saved fonts, app names, groups, ordering, icons and Home layout are retained. The small Home preview stays local to the device. The existing in-app update feed and package/signature checks are unchanged.
+Existing fonts, labels, groups, app order, artwork, icon packs, dimming and other Home settings retain their existing preference keys. The built-in updater and signing identity are unchanged. Normal delivery is through the in-app updater; APK and source files are backups.
 
-## Install and build
+## Build on Windows
 
-Normal delivery is through the launcher's in-app updater. APK and source files are backup copies. Update the existing app without uninstalling or clearing data.
+Requires Python 3, a Java JDK, Android SDK platform 35 and build-tools 35.0.0. Set `JAVA_HOME` and `ANDROID_HOME` if needed. Set `SHADOWFOX_SIGNING_DIR` to a private directory containing the existing `shadowfox-home.p12` and `password.txt`. Run `python build_launcher_review.py`.
 
-To build on Windows, use Python 3, a Java JDK, Android SDK platform 35 and build-tools 35.0.0. Set `JAVA_HOME` and `ANDROID_HOME` if needed. Set `SHADOWFOX_SIGNING_DIR` to a private directory containing the existing `shadowfox-home.p12` and `password.txt`, then run `python build_launcher_review.py`.
+The signed output is `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.6.2.apk`. The archive excludes signing material, copied device preferences and test screenshots.
 
-The signed output is `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.6.1.apk`. Private signing material and copied device data are excluded from this source archive.
-
-Visual and navigation checks use an isolated Android TV emulator. The physical TV box has not been tested for this release. See the separate release verification report for completed checks and file hashes.
+The wallpaper was created with the built-in imagegen tool using the existing stock wallpaper's logo as the image-edit reference. The standalone wallpaper and full generation prompts are saved separately as user deliverables. Emulator checks are recorded in the separate release verification report; this release has not been tested on the physical TV box.
 

@@ -1,0 +1,33 @@
+{
+  "version": "1.6.2",
+  "versionCode": 25,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "1b5877f8c5411c58ce8d13f2b89e5efe1a7345bdc116736ae07b6c2c16c7d31a",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "wallpaperGenerationTool": "built-in imagegen",
+  "studioWallpaperNativeSize": [
+    1672,
+    941
+  ],
+  "studioWallpaperSha256": "fe60b57d056ba8cbdb1625dd942b37ab563bd6107362e8689b4aede391e590f8",
+  "physicalDeviceTested": false,
+  "testPlatform": "Disposable Android TV API 36 emulator",
+  "testedDisplays": [
+    "1280x720 at density 160",
+    "1920x1080 at density 320"
+  ],
+  "checksPassed": [
+    "In-place update from 1.6.1 retains saved Rounded font",
+    "Original wallpaper remains selectable",
+    "Studio wallpaper selection reports Current",
+    "Studio selection persists across a cold restart",
+    "Studio is default when no wallpaper mode is saved",
+    "Logo clears header and app dock in 1080p Home screenshot",
+    "Studio artwork renders behind settings",
+    "Original stock wallpaper bytes remain unchanged",
+    "APK signature and ZIP integrity verified",
+    "Delivered APK matches emulator-installed bytes",
+    "No launcher crash recorded"
+  ]
+}
+
