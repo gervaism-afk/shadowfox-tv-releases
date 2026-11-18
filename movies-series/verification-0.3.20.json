@@ -1,0 +1,84 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.20",
+  "versionCode": 32,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.20.apk",
+  "sizeBytes": 13638979,
+  "sha256": "b2814cd3777ee372e42898404396ec6c9f5ebfd631a2e7c394f03644cbf898cd",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.20-source.zip",
+  "sourceArchiveSha256": "924dbca5bd67f240e32fc6e17b30c8918986f8871c50591ed7353efba790ad96",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 254,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "saved account/theme/history and database schema",
+    "0.3.19 Home presentation",
+    "series selection/player/native audio",
+    "provider refresh/authentication",
+    "updater/orientation",
+    "bounded continuous paging"
+  ],
+  "defaultShowAdultCategories": true,
+  "kidsProfilesRemainRestricted": true,
+  "visibilityAppliesTo": [
+    "category shortcuts and picker",
+    "Movies and Series",
+    "search and My List",
+    "Home shelves and Continue Watching"
+  ],
+  "improvements": [
+    "persistent Show Adult categories option in Settings > Library",
+    "immediate hide and unhide without provider refresh",
+    "leave a hidden Adult selection while preserving search/type/saved filters",
+    "accessible remote/touch switch with checked state"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/data/AdultContent.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/data/settings/SettingsStore.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeViewModel.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryCategoryPicker.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryLoading.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryViewModel.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsViewModel.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/library/LibraryMetadataTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "versionName": "0.3.20",
+    "versionCode": 32,
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "initialVisibilityShown": true,
+    "remoteToggleHideAndShow": true,
+    "hiddenAfterAppRestart": true,
+    "moviesSeriesAndPickerAdultShortcutHiddenAndRestored": true,
+    "finalVisibilityShown": true,
+    "savedAccountThemeAndLibraryRetained": true,
+    "providerPlaybackInitiated": false,
+    "watchHistoryEdited": false,
+    "firestickOrPhoneCommandsIssued": false,
+    "limitations": [
+      "This provider account supplies no Adult movie or series categories; title-level filtering was verified with real Room database fixtures.",
+      "No provider stream or physical-phone playback tested.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}
