@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 32,
-  "versionName": "0.3.20",
-  "sha256": "b2814cd3777ee372e42898404396ec6c9f5ebfd631a2e7c394f03644cbf898cd",
-  "sizeBytes": 13638979,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.20.apk",
-  "notes": "New Settings > Library > Show Adult categories switch. Hide or restore Adult categories and their titles across browsing, search, My List and Home. Saves automatically and persists after restarting. Saved logins, history, Home design, player and updater retained."
+  "versionCode": 34,
+  "versionName": "0.3.22",
+  "sha256": "8f82bb7aaeeb5a5d2a93b1b768b565aba874ebe623ca8432839d4c42a2807c09",
+  "sizeBytes": 13640675,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.22.apk",
+  "notes": "Settings now uses a gear icon. In-app branding uses a crisp scalable fox mark and live lettering instead of the tiny bitmap badge, including the loading screen. Launcher artwork is unchanged. Saved logins, Adult visibility, history, Home design, player and updater are retained."
 }

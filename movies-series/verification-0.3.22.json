@@ -1,0 +1,86 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.22",
+  "versionCode": 34,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.22.apk",
+  "sizeBytes": 13640675,
+  "sha256": "8f82bb7aaeeb5a5d2a93b1b768b565aba874ebe623ca8432839d4c42a2807c09",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.22-source.zip",
+  "sourceArchiveSha256": "17534bd8753b65184cb3589f10cd1dfb09189f1cece9bcd1e7df89ae37c1bc8c",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 254,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 144,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home layout/library paging",
+    "player/native audio",
+    "updater/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "brandingScope": "Inside Movies & Series only",
+  "launcherIconsAndBannersUnchanged": true,
+  "inAppLogo": "Scalable orange/navy/white fox vector with live brand text",
+  "android12SplashUsesVector": true,
+  "improvements": [
+    "Settings text replaced by an accessible gear",
+    "scalable branding on all five in-app logo surfaces",
+    "live splash wordmark instead of bitmap lettering",
+    "Android 12 system splash branding without changing launcher icons"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/channels/ChannelsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/splash/SplashScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/theme/CinemaComponents.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/wizard/WelcomeScreen.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomePhoneNavigationTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "versionName": "0.3.22",
+    "versionCode": 34,
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "homeAndLibraryGearVisibleWithoutSettingsText": true,
+    "accessibilityLabel": "Settings",
+    "gearTargetDp": 48,
+    "remoteFocusAndOpenSettings": true,
+    "settingsBackRestoresGearFocusAndBounds": true,
+    "vectorBrandingVisuallyReviewedOnHomeAndLibrary": true,
+    "liveWordmarkRetained": true,
+    "android12SystemSplashResourcesCompiled": true,
+    "launcherIconsAndBannersUnchanged": true,
+    "adultVisibilityControlRetained": true,
+    "preferencesEdited": false,
+    "savedAccountThemeAndLibraryRetained": true,
+    "providerPlaybackInitiated": false,
+    "firestickOrPhoneCommandsIssued": false,
+    "limitations": [
+      "Phone touch was tested automatically; no physical-phone playback was tested.",
+      "Android 12 startup resources were compiled; the transient system splash was not separately verified on physical phones.",
+      "No provider playback was started.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}
