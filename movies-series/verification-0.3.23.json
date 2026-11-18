@@ -1,0 +1,85 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.23",
+  "versionCode": 35,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.23.apk",
+  "sizeBytes": 13820487,
+  "sha256": "f96d7690f3ab31a99d88119bd66ed8b80afc1bd2746f99976e6a6818cb0c1a57",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.23-source.zip",
+  "sourceArchiveSha256": "4f1e2d56d57310dc65a59dc162195a540225a85a7b823cb8656e667082648e7b",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 254,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 145,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home layout/library paging",
+    "player/native audio",
+    "updater/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoRestoredByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "restore the exact original badge on all in-app logo surfaces",
+    "keep the Settings gear",
+    "use the largest original image without changing its design"
+  ],
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/channels/ChannelsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/splash/SplashScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/theme/CinemaComponents.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/wizard/WelcomeScreen.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomePhoneNavigationTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "New Tanix TX68",
+    "versionName": "0.3.23",
+    "versionCode": 35,
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "homeAndLibraryGearVisibleWithoutSettingsText": true,
+    "accessibilityLabel": "Settings",
+    "gearTargetDp": 48,
+    "remoteFocusAndOpenSettings": true,
+    "settingsBackRestoresGearFocusAndBounds": true,
+    "originalLogoVisuallyReviewedOnHomeAndLibrary": true,
+    "originalArtworkSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+    "originalArtworkUnmodified": true,
+    "rejectedRedesignRemoved": true,
+    "adultVisibilityControlRetained": true,
+    "preferencesEdited": false,
+    "savedAccountThemeAndLibraryRetained": true,
+    "providerPlaybackInitiated": false,
+    "firestickOrPhoneCommandsIssued": false,
+    "limitations": [
+      "Phone touch was tested automatically; no physical-phone playback was tested.",
+      "No provider playback was started.",
+      "Earlier Tanix 4K reset/heat issue remains unresolved."
+    ]
+  }
+}

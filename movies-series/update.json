@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 34,
-  "versionName": "0.3.22",
-  "sha256": "8f82bb7aaeeb5a5d2a93b1b768b565aba874ebe623ca8432839d4c42a2807c09",
-  "sizeBytes": 13640675,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.22.apk",
-  "notes": "Settings now uses a gear icon. In-app branding uses a crisp scalable fox mark and live lettering instead of the tiny bitmap badge, including the loading screen. Launcher artwork is unchanged. Saved logins, Adult visibility, history, Home design, player and updater are retained."
+  "versionCode": 35,
+  "versionName": "0.3.23",
+  "sha256": "f96d7690f3ab31a99d88119bd66ed8b80afc1bd2746f99976e6a6818cb0c1a57",
+  "sizeBytes": 13820487,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.23.apk",
+  "notes": "Restores the exact original ShadowFoxTV Movies & Series badge and original loading-screen presentation. The artwork, lettering and colours are unchanged. Uses the largest existing original bitmap without density downsampling or enlargement. Settings gear, saved logins, Adult visibility, history, player and updater retained."
 }
