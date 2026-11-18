@@ -1,0 +1,35 @@
+{
+  "mode": "built-in imagegen",
+  "collection": [
+    {
+      "file": "ShadowFoxTV-Studio-Wallpaper.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fe60b57d056ba8cbdb1625dd942b37ab563bd6107362e8689b4aede391e590f8"
+    },
+    {
+      "file": "ShadowFoxTV-Obsidian-Silk.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5e5a87e5e6346ad7bc413f17b98ddc85dab16060c0e85320157ce53a7fef1aa1"
+    },
+    {
+      "file": "ShadowFoxTV-Forged-Titanium.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "baa72eb39ad9c5ed1ed0a7d80e27c00438d90ede91a127bc7b0088cc6f812252"
+    },
+    {
+      "file": "ShadowFoxTV-Glacial-Prism.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "518a7e8cd8f229761ec43f87c51909695e13a275143fad3a33d08c6eaf4a8c5b"
+    },
+    {
+      "file": "ShadowFoxTV-Liquid-Copper.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b24318c501232f08c58e789f51ad4eb8c4ed9eee56e89ed18381137fd60dc6df"
+    }
+  ]
+}

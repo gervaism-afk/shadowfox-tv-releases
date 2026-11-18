@@ -1,0 +1,39 @@
+{
+  "checksPassed": [
+    "In-place 1.6.2 update retains saved Rounded font and Studio wallpaper",
+    "Only the five owner-selected wallpapers appear in Exclusive selector",
+    "Browsing and Back leave wallpaper unchanged",
+    "All five previews apply and render on 1920x1080 Home",
+    "Selection survives cold restart and is highlighted in selector",
+    "Remote navigation reaches list, Apply and Back",
+    "Original artwork and theme background remain usable",
+    "Installed APK bytes match the tested artifact",
+    "No launcher crash recorded",
+    "All five Home screenshots visually checked for readable header, logo clearance and app dock",
+    "Only selected artwork is packaged; unused generated concepts excluded",
+    "Packaged selected wallpapers preserve original image dimensions and pixels",
+    "Existing logo, banner, Studio and original stock wallpaper match the previous APK",
+    "APK signature and ZIP integrity verified",
+    "Source ZIP excludes signing material and build output"
+  ],
+  "testPlatform": "Disposable Android TV API 36 emulator",
+  "display": "1920x1080 at density 320",
+  "physicalDeviceTested": false,
+  "version": "1.7.0",
+  "versionCode": 26,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "713b3178644ce2fdef1bbcdfc33f783707a1b5525a573a239fd0b70ff56b50df",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "wallpaperGenerationTool": "built-in imagegen",
+  "collection": [
+    "Studio",
+    "Obsidian Silk",
+    "Forged Titanium",
+    "Glacial Prism",
+    "Liquid Copper"
+  ],
+  "nativeWallpaperSize": [
+    1672,
+    941
+  ]
+}

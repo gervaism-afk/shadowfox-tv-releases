@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 25,
-  "versionName": "1.6.2",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.6.2.apk",
-  "sha256": "1b5877f8c5411c58ce8d13f2b89e5efe1a7345bdc116736ae07b6c2c16c7d31a",
-  "notes": "New Studio wallpaper with your ShadowFox TV logo, graphite glass and blue/amber lighting. Choose Wallpaper → Studio wallpaper. Original artwork remains available, and existing saved wallpaper choices and customization are retained."
+  "versionCode": 26,
+  "versionName": "1.7.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.0.apk",
+  "sha256": "713b3178644ce2fdef1bbcdfc33f783707a1b5525a573a239fd0b70ff56b50df",
+  "notes": "ShadowFox Exclusive Wallpapers: large previews, thumbnail browsing and an Apply button. Includes your selected Studio, Obsidian Silk, Forged Titanium, Glacial Prism and Liquid Copper designs. Open Settings > Wallpaper > ShadowFox Exclusive Wallpapers. Browsing does not change Home until Apply. Keeps your current wallpaper and saved setup."
 }
