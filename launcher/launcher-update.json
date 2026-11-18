@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 30,
-  "versionName": "1.7.4",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.4.apk",
-  "sha256": "7b4204c65e8b23db82b2e89c1bb8bbe30172342ffded26e15ec22b16940a41e1",
-  "notes": "Fire TV compatibility: fixes missing-certificate update errors and narrow or clipped settings dialogs. Keeps download hash, package/version and signer checks enabled. Settings, option panels and wallpaper selection now use the full intended space. Keeps your saved launcher setup."
+  "versionCode": 31,
+  "versionName": "1.7.5",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.5.apk",
+  "sha256": "d03d92614de201dca92b165f042b833b2f57549d21e5d1fea0118dc372897546",
+  "notes": "Fixes category shelves staying expanded over the wallpaper after pressing Up back to the header. Header focus now restores the main Home view. Keeps category names, app assignments, wallpaper, icons and saved setup."
 }

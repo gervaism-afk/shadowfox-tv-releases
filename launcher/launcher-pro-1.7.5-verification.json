@@ -1,0 +1,46 @@
+{
+  "version": "1.7.5",
+  "versionCode": 31,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "d03d92614de201dca92b165f042b833b2f57549d21e5d1fea0118dc372897546",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API 34 / 1920x1080 density 240",
+  "categoryCounts": {
+    "Music Apps": 3,
+    "Video Apps": 6,
+    "Tools & Settings": 10
+  },
+  "cycles": [
+    {
+      "bottomFocus": "FileBrowser",
+      "upFocusSequence": [
+        "YouTube",
+        "Music",
+        "Platinum Player",
+        "Launcher settings"
+      ],
+      "restoredFirstAppY": 821
+    },
+    {
+      "bottomFocus": "FileBrowser",
+      "upFocusSequence": [
+        "YouTube",
+        "Music",
+        "Platinum Player",
+        "Launcher settings"
+      ],
+      "restoredFirstAppY": 821
+    }
+  ],
+  "checksPassed": [
+    "Reproduced 1.7.4 header focus with first app stuck at y=150 after returning from bottom category",
+    "In-place 1.7.5 update retains original install identity and existing categories",
+    "Up navigates back through category rows and restores Home when header is reached",
+    "Repeated category expansion and collapse restores identical first-row position",
+    "Header focus change keeps the Home overview restored",
+    "Settings Back returns to a collapsed Home view",
+    "No categories, app assignments, icon artwork or layout preferences edited",
+    "Installed APK matches tested build"
+  ]
+}
