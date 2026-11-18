@@ -1,0 +1,40 @@
+{
+  "version": "1.7.3",
+  "versionCode": 29,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "c38d8699b046ffc389cf88b5eb46a77596c358d02f44c534490274a8bfb42ed4",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Amazon AFTHA004 Fire OS API 28",
+  "platformProbe": {
+    "device": "Amazon AFTHA004 / Fire OS API 28",
+    "installedLauncher": "1.4.9",
+    "archiveTested": "1.7.2",
+    "expectedSignerSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+    "modernFlagOnly": {
+      "installedSignerPresent": true,
+      "apkArchiveSignerPresent": false,
+      "tmpArchiveSignerPresent": false
+    },
+    "legacyFlagOnly": {
+      "installedSignerMatches": true,
+      "apkArchiveSignerMatches": true,
+      "tmpArchiveSignerMatches": true
+    },
+    "combinedFlags": {
+      "installedModernAndLegacyMatch": true,
+      "apkArchiveModernAndLegacyMatch": true,
+      "tmpArchiveModernAndLegacyMatch": true
+    }
+  },
+  "checksPassed": [
+    "Reproduced missing signing certificate on installed 1.4.9 during download",
+    "Installed 1.4.9 and downloaded 1.7.2 have the same signing certificate",
+    "Physical Fire TV probe reproduces missing archive certificate with modern flag alone",
+    "Legacy and combined signature flags return the expected certificate for .apk and .tmp archives",
+    "In-place signed repair bridge installed; first install identity retained",
+    "SHA-256, package/version and exact nonempty signer-set checks remain enforced",
+    "All packaged artwork matches 1.7.2",
+    "APK signature and APK/source ZIP integrity verified"
+  ]
+}

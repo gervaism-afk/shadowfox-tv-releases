@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 28,
-  "versionName": "1.7.2",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.2.apk",
-  "sha256": "f330973e17312346cd433a3aa1b263dd71be55b97a1119b95fc1c0f6419fd945",
-  "notes": "Removes the rounded launcher boxes around individual app icons. The selected app uses a small blue/amber underline. Actual app artwork stays unchanged. Restore boxes under Settings > Home screen > App tile boxes. Keeps your wallpaper, transparency percentages and saved setup."
+  "versionCode": 29,
+  "versionName": "1.7.3",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.3.apk",
+  "sha256": "c38d8699b046ffc389cf88b5eb46a77596c358d02f44c534490274a8bfb42ed4",
+  "notes": "Fixes Fire TV updates reporting that the APK has no signing certificate. Adds compatible certificate metadata lookup while keeping download hash, package/version and signer matching checks. Keeps your saved launcher setup and the latest transparency and box-free icon options."
 }
