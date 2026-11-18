@@ -1,24 +1,20 @@
-# ShadowFoxTV Launcher Pro 1.6.0
+# ShadowFoxTV Launcher Pro 1.6.1
 
-Version code 23 · package `com.shadowfox.tvlauncher.review`.
+Version code 24 · package `com.shadowfox.tvlauncher.review`.
 
-Home now uses a translucent graphite header and app dock, a framed brand emblem, shelf accents and app counts. The focused app lifts slightly inside a blue-to-amber outline. Header controls use matching shaped surfaces. The original stock 4K wallpaper and custom wallpaper choices remain available.
+This update makes the 1.6.0 glass design more transparent. With a wallpaper selected, the Home header uses approximately 39% opacity and the app dock 37%. The lower-screen shading is also lighter so more artwork remains visible. Focused controls retain a stronger tint and the existing blue-to-amber border for readability.
 
-Settings, option pickers and app checklists share layered surfaces, blue highlights and warm accents. The settings header includes a small preview of the actual Home screen, including its saved wallpaper, font, app layout and artwork. This preview is generated locally when settings opens and released when the page closes; it is never uploaded. Setting rows use control symbols and separate value badges.
+Settings now renders its translucent surfaces above your wallpaper, with lighter category, heading and option surfaces. The wallpaper is shown without the Home header or app labels behind the settings text. Option panels use less background dimming, and app selectors and icon browsing share the more transparent materials. Plain Home colour themes and the user's individual app-tile background choice retain their existing behaviour.
 
-No preference migration is required. Existing themes, fonts, labels, groups, app order, artwork, icon packs, wallpaper and layout choices retain their existing keys. Both light and dark Home themes are supported. The in-app updater retains its existing HTTPS feed, checksum verification, package/version checks and signing-certificate verification.
+The original stock wallpaper, custom wallpaper, saved fonts, app names, groups, ordering, icons and Home layout are retained. The small Home preview stays local to the device. The existing in-app update feed and package/signature checks are unchanged.
 
-## Delivery
+## Install and build
 
-Normal delivery is through the launcher's built-in update feed. APK and source copies are backups. Install over the existing launcher without uninstalling or clearing its data.
+Normal delivery is through the launcher's in-app updater. APK and source files are backup copies. Update the existing app without uninstalling or clearing data.
 
-## Build on Windows
+To build on Windows, use Python 3, a Java JDK, Android SDK platform 35 and build-tools 35.0.0. Set `JAVA_HOME` and `ANDROID_HOME` if needed. Set `SHADOWFOX_SIGNING_DIR` to a private directory containing the existing `shadowfox-home.p12` and `password.txt`, then run `python build_launcher_review.py`.
 
-Requires Python 3, a Java JDK, Android SDK platform 35 and build-tools 35.0.0. Set `JAVA_HOME` and `ANDROID_HOME` if needed. Set `SHADOWFOX_SIGNING_DIR` to the private directory containing the existing `shadowfox-home.p12` and `password.txt`. Run `python build_launcher_review.py`. Signing material and copied device data are excluded from this archive.
+The signed output is `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.6.1.apk`. Private signing material and copied device data are excluded from this source archive.
 
-The output is `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.6.0.apk`. The release retains the ShadowFox TV Home signing identity so it can update existing installations.
-
-## Verification scope
-
-Visual and remote-navigation checks use an isolated, disposable Android TV API 36 emulator. Screenshots show temporary test preferences. Physical TV hardware has not been tested for this release. See the separate release verification report for completed checks and the APK digest.
+Visual and navigation checks use an isolated Android TV emulator. The physical TV box has not been tested for this release. See the separate release verification report for completed checks and file hashes.
 

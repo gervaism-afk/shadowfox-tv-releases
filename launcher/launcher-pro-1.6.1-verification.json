@@ -1,0 +1,24 @@
+{
+  "version": "1.6.1",
+  "versionCode": 24,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "b1a661b38dad4b1ef03e7f763893bc4cd0934f20ef6d209fd1701bb8a31cfcef",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "testPlatform": "Android TV API 36 disposable emulator at 1920x1080",
+  "physicalDeviceTested": false,
+  "homeHeaderOpacity": 0.39215686274509803,
+  "homeDockOpacity": 0.3686274509803922,
+  "checksPassed": [
+    "In-place update over 1.6.0",
+    "Saved Rounded font retained",
+    "Transparent Home header and dock visually inspected",
+    "Settings show wallpaper without duplicate Home controls",
+    "Settings contrast inspected against a light theme background",
+    "Nested option panel Back restores control focus",
+    "APK signature and ZIP verification",
+    "Stock wallpaper bytes unchanged",
+    "Delivered APK matches emulator-installed bytes",
+    "Crash buffer empty"
+  ]
+}
+

@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 23,
-  "versionName": "1.6.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.6.0.apk",
-  "sha256": "8ed02a4693eec6eae8dfca8913b12117925c2982ecc5fb75f93c59fd2de9c88f",
-  "notes": "A richer ShadowFox look: glass Home header and app dock, blue and amber focus outlines, layered settings surfaces and a preview of your own Home setup. Matching app pickers and icon browsing. Retains your wallpaper, themes, app names, groups, artwork and saved layout."
+  "versionCode": 24,
+  "versionName": "1.6.1",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.6.1.apk",
+  "sha256": "b1a661b38dad4b1ef03e7f763893bc4cd0934f20ef6d209fd1701bb8a31cfcef",
+  "notes": "More transparent Home header and app dock, with lighter shading to reveal your wallpaper. Settings and option panels now use lighter glass surfaces over your wallpaper, with readable text and clear blue/amber focus. Keeps your saved setup."
 }
