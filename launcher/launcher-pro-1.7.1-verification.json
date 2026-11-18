@@ -1,0 +1,28 @@
+{
+  "version": "1.7.1",
+  "versionCode": 27,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "3241f7255aa543c57c727313bc20c813701ede7bb2d5fcfd1c2efed341195293",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "testPlatform": "Disposable Android TV API 36 emulator",
+  "display": "1920x1080 at density 320",
+  "physicalDeviceTested": false,
+  "checksPassed": [
+    "In-place 1.7.0 upgrade retains Rounded font and Liquid Copper wallpaper",
+    "Home transparency defaults On with separate 75% banner and app-box values",
+    "100% removes material fill and keeps focus outline",
+    "Master Off produces solid backgrounds and retains saved percentages",
+    "Toggle and percentages persist after cold restart",
+    "Re-enabling restores saved percentages",
+    "0% matches master Off",
+    "Banner 25% and app boxes 90% can be set independently and persist",
+    "Screenshot samples verify changing backgrounds without fading the app icon",
+    "Appearance reset restores transparency defaults",
+    "Installed APK matches tested build",
+    "No launcher crash recorded",
+    "Home and settings screenshots visually inspected at 1080p",
+    "All packaged artwork resources match 1.7.0 exactly",
+    "APK signature uses the existing certificate",
+    "APK and source ZIP integrity verified; source excludes signing material"
+  ]
+}

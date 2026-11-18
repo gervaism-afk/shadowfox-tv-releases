@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 26,
-  "versionName": "1.7.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.0.apk",
-  "sha256": "713b3178644ce2fdef1bbcdfc33f783707a1b5525a573a239fd0b70ff56b50df",
-  "notes": "ShadowFox Exclusive Wallpapers: large previews, thumbnail browsing and an Apply button. Includes your selected Studio, Obsidian Silk, Forged Titanium, Glacial Prism and Liquid Copper designs. Open Settings > Wallpaper > ShadowFox Exclusive Wallpapers. Browsing does not change Home until Apply. Keeps your current wallpaper and saved setup."
+  "versionCode": 27,
+  "versionName": "1.7.1",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.1.apk",
+  "sha256": "3241f7255aa543c57c727313bc20c813701ede7bb2d5fcfd1c2efed341195293",
+  "notes": "Adjustable Home transparency: switch the banner and app boxes On or Off, with independent intensity settings from 0% solid to 100% clear. Open Settings > Home screen > Transparency. Text, icons and remote focus stay visible. Off keeps your saved percentages for next time. Keeps your wallpaper and saved setup."
 }
