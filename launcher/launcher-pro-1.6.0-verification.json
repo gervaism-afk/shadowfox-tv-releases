@@ -27,10 +27,24 @@
     "Deliverable APK matches the emulator-installed APK",
     "Emulator crash buffer empty",
     "Seven-across layout setting applies",
-    "Icons-only Home renders correctly"
+    "Icons-only Home renders correctly",
+    "Published 1.6.0 detected by 1.5.0 in the app",
+    "In-app download passes APK hash, signature, package and version checks",
+    "Android installer updates 1.5.0 to 1.6.0",
+    "Saved Rounded font survives actual in-app upgrade",
+    "Installed in-app APK bytes match tested release"
   ],
   "testedResolutions": [
     "1920x1080 at density 320",
     "1280x720 at density 213"
-  ]
+  ],
+  "publishedToUpdateFeed": true,
+  "publicationCommit": "8a2b51300c68d601a8b3422ce47f6d041eb66c1a",
+  "publicFeedVerified": true,
+  "publicApkVerified": true,
+  "publicSourceVerified": true,
+  "inAppDownloadAndVerificationPassed": true,
+  "androidInstallerUpgradePassed": true,
+  "inAppInstalledApkMatchesTestedBuild": true,
+  "inAppUpgradeRetainsSavedFont": true
 }
