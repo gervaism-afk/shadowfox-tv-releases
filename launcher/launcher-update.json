@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 22,
-  "versionName": "1.5.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.5.0.apk",
-  "sha256": "35465851b9a0d8c8445b3ae4a408835de23481ad63edfbe4517841cc13184de0",
-  "notes": "Rebuilt full-screen settings with six organised sections, clear current values, matching option screens and visible remote focus. Keeps your apps, groups, artwork and saved setup. Back from Android device settings returns to the launcher settings page."
+  "versionCode": 23,
+  "versionName": "1.6.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.6.0.apk",
+  "sha256": "8ed02a4693eec6eae8dfca8913b12117925c2982ecc5fb75f93c59fd2de9c88f",
+  "notes": "A richer ShadowFox look: glass Home header and app dock, blue and amber focus outlines, layered settings surfaces and a preview of your own Home setup. Matching app pickers and icon browsing. Retains your wallpaper, themes, app names, groups, artwork and saved layout."
 }

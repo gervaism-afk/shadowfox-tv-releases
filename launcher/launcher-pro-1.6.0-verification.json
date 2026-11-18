@@ -1,0 +1,36 @@
+{
+  "version": "1.6.0",
+  "versionCode": 23,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "8ed02a4693eec6eae8dfca8913b12117925c2982ecc5fb75f93c59fd2de9c88f",
+  "sameSigningCertificateAs1_5_0": true,
+  "platform": "Android TV API 36 disposable emulator",
+  "physicalDeviceTested": false,
+  "stockWallpaperUnchanged": true,
+  "existingPreferenceKeysRetained": true,
+  "checksPassed": [
+    "In-place update over 1.5.0",
+    "Saved font retained while updating the final visual build",
+    "Full-screen settings and Home preview render at 1080p",
+    "Blue and amber focus outline renders on Home and settings",
+    "Light theme applies and returns focus to originating setting",
+    "Light-theme header controls remain readable when focused",
+    "Light Home app labels and category heading remain readable",
+    "Scrolling reaches the final Home-screen setting",
+    "Nested app checklist Cancel preserves selection",
+    "Nested app checklist Save applies selection",
+    "APK signature and ZIP verification",
+    "Home dismisses settings dashboard",
+    "Home dismisses nested option picker",
+    "720p app rail reaches the final app",
+    "All six settings sections are reachable at 720p",
+    "Deliverable APK matches the emulator-installed APK",
+    "Emulator crash buffer empty",
+    "Seven-across layout setting applies",
+    "Icons-only Home renders correctly"
+  ],
+  "testedResolutions": [
+    "1920x1080 at density 320",
+    "1280x720 at density 213"
+  ]
+}
