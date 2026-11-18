@@ -1,17 +1,17 @@
-# ShadowFoxTV Launcher Pro 1.7.1
+# ShadowFoxTV Launcher Pro 1.7.2
 
-Version code 27 · package `com.shadowfox.tvlauncher.review`.
+Version code 28 · package `com.shadowfox.tvlauncher.review`.
 
-Home now has adjustable transparency for its banner, banner controls, app dock and app boxes. Open Settings → Home screen → Transparency. Home transparency switches the backgrounds between transparent and solid. Banner transparency and App box transparency have independent levels: 0%, 25%, 50%, 75%, 90% and 100%. Higher percentages reveal more wallpaper; 0% is solid and 100% removes the material fill. Text, app artwork and the blue-and-amber focus outline stay visible.
+Removes the launcher's rounded background panels around individual app icons. App tile boxes default Off, so unfocused apps have no tile fill or border. The selected app uses a short blue-and-amber underline and the existing slight enlargement. Android's default rectangular focus highlight is disabled for app tiles on supported versions.
 
-Transparency defaults On at 75% for both groups. Turning it Off retains both chosen percentages and shows solid surfaces. While Off, intensity rows show their saved values; changing them updates the saved intensity without enabling transparency. Turning On restores those saved levels. Restore appearance defaults resets all three transparency settings too.
+Native app icon artwork, custom icons and icon-pack images are unchanged. Any shape or background that is part of an app's actual artwork stays intact. This change affects the surrounding launcher panels only, as requested.
 
-These controls replace the previous Tile background choice, so app boxes and the dock follow one intensity without conflicting settings. Wallpaper dimming remains independent. The five ShadowFox Exclusive wallpapers, original artwork, custom images and theme backgrounds remain available. Existing wallpaper, fonts, app labels, icons, groups and app order keep their existing preferences. This release does not request any additional Android permissions.
+Open Settings → Home screen → Transparency → App tile boxes to restore the previous panels. When enabled, they follow the existing App box transparency percentage. Banner and dock transparency remain independent; switching Home transparency Off does not restore individual boxes when App tile boxes is Off. The tile-box choice persists across restarts. Restore appearance defaults returns App tile boxes to Off.
 
-Normal delivery is through the in-app updater. Signed APK and source files are backups. The package and signing identity are unchanged. Verification was performed on a disposable Android TV emulator, not a physical TV box.
+Existing wallpaper, fonts, icon choices, labels, app order, groups and transparency percentages retain their preference keys. ShadowFox Exclusive Wallpapers is unchanged. No additional Android permissions are requested. Normal delivery is through the in-app updater; APK and source files are backups. Package and signing identity are unchanged.
 
 ## Build on Windows
 
 Requires Python 3, a Java JDK, Android SDK platform 35 and build-tools 35.0.0. Set `JAVA_HOME` and `ANDROID_HOME` if needed. Set `SHADOWFOX_SIGNING_DIR` to a private directory containing the existing `shadowfox-home.p12` and `password.txt`, then run `python build_launcher_review.py`.
 
-The output is `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.7.1.apk`. The source archive excludes signing material, device preferences, build outputs and test screenshots.
+Output: `shadowfox-branding/launcher-review/ShadowFoxTV-Launcher-Pro-1.7.2.apk`. The source archive excludes signing material, device preferences, build outputs and test screenshots. Verification uses a disposable Android TV emulator; no physical TV box was tested.

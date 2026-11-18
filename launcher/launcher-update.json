@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 27,
-  "versionName": "1.7.1",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.1.apk",
-  "sha256": "3241f7255aa543c57c727313bc20c813701ede7bb2d5fcfd1c2efed341195293",
-  "notes": "Adjustable Home transparency: switch the banner and app boxes On or Off, with independent intensity settings from 0% solid to 100% clear. Open Settings > Home screen > Transparency. Text, icons and remote focus stay visible. Off keeps your saved percentages for next time. Keeps your wallpaper and saved setup."
+  "versionCode": 28,
+  "versionName": "1.7.2",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.2.apk",
+  "sha256": "f330973e17312346cd433a3aa1b263dd71be55b97a1119b95fc1c0f6419fd945",
+  "notes": "Removes the rounded launcher boxes around individual app icons. The selected app uses a small blue/amber underline. Actual app artwork stays unchanged. Restore boxes under Settings > Home screen > App tile boxes. Keeps your wallpaper, transparency percentages and saved setup."
 }
