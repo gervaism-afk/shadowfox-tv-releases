@@ -38,18 +38,26 @@
     "APK and source archive integrity verified; private repair files excluded",
     "Physical Fire TV wallpaper selector preview and cancel passed",
     "Physical Fire TV option panel and Back passed",
-    "Android TV emulator settings, wallpaper selector and option-panel regression passed"
+    "Android TV emulator settings, wallpaper selector and option-panel regression passed",
+    "Physical Fire TV normal in-app 1.7.4 download and signing verification passed",
+    "Android installer installed 1.7.4 successfully in place",
+    "Installed APK SHA-256 matches the published 1.7.4 build",
+    "Original first-install identity retained from October 14"
   ],
   "fireTvDialogChecks": {
-    "platform": "192.168.2.34:5555",
+    "platform": "Amazon AFTHA004 / Fire OS API 28",
     "fullscreenSettingsPassed": true,
     "wallpaperPreviewAndCancelPassed": true,
     "optionPanelAndBackPassed": true
   },
   "androidTvRegression": {
-    "platform": "emulator-5598",
+    "platform": "Android TV API 36 emulator",
     "fullscreenSettingsPassed": true,
     "wallpaperPreviewAndCancelPassed": true,
     "optionPanelAndBackPassed": true
-  }
+  },
+  "normalInAppUpgradeVerified": true,
+  "installedApkMatchesPublishedBuild": true,
+  "finalVersion": "1.7.4",
+  "firstInstallIdentityRetained": true
 }
