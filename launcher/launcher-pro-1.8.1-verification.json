@@ -1,0 +1,33 @@
+{
+  "version": "1.8.1",
+  "versionCode": 33,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "6850776464d418dbb3f27cabd7fa0c8ab086b7df04ed602c6ab7be53fd28ad7e",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API 34 / 1920x1080 density 240",
+  "visualDirection": "Category labels, app counts and icons float directly over wallpaper; no shelf material or count badge backgrounds",
+  "categoryCounts": {
+    "ShadowFox TV Apps": 5,
+    "Music Apps": 3,
+    "Video Apps": 6,
+    "Tools & Settings": 10
+  },
+  "checksPassed": [
+    "Existing categories and app assignments retained after in-place update",
+    "Category labels display beside the icon rails",
+    "Active-category position updates from 1 / 10 to 8 / 10 during horizontal scrolling",
+    "All ten apps remain reachable in the longest category",
+    "Up navigation crosses uneven category sizes and restores Home at the header",
+    "First shelf returns to the identical Home position",
+    "Settings Back restores Home",
+    "Icon artwork and individual box-free presentation retained",
+    "Installed APK matches tested build",
+    "Final appearance visually reviewed on the Tanix: no category panels, outlines, shadows, dividers or count badges",
+    "Installed package reports version 1.8.1, code 33",
+    "Final APK verified with the existing release signing certificate",
+    "APK resources match 1.8.0 byte for byte",
+    "Source archive integrity verified; signing secrets and device data excluded"
+  ],
+  "horizontalFarFocus": "MiracastReceiver"
+}

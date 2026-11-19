@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 32,
-  "versionName": "1.8.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.8.0.apk",
-  "sha256": "f05423ce288cb868ca68f931d80ea92059a973d9a86183b61a0daa9e2883aa59",
-  "notes": "New glass category shelves with rounded translucent surfaces, soft depth, illuminated edges and a blue-and-amber active accent. Category names and app counts sit beside the icons. Keeps icons free of launcher boxes, respects transparency, and preserves Up-to-Home navigation. Your categories, app assignments, artwork and saved setup are retained."
+  "versionCode": 33,
+  "versionName": "1.8.1",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.8.1.apk",
+  "sha256": "6850776464d418dbb3f27cabd7fa0c8ab086b7df04ed602c6ab7be53fd28ad7e",
+  "notes": "Categories now float directly over your wallpaper. Removed the glass row panels, borders, shadows, dividers and count badges. Keeps clear category labels, active app counts and box-free icons, with the existing scrolling and Up-to-Home behavior. Your categories, app assignments, artwork and saved setup are retained."
 }
