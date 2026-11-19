@@ -1,32 +1,26 @@
-# ShadowFoxTV Launcher Pro 2.2.0
+# ShadowFoxTV Launcher Pro 2.3.0
 
-Version code 38 · package `com.shadowfox.tvlauncher.review`.
+Version code 39 · package `com.shadowfox.tvlauncher.review`.
 
-Home has a new quick-launch area, simpler navigation and a more compact layout. The existing ShadowFox header and static wallpaper are retained. Selection details use the space that was previously empty: an app's name/category, or a recommendation's title/source. The Open action follows that selection. At Home, Quick launch uses the chosen app, or the first visible app when no choice has been saved.
+## Landing screen
 
-## Quick launch and Home order
+Home and Apps now have matching vector icons and clear focus states. The wallpaper shortcut on the right and the Hold OK for options caption have been removed. App options remain available with MENU or a long press, and wallpapers remain available through Settings.
 
-Hold OK or press MENU on an app, then choose Set Quick launch. The selected app is remembered independently of app order, including after a cold start. Hidden or uninstalled choices fall back to the first visible app.
+Your apps sits near the bottom of the first viewport. Its position uses the measured viewport and actual text/icon sizes, including the larger header. Recently opened starts below that viewport and appears when scrolling down. It uses the same app-icon renderer, tile dimensions, labels, opacity and focus treatment as Your apps.
 
-Settings → Home screen → Home content offers Recommendations first and Apps first. Both orders retain Quick launch, app shortcuts and shared recommendation rows. Recommendations first is the default. Continue watching and Recently opened are separate rows and can both appear.
+Spotify-owned shared recommendation channels and Watch Next records are filtered. The installed Spotify app and its recent-launch shortcut remain available. Other installed apps can still provide shared programs in the scrolling content below Your apps. No replacement featured-app banner is inserted into the space left by Spotify.
 
-## Artwork and navigation
+Settings → Home screen → Home content now orders the lower rows: Recommendations first or Recently opened first. Your apps stays on the first screen in both cases. Quick launch, saved categories, app assignments, custom icons and existing app order remain in use.
 
-Poster images retain their proportions instead of being cropped into wide cards. Provider aspect hints set the initial size; decoded image dimensions refine it while preserving the focused item. Captions sit below the artwork, with fuller selection details above. Movie banners stay wide; square covers use square frames. Missing artwork uses its installed app's icon. HTTPS poster redirects are limited and remain HTTPS.
+## Header and text
 
-App artwork is fitted from its visible alpha bounds. Transparent wordmarks become easier to read, and detailed app logos retain their artwork. Simple native icon backgrounds can keep a circular mask. Turning app tile boxes Off now removes the launcher-added icon background completely; optional backgrounds still use the saved opacity. Focus rings remain visible independently of opacity. Original icon files and icon-pack preferences are retained.
+The header is 70 dp tall, increased from 56 dp, with a larger emblem, brand title, clock and date. The content inset is adjusted so Home and Apps remain clear of the header. The website www.shadowfoxtv.ca sits directly under the centred MORE THAN ENTERTAINMENT slogan. Amber/cyan text accents and a subtle text shadow match the ShadowFox palette. The existing Brand lettering setting still controls the main wordmark; ShadowFox colours was selected on the owner's Tanix as requested.
 
-Home and Back reset horizontal app/content rails to their beginnings. Pressing Home or Back on an already-visible Home page resets its position without rebuilding it. App menus restore the originating control after Cancel, and provider refreshes retain the focused item when it remains available. Category headings show the selected category and its visible app count. Empty categories keep their Choose apps action.
+The owner's currently selected custom wallpaper is retained. Backgrounds remain static. The seven Exclusive Wallpapers and their assets are unchanged.
 
-## Recommendations, wallpaper and compatibility
+## Compatibility and data
 
-Recommendations are read from installed apps through Android TV's system provider when permitted. Enable Settings → Apps & groups → App recommendations to allow TV-listing access. Without accessible shared rows, Featured apps provides real installed-app shortcuts. Watch Next CONTINUE records supply Continue watching; actual successful launcher app launches supply Recently opened. No catalog or viewing history is fabricated.
-
-Program cards and their contextual Open action restrict deep links to the publishing installed app, with normal app launch as fallback. The TV provider remains read-only. Background images remain static, with no autoplay or background video. [Android's PreviewPrograms reference](https://developer.android.com/reference/android/media/tv/TvContract.PreviewPrograms) documents the poster-aspect metadata used here.
-
-All seven Exclusive Wallpapers remain available, including Midnight Flow and Cosmic Horizon, with existing wallpaper selections retained. App dashboard and Logo dock remain available in Home layout settings. Saved categories, assignments, ordering, labels, hidden apps, artwork, typography and transparency settings are retained.
-
-The existing Fire TV update-signature compatibility fix, release signing identity and custom-dialog compatibility fix remain unchanged.
+The release signing identity, update verification, Fire TV custom-dialog compatibility, wallpaper selector and app-artwork renderer are unchanged. Existing app/user data is retained. No new permissions are requested. TV recommendation access remains read-only and optional.
 
 ## Build on Windows
 

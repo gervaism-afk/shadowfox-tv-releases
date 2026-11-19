@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 38,
-  "versionName": "2.2.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.2.0.apk",
-  "sha256": "5ae90cd21dbc9dac4ff2ebc42728ad41167b28517b30f112b6096ca26e571113",
-  "notes": "A refined Google TV-style Home: useful Quick launch and selection details, simpler navigation, complete poster artwork with separate captions, and clearer app logos. Hold OK or press MENU on an app and choose Set Quick launch. Home content settings offer Apps first or Recommendations first. Home and Back reset the app/content rows to their beginnings, and menus restore the selected control after Cancel. Selected categories now show their own app count. App tile boxes Off removes launcher-added backgrounds completely. Your header, static wallpaper, saved apps, groups, artwork and settings are retained."
+  "versionCode": 39,
+  "versionName": "2.3.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.3.0.apk",
+  "sha256": "d0f0b23d4736b9d325c305486fd34188121ba17d4d49dded2bf9bc71d110651d",
+  "notes": "A cleaner landing screen: Spotify recommendations removed, improved Home/Apps icons, and no top-right wallpaper shortcut or Hold OK caption. Your apps sits near the bottom of the first screen; Recently opened appears after scrolling and uses matching app icons. A taller header adds www.shadowfoxtv.ca below the centre slogan, with larger branding and amber/cyan accents. Your selected wallpaper, app assignments, artwork and categories are retained. Wallpapers remain in Settings."
 }

@@ -1,0 +1,63 @@
+{
+  "version": "2.3.0",
+  "versionCode": 39,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "d0f0b23d4736b9d325c305486fd34188121ba17d4d49dded2bf9bc71d110651d",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API 34 / 1920x1080 density 240",
+  "visibleAppCount": 25,
+  "headerWebsite": "www.shadowfoxtv.ca",
+  "headerHeightDp": 70,
+  "previousHeaderHeightDp": 56,
+  "requestedBrandPreference": "ShadowFox colours, selected through normal Appearance settings",
+  "firstScreenYourAppsTopPx": 783,
+  "appTileSizePx": [
+    189,
+    195
+  ],
+  "recentTileSizePx": [
+    189,
+    195
+  ],
+  "checksPassed": [
+    "Website sits directly below the centred header slogan",
+    "Taller header and requested brand colours visually reviewed",
+    "Home and Apps have sharp vector icons and working focus states",
+    "Wallpaper shortcut and Hold OK hint removed from landing navigation",
+    "Your apps sits near the bottom of the first screen with full labels visible",
+    "Recently opened is outside the initial viewport and appears after Down from Your apps",
+    "Recently opened uses matching icon tile sizes and artwork treatment",
+    "Spotify app remains available in Apps",
+    "App options and Quick launch remain reachable",
+    "Wallpaper selector remains available through Settings",
+    "Back and cold startup restore the clean first screen",
+    "Saved custom wallpaper retained",
+    "Installed APK matches the tested release build",
+    "All packaged image resources verified byte-identical to 2.2.0",
+    "Existing update verification, Fire TV dialog compatibility and icon renderer implementations unchanged",
+    "No new permissions requested",
+    "Existing release certificate verified on final APK",
+    "Source ZIP excludes signing material, device data and test fixtures"
+  ],
+  "androidTvLayoutCheck": {
+    "apkSha256": "d0f0b23d4736b9d325c305486fd34188121ba17d4d49dded2bf9bc71d110651d",
+    "platform": "Android TV API 36 / 1280x720 density 160 and 1920x1080 density 320",
+    "typography": "Standard and Large / Rounded",
+    "controlledFixturesRemoved": true,
+    "checksPassed": [
+      "Controlled Spotify-owned browsable channel and Watch Next records are filtered",
+      "Spotify app remains available in the app library and actual recent launches",
+      "Other installed apps can still display shared programs below the landing screen",
+      "Non-Spotify program opens its correct owner app and item",
+      "Recently opened stays below the first viewport at two display profiles",
+      "Your apps remains fully visible near the bottom with Large typography",
+      "Recently opened uses identical icon tile dimensions and artwork renderer",
+      "Website remains centred below the slogan with Large typography",
+      "Home and Apps vector controls work; rightward navigation ends at Apps",
+      "Wallpaper shortcut and Hold OK hint are absent",
+      "Back and cold startup restore the first screen",
+      "Controlled provider fixtures removed from disposable emulator"
+    ]
+  }
+}
