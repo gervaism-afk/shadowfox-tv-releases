@@ -1,0 +1,153 @@
+{
+  "version": "2.5.0",
+  "versionCode": 42,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "f31e826774b185fc9a5cfef67aef79f68839048f9c55384e18d0f697d10962ba",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API34 / 1920x1080 density240",
+  "finalInstall": "In-place background update; the existing foreground app and editor were retained/restored",
+  "categoryCounts": [
+    {
+      "name": "ShadowFox TV Apps",
+      "apps": 6
+    },
+    {
+      "name": "Music Apps",
+      "apps": 3
+    },
+    {
+      "name": "Video Apps",
+      "apps": 5
+    },
+    {
+      "name": "Tools & Settings",
+      "apps": 10
+    }
+  ],
+  "wallpapers": {
+    "folderFiles": 38,
+    "exactDuplicatesMerged": 6,
+    "uniqueAdded": 32,
+    "previousCollection": 7,
+    "totalExclusiveWallpapers": 39,
+    "fullResolutionAssets": true,
+    "originalFilesPreserved": true
+  },
+  "physicalUiValidation": {
+    "version": "2.5.0",
+    "versionCode": 42,
+    "packageName": "com.shadowfox.tvlauncher.review",
+    "apkSha256": "d28510e4d401687b5090c63a5b4cf98d6b7d5f2dc14b8d096efc1bb9eebff16b",
+    "physicalDeviceTested": true,
+    "testPlatform": "Tanix TX68 / Android API34 / 1920x1080 density240",
+    "categoryCounts": [
+      {
+        "name": "ShadowFox TV Apps",
+        "apps": 14
+      },
+      {
+        "name": "Music Apps",
+        "apps": 3
+      },
+      {
+        "name": "Video Apps",
+        "apps": 5
+      },
+      {
+        "name": "Tools & Settings",
+        "apps": 10
+      }
+    ],
+    "wallpapers": {
+      "folderFiles": 38,
+      "exactDuplicatesMerged": 6,
+      "uniqueAdded": 32,
+      "previousCollection": 7,
+      "totalExclusiveWallpapers": 39,
+      "losslessFullSizeAssets": true
+    },
+    "checksPassed": [
+      "All four saved category names, order and app memberships appear on Home without resetting data",
+      "Every category is reachable with Down and horizontal navigation reaches its final assigned app",
+      "Home and Apps library assignments match the pre-update saved setup exactly",
+      "Up crosses category rows and returns to Home",
+      "First category stays near bottom of first screen; later categories and Recently opened remain below it",
+      "39-wallpaper selector opens and can preview new entries through the last 4K image",
+      "Gallery Cancel retains the selected custom wallpaper",
+      "Central wallpaper pixels match the previous version screenshot exactly",
+      "Automatic ISP weather, branded header, artwork and floating app styling retained",
+      "Cold startup preserves the category view and current wallpaper",
+      "Installed APK pulled and hash matches the release build"
+    ]
+  },
+  "optimizedCodeProof": {
+    "dexSha256": "edf6cd918e456d55cea1e8c05c486c782e1bb1cb437065c811df003cb5683bcc",
+    "earlierTestedApkSha256": "db89283372850e1120e82b9309000238a2a3f0e509c0744a82e67cad9ee9b311",
+    "optimizedApkSha256": "f31e826774b185fc9a5cfef67aef79f68839048f9c55384e18d0f697d10962ba",
+    "classesDexIdentical": true
+  },
+  "checksPassed": [
+    "Current saved categories were read from settings without resetting data",
+    "Saved Home category rows, order, horizontal app access and library filters validated on Tanix before image-size optimization",
+    "Final build has byte-identical code to the variant that passed Android category reorder, assignment, recent-launch and navigation tests",
+    "Final wallpaper assets decoded, browsed, applied and cancelled on Android TV with standard and large text",
+    "Final APK installed on Tanix in background; Movies & Series retained foreground",
+    "Installed APK pulled from Tanix and matches the public artifact hash",
+    "Package version 2.5.0/code42 verified after install",
+    "No app data reset, wallpaper change, factory reset or category migration performed",
+    "Previous wallpaper resources are byte-identical to 2.4.0",
+    "Added resources match the optimized asset manifest and pass full-image and central-logo quality checks",
+    "Existing updater/certificate verification, Fire TV dialog compatibility, weather logic, icon renderer and permissions unchanged",
+    "Release certificate verified",
+    "Source ZIP excludes signing material, cached locations/weather, device data and fixtures",
+    "Separate saved Category filter editor restored with keyboard and saved value preserved after background installation"
+  ],
+  "androidTvLayoutCheck": {
+    "apkSha256": "f31e826774b185fc9a5cfef67aef79f68839048f9c55384e18d0f697d10962ba",
+    "platform": "Android TV API36; Standard 1280x720 and Large 1920x1080",
+    "controlledFixturesRemoved": true,
+    "checksPassed": [
+      "All 39 wallpaper resources and 32 thumbnails decode in the final optimized APK",
+      "All full-size image dimensions are retained; quality checks pass and original files are untouched",
+      "39-entry gallery browses to the last wallpaper at two display profiles",
+      "5K wallpaper applies, persists across cold startup, and Cancel retains the current wallpaper",
+      "Large text wallpaper selector navigation works",
+      "Final code byte-for-byte identical to the build that passed saved-category creation, assignment, reorder, recent-launch and navigation tests"
+    ],
+    "unchangedBehaviorProof": {
+      "dexSha256": "edf6cd918e456d55cea1e8c05c486c782e1bb1cb437065c811df003cb5683bcc",
+      "earlierTestedApkSha256": "db89283372850e1120e82b9309000238a2a3f0e509c0744a82e67cad9ee9b311",
+      "optimizedApkSha256": "f31e826774b185fc9a5cfef67aef79f68839048f9c55384e18d0f697d10962ba",
+      "classesDexIdentical": true
+    },
+    "categoryFlowValidation": {
+      "apkSha256": "db89283372850e1120e82b9309000238a2a3f0e509c0744a82e67cad9ee9b311",
+      "platform": "Android TV API36; 1280x720 density160 and 1920x1080 density320; Standard and Large text",
+      "controlledFixturesRemoved": true,
+      "checksPassed": [
+        "All 39 wallpaper originals and 32 thumbnails decode on Android",
+        "39-entry gallery can browse to the last added wallpaper at both display profiles",
+        "5K wallpaper applies, renders without excessive bitmap allocation and persists across cold startup",
+        "Cancel after browsing a different wallpaper retains the current wallpaper",
+        "Saved categories created, assigned and reordered through normal settings appear on Home in that order",
+        "Category rows contain only their assigned apps and use the existing floating icon renderer",
+        "Recently opened remains after category rows and below the first screen",
+        "Up crosses uneven category sizes and returns directly to Home",
+        "Large text category and gallery navigation work",
+        "Cold startup retains saved category order, assignments and wallpaper",
+        "Temporary bitmap fixture uninstalled from the disposable emulator",
+        "Scrolling rows are clipped below the navigation banner",
+        "Panel-style app launch immediately refreshes Recently opened"
+      ]
+    }
+  },
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "wallpaperAssetChecks": {
+    "added": 32,
+    "allOriginalDimensionsRetained": true,
+    "originalFilesUntouched": true,
+    "minimumDisplaySsim": 0.99067,
+    "fullSizeBytes": 22203974
+  },
+  "categoryFilterEditorRestored": true
+}

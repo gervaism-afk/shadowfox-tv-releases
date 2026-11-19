@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 41,
-  "versionName": "2.4.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.4.0.apk",
-  "sha256": "edcea8db465feb3a3f1a9a3ffe7e0631e2eb78bc7eec1122b97b9885585b58d6",
-  "notes": "A local weather widget now sits on the right in line with Home and Apps, with matching rounded styling. It automatically uses the device\u2019s approximate public-IP/ISP area and shows a condition icon, temperature and weather. Select it to change Celsius/Fahrenheit, refresh, or choose a city manually. Location follows network changes; VPNs may affect the detected area. No GPS permission is needed. Your wallpaper, branded header and app rows are retained."
+  "versionCode": 42,
+  "versionName": "2.5.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.5.0.apk",
+  "sha256": "f31e826774b185fc9a5cfef67aef79f68839048f9c55384e18d0f697d10962ba",
+  "notes": "Your saved category rows are restored on Home using their existing names, order and app assignments. No reset is needed. The first category stays near the bottom of the landing screen; other categories and Recently opened follow below. ShadowFox Exclusive Wallpapers now includes 39 backgrounds, adding all 32 distinct images from Pictures/Wallpapers and merging six exact duplicates. Previews are faster, larger backgrounds use less bitmap memory, and your currently selected wallpaper and automatic ISP weather are retained."
 }

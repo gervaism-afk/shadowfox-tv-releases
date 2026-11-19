@@ -1,30 +1,26 @@
-# ShadowFoxTV Launcher Pro 2.4.0
+# ShadowFoxTV Launcher Pro 2.5.0
 
-Version code 41 · package `com.shadowfox.tvlauncher.review`.
+Version code 42 · package `com.shadowfox.tvlauncher.review`.
 
-## Local weather
+## Saved categories on Home
 
-A weather pill sits on the right, in line with Home and Apps. Its rounded material, height, typography, colour accents and focus fill match the navigation banner. It shows the area, a vector condition icon, temperature and condition text. The widget remains available on both Home and Apps. Right from Apps reaches weather, OK opens weather options, and Down enters the app rows.
+Home now renders each nonempty saved category as its own floating app row. The category names, order and app assignments come directly from the existing settings. The first nonempty category sits near the bottom of the landing viewport; the remaining category rows follow below it in saved order. Recently opened follows the category rows. Apps are no longer combined into one aggregate Home row. No reset or migration of the user's categories is required.
 
-Automatic (ISP) is the default. The device requests its approximate area using its own public-IP connection through GeoJS. Coordinates are rounded to two decimal places before weather lookup; the public IP returned by the service is not persisted. The widget says Near the detected area. A network change triggers another lookup with a one-minute cooldown; normal foreground checks use a six-hour location cache. A VPN may change the detected area. No GPS or Android location permission is requested.
+Rows use the same artwork, labels, transparency, focus treatment and app options as before. D-pad Down/Up moves between rows, and Back restores the landing page. The Apps page still provides the complete library and category filters. Empty categories remain in category settings until apps are assigned.
 
-Weather location offers Automatic (ISP) or a manual city/postal-code search with a choice of matching results. Celsius is the default; Fahrenheit is also available. Weather options are available from the widget or Settings → Home screen → Local weather. Weather sources and licence links are available inside its menu.
+## Expanded Exclusive Wallpapers
 
-Weather forecasts are fetched off the UI thread, use HTTPS and the system certificate trust store, identify this app with its public website, support gzip and bounded HTTPS redirects, and cache data across launches. Forecasts refresh no more often than every three hours and respect a later server expiry. Conditional requests use Last-Modified. Up to eight selected locations retain forecast caches. Cached hourly forecasts advance locally; old or malformed data displays as unavailable. Failed automatic updates back off, and users can retry from the menu. Foreground timers stop when the launcher leaves the screen. No media recommendations or Quick launch content are restored.
+ShadowFox Exclusive Wallpapers now contains 39 backgrounds: the previous seven plus 32 distinct images from the owner's Tanix Pictures/Wallpapers folder. Six exact duplicate files were merged; all distinct images and variants are retained. Existing entry IDs and order are unchanged. The added entries have stable IDs and descriptive names.
 
-## Weather sources
+Full-size PNG copies use high-quality WebP without resizing or cropping. Full-image and central-logo luminance SSIM checks at display resolution meet a minimum 0.99, with alpha verified unchanged. Images that do not meet that threshold retain lossless encoding. The original files remain untouched on the device and in the local backup. JPEGs remain in their original format. Dedicated small thumbnails keep browsing responsive. Larger previews decode off the UI thread; cancelled previews cannot replace a later selection. The Home background decoder samples large resources to the display size to limit bitmap memory use. The source images are not creatively modified.
 
-Forecast: [MET Norway](https://api.met.no/weatherapi/locationforecast/2.0/documentation), [CC BY 4.0 and data policy](https://docs.api.met.no/doc/License.html). Temperatures are rounded and condition labels/icons are adapted for ShadowFox. Global forecast refresh intervals follow the provider documentation.
-
-Automatic location: [GeoJS](https://www.geojs.io/) using MaxMind GeoLite2. API reference: https://www.geojs.io/docs/v1/endpoints/geo/ . This is approximate public-IP geolocation, not GPS.
-
-Manual location search: [Photon](https://github.com/komoot/photon) / [© OpenStreetMap contributors, ODbL](https://www.openstreetmap.org/copyright). Searches happen only after the user presses Search. Repeated identical queries use a seven-day local cache. There is no request-on-typing autocomplete.
+Browsing remains a preview until Apply wallpaper is selected. Back cancels. The owner's currently selected custom background is retained during the update. Wallpaper originals and previews are bundled for offline use; the gallery does not depend on the source folder staying on the device.
 
 ## Existing launcher
 
-The enlarged branded header, www.shadowfoxtv.ca, selected wallpaper, free-floating artwork, app names, order, assignments and category filters remain in use. Your apps remains near the bottom of the first viewport; Recently opened stays below it. The seven Exclusive Wallpapers and image resources are unchanged.
+The 2.4.0 automatic ISP weather widget, its location/temperature settings, website header, app artwork, transparency controls and app management remain in use. No media recommendation, Continue watching or Quick launch rows are restored. The existing update signing identity, APK/certificate verification, Fire TV dialog compatibility and permissions are unchanged.
 
-Update signing identity, APK/certificate validation, Fire TV dialog compatibility, wallpaper selector and icon renderer implementations are unchanged. Existing app data is retained and no new permissions are requested.
+Weather forecast: [MET Norway, CC BY 4.0](https://docs.api.met.no/doc/License.html). Automatic ISP area: [GeoJS](https://www.geojs.io/) / MaxMind GeoLite2. Manual city search: [Photon](https://github.com/komoot/photon) / [OpenStreetMap contributors, ODbL](https://www.openstreetmap.org/copyright). Weather sources and credits remain available inside the widget options. ISP location is approximate and may follow a VPN exit location.
 
 ## Build on Windows
 
