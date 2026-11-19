@@ -1,26 +1,14 @@
-# ShadowFoxTV Launcher Pro 2.3.0
+# ShadowFoxTV Launcher Pro 2.3.1
 
-Version code 39 · package `com.shadowfox.tvlauncher.review`.
+Version code 40 · package `com.shadowfox.tvlauncher.review`.
 
-## Landing screen
+Home now contains only app shortcuts: Your apps and Recently opened. Shared preview channels, Continue watching programs, movie/series recommendations and their poster loaders are removed for every provider, including Apple TV and Spotify. The TV provider reader, content observer, READ_TV_LISTINGS permission and obsolete recommendation controls are removed. Previously granted TV-listing access cannot bring those rows back.
 
-Home and Apps now have matching vector icons and clear focus states. The wallpaper shortcut on the right and the Hold OK for options caption have been removed. App options remain available with MENU or a long press, and wallpapers remain available through Settings.
+The top-left Quick launch block is removed, including the selected app title, Open button, and group caption. The corresponding Set Quick launch app-menu option is also removed. D-pad Down from Home goes directly to Your apps; Up returns to the tabs.
 
-Your apps sits near the bottom of the first viewport. Its position uses the measured viewport and actual text/icon sizes, including the larger header. Recently opened starts below that viewport and appears when scrolling down. It uses the same app-icon renderer, tile dimensions, labels, opacity and focus treatment as Your apps.
+The current branded header, www.shadowfoxtv.ca, custom static wallpaper, icon artwork, transparency settings and app assignments remain in use. Your apps remains near the bottom of the first screen; Recently opened is reached by scrolling down and uses matching app icons. The Apps page retains saved category filters and the full app library. Existing app options remain available with MENU or a long press. Wallpapers remain available in Settings.
 
-Spotify-owned shared recommendation channels and Watch Next records are filtered. The installed Spotify app and its recent-launch shortcut remain available. Other installed apps can still provide shared programs in the scrolling content below Your apps. No replacement featured-app banner is inserted into the space left by Spotify.
-
-Settings → Home screen → Home content now orders the lower rows: Recommendations first or Recently opened first. Your apps stays on the first screen in both cases. Quick launch, saved categories, app assignments, custom icons and existing app order remain in use.
-
-## Header and text
-
-The header is 70 dp tall, increased from 56 dp, with a larger emblem, brand title, clock and date. The content inset is adjusted so Home and Apps remain clear of the header. The website www.shadowfoxtv.ca sits directly under the centred MORE THAN ENTERTAINMENT slogan. Amber/cyan text accents and a subtle text shadow match the ShadowFox palette. The existing Brand lettering setting still controls the main wordmark; ShadowFox colours was selected on the owner's Tanix as requested.
-
-The owner's currently selected custom wallpaper is retained. Backgrounds remain static. The seven Exclusive Wallpapers and their assets are unchanged.
-
-## Compatibility and data
-
-The release signing identity, update verification, Fire TV custom-dialog compatibility, wallpaper selector and app-artwork renderer are unchanged. Existing app/user data is retained. No new permissions are requested. TV recommendation access remains read-only and optional.
+The update signing identity, download/certificate verification, Fire TV dialog compatibility and wallpaper selector implementations are unchanged. Existing app data is retained; no new permissions are requested.
 
 ## Build on Windows
 

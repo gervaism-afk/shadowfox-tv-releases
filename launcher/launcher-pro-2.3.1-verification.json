@@ -1,0 +1,52 @@
+{
+  "version": "2.3.1",
+  "versionCode": 40,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "3e242f0465ae98725c6954b665279dedd3778093343ae6d0c747357a0326562c",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API34 / 1920x1080 density240",
+  "visibleAppCount": 32,
+  "appTileSizePx": [
+    189,
+    195
+  ],
+  "recentTileSizePx": [
+    189,
+    195
+  ],
+  "checksPassed": [
+    "Installed app count, app names and category filters identical before and after update",
+    "Selected custom wallpaper and enlarged branded header retained",
+    "No Quick launch, Platinum Player hero title, Open button or top-left category caption",
+    "Your apps remains near bottom of first screen; Recently opened remains below fold",
+    "Down from Home goes directly to first app and Up returns to Home",
+    "App options remain reachable and obsolete Quick launch option is removed",
+    "Recently opened uses matching icon tiles and is the final content row",
+    "Repeated Down never opens recommendation or media rows",
+    "Home content and App recommendations settings removed",
+    "Back and cold startup restore the clean first screen",
+    "Pulled installed APK matches the tested release build",
+    "All packaged image resources are byte-identical to 2.3.0",
+    "TV provider reader, background poster loaders, permission and query declaration removed",
+    "Updater/certificate validation, Fire TV dialog compatibility, icon renderer and wallpaper selector unchanged",
+    "Release certificate verified; no new permissions requested",
+    "Source ZIP excludes signing material, device data and test fixtures"
+  ],
+  "androidTvLayoutCheck": {
+    "apkSha256": "3e242f0465ae98725c6954b665279dedd3778093343ae6d0c747357a0326562c",
+    "platform": "Android TV API 36; 1280x720 density160 and 1920x1080 density320; Standard and Large text",
+    "controlledFixturesRemoved": true,
+    "checksPassed": [
+      "Real preview and Watch Next programs confirmed visible in old version",
+      "Upgrading formerly granted TV-listing access no longer shows any provider programs",
+      "No recommendation, Continue watching or Quick launch rows",
+      "Down from navigation goes directly to Your apps, Up returns to navigation",
+      "Recently opened remains below the landing viewport and uses matching icon tiles",
+      "Repeated Down at last app row never reveals program rows",
+      "A real installed app launches and appears in Recently opened",
+      "Obsolete recommendation and Home content settings removed",
+      "Large typography first page, matching recent icons, Back and cold startup verified"
+    ]
+  },
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe"
+}

@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 39,
-  "versionName": "2.3.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.3.0.apk",
-  "sha256": "d0f0b23d4736b9d325c305486fd34188121ba17d4d49dded2bf9bc71d110651d",
-  "notes": "A cleaner landing screen: Spotify recommendations removed, improved Home/Apps icons, and no top-right wallpaper shortcut or Hold OK caption. Your apps sits near the bottom of the first screen; Recently opened appears after scrolling and uses matching app icons. A taller header adds www.shadowfoxtv.ca below the centre slogan, with larger branding and amber/cyan accents. Your selected wallpaper, app assignments, artwork and categories are retained. Wallpapers remain in Settings."
+  "versionCode": 40,
+  "versionName": "2.3.1",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.3.1.apk",
+  "sha256": "3e242f0465ae98725c6954b665279dedd3778093343ae6d0c747357a0326562c",
+  "notes": "Home now shows only your app rows. All installed-app preview, recommendation and Continue watching rows are removed, including Apple TV. The top-left Quick launch block and its Platinum Player title, Open button and group caption are removed. Your apps stays near the bottom of the first screen; Recently opened stays below it. Your branded header, website, wallpaper, app icons and saved categories are retained."
 }
