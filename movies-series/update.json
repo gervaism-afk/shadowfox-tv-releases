@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 36,
-  "versionName": "0.3.24",
-  "sha256": "9c6414ca0fd1ef4f442e8073ca6f3731e56b2f0b4f30da3f80667eb8522bc0bb",
-  "sizeBytes": 13820487,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.24.apk",
-  "notes": "Whole-app presentation polish: sharper posters, balanced TV Home and library layouts, consistent typography and rounded actions, restrained focus transitions, warm Home shelves and still cinematic details. New ShadowFox update center with version cards, clear status, release notes and progress. Original logo, saved account, Adult visibility, history, touch controls, player and verified updater retained."
+  "versionCode": 37,
+  "versionName": "0.3.25",
+  "sha256": "7f1283093cf0d30fc7d98f8e5dc7376de69d43c2f0ffd5a963268e778be72b1d",
+  "sizeBytes": 13820491,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.25.apk",
+  "notes": "Fixes TV editing: the category filter and other account editors open with the cursor at the end. Cursor movement and typing retain their position. Existing filter text, saved account, original logo, appearance, Adult visibility, history, player and verified updater are retained."
 }

@@ -1,0 +1,87 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.25",
+  "versionCode": 37,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.25.apk",
+  "sizeBytes": 13820491,
+  "sha256": "7f1283093cf0d30fc7d98f8e5dc7376de69d43c2f0ffd5a963268e778be72b1d",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.25-source.zip",
+  "sourceArchiveSha256": "c8c985b67f2c538405249cd66075c68341bbcc4345508a44638900f5522e1d37",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 260,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 145,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home shelf identity/library paging",
+    "player/native audio",
+    "updater security/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoPreservedByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "TV account/category-filter editors open with the caret at the end",
+    "retain IME cursor/selection updates while editing"
+  ],
+  "categoryEditorCaretStartsAtEnd": true,
+  "cursorMovementAndTypingRetainSelection": true,
+  "savedFiltersAccountPlayerUpdaterAndResourcesUnchanged": true,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsNavigationTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Tanix TX68",
+    "versionName": "0.3.25",
+    "versionCode": 37,
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "keyboardVisible": true,
+    "nativeImeTargetsMoviesApp": true,
+    "previousInitialSelection": [
+      0,
+      0
+    ],
+    "correctedInitialSelection": [
+      19,
+      19
+    ],
+    "textLength": 19,
+    "cursorStartsAtEndAfterOpenAndCancelReopen": true,
+    "filterTextAndAllSavedPreferencesUnchanged": true,
+    "editorLeftOpenForUser": true,
+    "actualFilterEditsCommitted": false,
+    "privateAccountOrFilterValuesRecorded": false,
+    "fireTvCommandsIssued": false,
+    "providerPlaybackStarted": false,
+    "limitations": [
+      "Fire TV was not updated in this pass; the signed update is available through its normal updater.",
+      "Phone direct editing and other controls covered by automated regression tests.",
+      "No provider playback tested; earlier Tanix 4K/heat issue remains unresolved."
+    ]
+  }
+}
