@@ -1,0 +1,71 @@
+{
+  "version": "2.1.0",
+  "versionCode": 37,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "853e52b6d5f459871e767ef235c4c4e8e81e18caf978ad2796098a9b91daab70",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / API 34 / 1920x1080 density 240",
+  "wallpaperApplied": "Midnight Flow through the Exclusive Wallpapers selector",
+  "checksPassed": [
+    "Home and Apps tabs navigate with the remote",
+    "All four saved categories and all 24 visible apps retained",
+    "Every category filter opens the correct saved app set",
+    "Last app in the two-row Tools category remains reachable",
+    "Back from Apps restores Home",
+    "App menu Cancel restores the originating Home icon",
+    "Real Platinum Player launch succeeds",
+    "Actual app launch appears under Recently opened",
+    "Existing Rounded / Standard typography retained",
+    "Existing 90% transparency and tile boxes Off retained",
+    "Cold launch returns to Home with selected wallpaper",
+    "Installed APK matches tested release build",
+    "Existing header implementation verified identical to 1.9.1",
+    "All previous packaged image resources remain byte-identical",
+    "Both new wallpaper assets decode to identical pixels after resource packaging",
+    "Seven Exclusive Wallpapers retained and reachable",
+    "Fire TV updater signature compatibility and custom-dialog code unchanged",
+    "Existing release certificate verified on final APK",
+    "Source ZIP excludes signing material, device data and test fixtures",
+    "Real cross-app recommendations, Watch Next and permission fallback tested on final APK",
+    "No video player or autoplay implementation added"
+  ],
+  "androidTvLayoutCheck": {
+    "apkSha256": "853e52b6d5f459871e767ef235c4c4e8e81e18caf978ad2796098a9b91daab70",
+    "platform": "Android TV API 36 emulator / 1920x1080 density 320",
+    "typography": "Large / Rounded",
+    "checksPassed": [
+      "Real cross-app PreviewProgram cards displayed after READ_TV_LISTINGS permission and channel approval",
+      "Real recommendation card opens its owner app with the correct program extra",
+      "Real Watch Next CONTINUE record and progress displayed",
+      "Continue Watching opens the correct program in its owner app",
+      "Revoking TV-listing permission restores installed-app shortcuts",
+      "Temporary provider fixture removed from disposable emulator",
+      "Large text fits Home, app library and wallpaper selector",
+      "Empty saved category remains reachable and offers Choose apps",
+      "Choose apps checklist fills the new category",
+      "Reorder Cancel restores original app order and focus",
+      "Reorder Save changes order and persists",
+      "All apps / Hidden label options work in Google TV style",
+      "Legacy App dashboard and Logo dock remain available",
+      "All seven wallpaper previews reachable; current Midnight Flow retained",
+      "Cold restart preserves selected layout and wallpaper",
+      "Recommendation, Watch Next, deep-link and permission-fallback checks repeated on the exact final release APK"
+    ],
+    "providerTestedApkSha256": "853e52b6d5f459871e767ef235c4c4e8e81e18caf978ad2796098a9b91daab70",
+    "providerFixtureRemoved": true
+  },
+  "wallpaper": {
+    "name": "Midnight Flow",
+    "generatedWith": "Built-in image generation tool",
+    "pixels": [
+      1672,
+      941
+    ],
+    "sha256": "27e3d14d4d5dfb7ba245d5b238c49bfc4470c7ff51e27ccd45f2a4dc11d93a14",
+    "bundledPixelsMatchOriginal": true,
+    "previousWallpapersRetained": true
+  },
+  "retainedCategoryCount": 4,
+  "retainedVisibleAppCount": 24
+}

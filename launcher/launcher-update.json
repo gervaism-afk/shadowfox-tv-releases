@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 35,
-  "versionName": "1.9.1",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.9.1.apk",
-  "sha256": "8e87711dc6db21fc5fdde258391992431e6314c170dbf1a67f6ddbe1f5dde9c0",
-  "notes": "Reworked floating rows: compact category names beside the apps, counts underneath, and tighter horizontal spacing. Keeps the slimmer banner, smoother selection and menu improvements. Your categories, app assignments, icons, wallpaper and saved settings are retained."
+  "versionCode": 37,
+  "versionName": "2.1.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.1.0.apk",
+  "sha256": "853e52b6d5f459871e767ef235c4c4e8e81e18caf978ad2796098a9b91daab70",
+  "notes": "A new Google TV-style Home: Home and Apps tabs, wide cards, circular icons and an Apps library with your saved category filters. Your ShadowFox header is retained. Home shows recommendations shared by installed apps when available, with installed-app shortcuts as the fallback. Allow App recommendations in Settings > Apps & groups for shared TV listings. Continue watching uses real shared records; Recently opened uses actual app launches. Midnight Flow is a new matching static wallpaper with your logo. No background video or autoplay. Your saved apps, groups, icons and settings remain in place; App dashboard and Logo dock are still available."
 }
