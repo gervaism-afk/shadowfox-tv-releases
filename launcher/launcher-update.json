@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 31,
-  "versionName": "1.7.5",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.7.5.apk",
-  "sha256": "d03d92614de201dca92b165f042b833b2f57549d21e5d1fea0118dc372897546",
-  "notes": "Fixes category shelves staying expanded over the wallpaper after pressing Up back to the header. Header focus now restores the main Home view. Keeps category names, app assignments, wallpaper, icons and saved setup."
+  "versionCode": 32,
+  "versionName": "1.8.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.8.0.apk",
+  "sha256": "f05423ce288cb868ca68f931d80ea92059a973d9a86183b61a0daa9e2883aa59",
+  "notes": "New glass category shelves with rounded translucent surfaces, soft depth, illuminated edges and a blue-and-amber active accent. Category names and app counts sit beside the icons. Keeps icons free of launcher boxes, respects transparency, and preserves Up-to-Home navigation. Your categories, app assignments, artwork and saved setup are retained."
 }

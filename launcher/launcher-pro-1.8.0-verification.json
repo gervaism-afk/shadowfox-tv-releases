@@ -1,0 +1,40 @@
+{
+  "version": "1.8.0",
+  "versionCode": 32,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "f05423ce288cb868ca68f931d80ea92059a973d9a86183b61a0daa9e2883aa59",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API 34 / 1920x1080 density 240",
+  "visualDirection": "Distinct glass shelves with rounded rims, layered depth, reflective highlights and box-free icons",
+  "categoryCounts": {
+    "ShadowFox TV Apps": 5,
+    "Music Apps": 3,
+    "Video Apps": 6,
+    "Tools & Settings": 10
+  },
+  "checksPassed": [
+    "Existing categories and app assignments retained after in-place update",
+    "Category labels display beside the icon rails",
+    "Active-category position updates from 1 / 10 to 8 / 10 during horizontal scrolling",
+    "All ten apps remain reachable in the longest category",
+    "Up navigation crosses uneven category sizes and restores Home at the header",
+    "First shelf returns to the identical Home position",
+    "Settings Back restores Home",
+    "Icon artwork and individual box-free presentation retained",
+    "Installed APK matches tested build",
+    "Final glass appearance visually reviewed on the Tanix at saved 90% transparency",
+    "Final APK verified with the existing release signing certificate",
+    "APK resources match the previous release byte for byte",
+    "Source archive integrity verified; signing secrets and device data excluded"
+  ],
+  "horizontalFarFocus": "MiracastReceiver",
+  "savedTransparencyObserved": "90% banner and app shelf transparency, On; retained without preference edits",
+  "androidTvLayoutCheck": {
+    "platform": "Android TV API 36 emulator",
+    "emptyCategoryCreationViaUi": true,
+    "emptyCategoryFocusAndNoAppsLabel": true,
+    "upReturnsToHeader": true,
+    "scope": "Empty-category layout and remote navigation checked before final paint-only refinement; final APK tested on physical Tanix"
+  }
+}
