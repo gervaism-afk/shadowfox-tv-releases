@@ -1,0 +1,59 @@
+{
+  "version": "2.4.0",
+  "versionCode": 41,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "edcea8db465feb3a3f1a9a3ffe7e0631e2eb78bc7eec1122b97b9885585b58d6",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API34 / 1920x1080 density240",
+  "visibleAppCount": 32,
+  "weatherBounds": [
+    1434,
+    149,
+    1860,
+    224
+  ],
+  "homeTabBounds": [
+    66,
+    155,
+    252,
+    218
+  ],
+  "locationMode": "Automatic approximate public-IP/ISP location; Celsius",
+  "checksPassed": [
+    "Automatic ISP area and live weather work on the Tanix",
+    "Weather pill is aligned with Home and Apps and uses matching rounded focus style",
+    "Weather settings open with remote and return focus to the widget",
+    "Automatic ISP and manual city choices are available",
+    "Down from weather reaches Your apps; Up returns directly to Home",
+    "Your apps and Recently opened retain their layout; no preview or Quick launch content",
+    "Local weather is available from Home screen settings and returns to its row",
+    "App count retained; selected wallpaper and branded header visually retained",
+    "Weather data and location persist across cold startup",
+    "Installed APK pulled and hash matches the release build",
+    "Packaged image resources are byte-identical to 2.3.1",
+    "No new permissions; no GPS or TV-listing permission",
+    "Existing APK/certificate validation, Fire TV dialog compatibility, icon renderer and wallpaper selector unchanged",
+    "Release certificate verified",
+    "Source ZIP excludes signing material, device preferences, cached locations/weather and test fixtures"
+  ],
+  "androidTvLayoutCheck": {
+    "apkSha256": "edcea8db465feb3a3f1a9a3ffe7e0631e2eb78bc7eec1122b97b9885585b58d6",
+    "platform": "Android TV API36; 1280x720 density160 and 1920x1080 density320; Standard and Large text",
+    "controlledFixturesRemoved": true,
+    "checksPassed": [
+      "12 forecast/time/temperature/geocoding validation checks pass on Android",
+      "Automatic approximate ISP location displays real temperature and condition",
+      "Weather and navigation pill vertical centres align at both display profiles",
+      "Celsius and Fahrenheit changes persist across cold startup",
+      "Cached forecast displays while package networking is disabled",
+      "Real network lookup failure displays Location unavailable and retains previous weather",
+      "Manual city selection works and Automatic ISP mode restores detected area",
+      "Remote Right reaches weather; Down reaches first app; Up returns to Home",
+      "Large text and temperature remain within the weather pill",
+      "Weather sources and attribution are reachable",
+      "No preview or Quick launch rows restored",
+      "Temporary package network firewall state restored and forecast test fixture removed"
+    ]
+  },
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe"
+}

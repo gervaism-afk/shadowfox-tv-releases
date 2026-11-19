@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 40,
-  "versionName": "2.3.1",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.3.1.apk",
-  "sha256": "3e242f0465ae98725c6954b665279dedd3778093343ae6d0c747357a0326562c",
-  "notes": "Home now shows only your app rows. All installed-app preview, recommendation and Continue watching rows are removed, including Apple TV. The top-left Quick launch block and its Platinum Player title, Open button and group caption are removed. Your apps stays near the bottom of the first screen; Recently opened stays below it. Your branded header, website, wallpaper, app icons and saved categories are retained."
+  "versionCode": 41,
+  "versionName": "2.4.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.4.0.apk",
+  "sha256": "edcea8db465feb3a3f1a9a3ffe7e0631e2eb78bc7eec1122b97b9885585b58d6",
+  "notes": "A local weather widget now sits on the right in line with Home and Apps, with matching rounded styling. It automatically uses the device\u2019s approximate public-IP/ISP area and shows a condition icon, temperature and weather. Select it to change Celsius/Fahrenheit, refresh, or choose a city manually. Location follows network changes; VPNs may affect the detected area. No GPS permission is needed. Your wallpaper, branded header and app rows are retained."
 }
