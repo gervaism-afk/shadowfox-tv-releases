@@ -1,0 +1,15 @@
+# ShadowFoxTV Movies & Series 0.3.24
+
+[Signed APK](ShadowFoxTV-Movies-Series-0.3.24.apk) · [Complete source](ShadowFoxTV-Movies-Series-0.3.24-source.zip) · [Updater feed](update.json) · [Verification](verification-0.3.24.json)
+
+Refines the presentation across Home, Movies, Series, details, settings and update notices. Both themes use the bundled Inter faces, consistent rounded actions and restrained focus movement. Focus scale runs on a graphics layer with no spring bounce. Home has a more balanced short-TV hero and shelves that stay warm while using other screens. Library posters use the same sharper decode size as Home, and smaller TV grids show four columns. Stable item types help reuse list/grid compositions.
+
+Movie and series details keep still cinematic backgrounds, with portrait fallbacks shown in their correct aspect ratio. The perpetual detail zoom is removed. Short-TV detail headers leave more room for content and accommodate enlarged text. Settings have clearer section boundaries and the existing ordered remote navigation.
+
+The update center follows the ShadowFox Platinum Player card design: installed/available version tiles, themed status, release notes, progress and large actions. Errors expose retry without claiming the app is up to date. Busy actions are disabled, progress is bounded, and startup notices keep Later reachable. Download size/hash/package/signature verification and Android's installer flow are unchanged.
+
+Your exact original logo remains byte-identical, SHA256 `84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9`. All image/font/banner assets, account persistence, Adult filtering, database/player/native audio, orientation and updater security backend are unchanged. Saved account/theme/Adult preferences matched their pre-install fingerprint on Tanix. No preferences were edited or provider playback started.
+
+258 tests passed with zero failures; release lint has zero errors. Phone touch, continuous paging, remote paths, settings scrolling and updater retry/busy/ready states were covered. Both theme and phone previews were reviewed. The delivered signed APK was installed in place and hash-verified on Tanix; Home, both libraries, details, Back/focus, settings and actual update check were checked. Fire TV was also upgraded in place and APK hash-verified in the background, leaving its other app open; Movies was not started and no new login/playback check was performed there. No physical-phone or provider playback was tested, no frame-rate claim is made, and the earlier Tanix 4K/heat issue remains unresolved.
+
+Package `ca.shadowfoxtv.movieseries`, version code 36, Android 7.1/API 25 or newer. Signed with the original compatible certificate; install over the existing app to retain data. This updater is separate from Platinum Player. The source checkpoint retains attribution, Inter/OFL fonts, AndroidX Media3/FFmpeg sources, four-ABI native audio and licences. Private signing keys and local configuration are excluded.

@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 35,
-  "versionName": "0.3.23",
-  "sha256": "f96d7690f3ab31a99d88119bd66ed8b80afc1bd2746f99976e6a6818cb0c1a57",
+  "versionCode": 36,
+  "versionName": "0.3.24",
+  "sha256": "9c6414ca0fd1ef4f442e8073ca6f3731e56b2f0b4f30da3f80667eb8522bc0bb",
   "sizeBytes": 13820487,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.23.apk",
-  "notes": "Restores the exact original ShadowFoxTV Movies & Series badge and original loading-screen presentation. The artwork, lettering and colours are unchanged. Uses the largest existing original bitmap without density downsampling or enlargement. Settings gear, saved logins, Adult visibility, history, player and updater retained."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.24.apk",
+  "notes": "Whole-app presentation polish: sharper posters, balanced TV Home and library layouts, consistent typography and rounded actions, restrained focus transitions, warm Home shelves and still cinematic details. New ShadowFox update center with version cards, clear status, release notes and progress. Original logo, saved account, Adult visibility, history, touch controls, player and verified updater retained."
 }
