@@ -1,0 +1,33 @@
+{
+  "version": "1.9.1",
+  "versionCode": 35,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "8e87711dc6db21fc5fdde258391992431e6314c170dbf1a67f6ddbe1f5dde9c0",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API 34 / 1920x1080 density 240",
+  "visualDirection": "Floating rows, category labels beside app rails",
+  "categoryCounts": {
+    "ShadowFox TV Apps": 5,
+    "Music Apps": 3,
+    "Video Apps": 6,
+    "Tools & Settings": 10
+  },
+  "checksPassed": [
+    "Existing categories and app assignments retained after in-place update",
+    "Category labels display beside the icon rails",
+    "Active-category position updates from 1 / 10 to 8 / 10 during horizontal scrolling",
+    "All ten apps remain reachable in the longest category",
+    "Up navigation crosses uneven category sizes and restores Home at the header",
+    "First shelf returns to the identical Home position",
+    "Settings Back restores Home",
+    "Icon artwork and individual box-free presentation retained",
+    "Installed APK matches tested build",
+    "Revised free-floating rows visually reviewed on the Tanix",
+    "Compact banner, menus and wallpaper-selector implementation retained from 1.9.0",
+    "APK verified with existing release signing certificate",
+    "Packaged image resources match 1.9.0 byte for byte",
+    "Source ZIP integrity verified with signing secrets/device data excluded"
+  ],
+  "horizontalFarFocus": "MiracastReceiver"
+}

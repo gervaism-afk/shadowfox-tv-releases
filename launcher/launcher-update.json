@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 34,
-  "versionName": "1.9.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.9.0.apk",
-  "sha256": "5d352d60b9b00bf86219f9dfd935d22ebb1fcf778ab4a10a1e85ef33f67fdac1",
-  "notes": "A cleaner ShadowFox experience: slimmer banner, category headings above the floating app rows, tighter spacing and smoother icon focus. Wallpaper gently dims while browsing expanded categories and returns to normal on Home. Settings, option panels and Exclusive Wallpapers share your chosen font and text size with consistent selection styling. Your logo, wallpapers, categories, icons and saved setup are retained."
+  "versionCode": 35,
+  "versionName": "1.9.1",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.9.1.apk",
+  "sha256": "8e87711dc6db21fc5fdde258391992431e6314c170dbf1a67f6ddbe1f5dde9c0",
+  "notes": "Reworked floating rows: compact category names beside the apps, counts underneath, and tighter horizontal spacing. Keeps the slimmer banner, smoother selection and menu improvements. Your categories, app assignments, icons, wallpaper and saved settings are retained."
 }

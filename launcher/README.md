@@ -1,16 +1,10 @@
-# ShadowFoxTV Launcher Pro 1.9.0
+# ShadowFoxTV Launcher Pro 1.9.1
 
-Version code 34 · package `com.shadowfox.tvlauncher.review`.
+Version code 35 · package `com.shadowfox.tvlauncher.review`.
 
-Polishes Home, Settings, option panels and the exclusive wallpaper selector. Home keeps its floating app rows and the owner's logo. Category headings sit immediately above their app rails, with compact counts at the trailing edge. Tighter vertical spacing and a 56dp banner give apps a clearer hierarchy. The second category stays outside the collapsed wallpaper showcase.
+Reworks the Home rows with compact category names beside the apps and counts immediately below the names. The narrower label column brings each group closer to its icons and reduces horizontal gaps compared with 1.9.0. Rows remain fully free-floating without panels, outlines, shadows, dividers or badges. Saved apps-across, icon sizes, artwork and labels are retained.
 
-A lightweight gradient fades in over the wallpaper while browsing expanded categories and fades out on return to Home. This contrast layer does not alter wallpaper files or saved dimming/transparency settings. Theme-only backgrounds skip this layer. App labels gain a restrained readability shadow over wallpaper.
-
-Focused Home icons ease into a small lift and enlargement, retaining the existing blue-and-amber underline and box-free default. Motion cancels the previous transition before starting, so quick remote inputs do not queue animations.
-
-Settings, option panels and the wallpaper selector share typography from the saved font and text-size preferences, a common heading scale and consistent selection surfaces. Settings removes the large preview card and redundant glyph/value boxes. Wallpaper preview and Apply behavior are unchanged.
-
-Category data, app ordering, assignments, custom artwork, chosen wallpaper and existing preferences are retained. Up-to-Home navigation and Fire TV certificate/dialog compatibility fixes remain. The package and release signing identity are unchanged.
+Keeps the 1.9.0 compact banner, browsing contrast, focus motion and shared menu typography. No Settings or wallpaper-selector changes are included. Category data, app assignments, wallpaper and saved preferences are retained. Up-to-Home navigation and the Fire TV update/dialog compatibility fixes remain in place.
 
 ## Build on Windows
 
