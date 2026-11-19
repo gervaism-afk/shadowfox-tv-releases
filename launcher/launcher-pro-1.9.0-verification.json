@@ -1,0 +1,47 @@
+{
+  "version": "1.9.0",
+  "versionCode": 34,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "5d352d60b9b00bf86219f9dfd935d22ebb1fcf778ab4a10a1e85ef33f67fdac1",
+  "signingCertificateSha256": "a754e56cca79c2cd5831628a02e15328c83b8c58c9f807fcfb6e84d152c43dbe",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / Android API 34 / 1920x1080 density 240",
+  "visualDirection": "Floating category headings, compact header, browsing contrast and shared typography/focus styling",
+  "contrastSampleLuminance": {
+    "home": 57.30345238095238,
+    "expanded": 46.56666666666667,
+    "restored": 57.299285714285716
+  },
+  "checksPassed": [
+    "Existing categories, assignments, icon artwork and Rounded font retained",
+    "Compact header controls remain reachable",
+    "Category titles display above app rails",
+    "Active app position updates while scrolling the longest category",
+    "Up traverses all four categories and restores the identical Home position",
+    "Wallpaper contrast increases only while browsing expanded rows and restores on Home",
+    "All six Settings pages remain reachable without footer clipping",
+    "Five curated wallpaper previews remain reachable",
+    "Preview focus traverses thumbnails, Apply and Back",
+    "Browsing and cancelling restores the original wallpaper and Home contrast",
+    "Installed APK matches tested release build",
+    "Home, expanded rows, Settings and wallpaper selector screenshots visually reviewed",
+    "Large text and Rounded font verified on narrower Android TV layout",
+    "APK verified with existing release signing certificate",
+    "Packaged image resources match 1.8.1 byte for byte",
+    "Source ZIP integrity verified and signing secrets/device data excluded"
+  ],
+  "horizontalFarFocus": "MiracastReceiver",
+  "androidTvLayoutCheck": {
+    "platform": "Android TV API 36 emulator, 1920x1080 density 320 (960dp wide)",
+    "savedTypographyTested": "Large text / Rounded font",
+    "checksPassed": [
+      "Font and text size controls apply through the shared option panel",
+      "All six Settings pages remain reachable at Large size",
+      "All curated previews remain reachable at Large size",
+      "Apply wallpaper returns Home and selected wallpaper is CURRENT on reopen",
+      "Empty category displays No apps with a working remote focus target",
+      "Up from the empty category returns to the Home header",
+      "No launcher crash recorded"
+    ]
+  }
+}

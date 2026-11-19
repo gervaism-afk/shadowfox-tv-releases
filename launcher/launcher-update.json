@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 33,
-  "versionName": "1.8.1",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.8.1.apk",
-  "sha256": "6850776464d418dbb3f27cabd7fa0c8ab086b7df04ed602c6ab7be53fd28ad7e",
-  "notes": "Categories now float directly over your wallpaper. Removed the glass row panels, borders, shadows, dividers and count badges. Keeps clear category labels, active app counts and box-free icons, with the existing scrolling and Up-to-Home behavior. Your categories, app assignments, artwork and saved setup are retained."
+  "versionCode": 34,
+  "versionName": "1.9.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-1.9.0.apk",
+  "sha256": "5d352d60b9b00bf86219f9dfd935d22ebb1fcf778ab4a10a1e85ef33f67fdac1",
+  "notes": "A cleaner ShadowFox experience: slimmer banner, category headings above the floating app rows, tighter spacing and smoother icon focus. Wallpaper gently dims while browsing expanded categories and returns to normal on Home. Settings, option panels and Exclusive Wallpapers share your chosen font and text size with consistent selection styling. Your logo, wallpapers, categories, icons and saved setup are retained."
 }
