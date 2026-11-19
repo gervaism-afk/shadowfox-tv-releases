@@ -1,0 +1,49 @@
+{
+  "version": "2.5.2",
+  "versionCode": 44,
+  "packageName": "com.shadowfox.tvlauncher.review",
+  "apkSha256": "5f28dc47118175575db77f9a55ab50905a1aef9490fd236768717697f5cc3502",
+  "physicalDeviceTested": true,
+  "testPlatform": "Tanix TX68 / API34 / 1920x1080 density240",
+  "rowMeasurements": [
+    {
+      "category": "ShadowFox TV Apps",
+      "apps": 6,
+      "left": 348,
+      "right": 1572,
+      "center": 960.0
+    },
+    {
+      "category": "Music Apps",
+      "apps": 3,
+      "left": 658,
+      "right": 1261,
+      "center": 959.5
+    },
+    {
+      "category": "Video Apps",
+      "apps": 5,
+      "left": 451,
+      "right": 1468,
+      "center": 959.5
+    },
+    {
+      "category": "Apps page / Music Apps",
+      "apps": 3,
+      "left": 663,
+      "right": 1257,
+      "center": 960.0
+    }
+  ],
+  "checksPassed": [
+    "Short category rows are geometrically centred with equal left and right space",
+    "Recently opened is absent and Down stops at the final saved category; Up returns to the preceding category",
+    "Long Tools row still scrolls horizontally and returns to its first app",
+    "Down/Up/Back navigation retains working focus and restores Home",
+    "Short rows on the Apps page are centred",
+    "Existing categories, assignments, labels, artwork and settings are retained",
+    "Final APK pulled from Tanix and hash matches the release build"
+  ],
+  "finalDeviceState": "Home"
+}
+
