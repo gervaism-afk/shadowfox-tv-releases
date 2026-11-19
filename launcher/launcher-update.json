@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 37,
-  "versionName": "2.1.0",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.1.0.apk",
-  "sha256": "853e52b6d5f459871e767ef235c4c4e8e81e18caf978ad2796098a9b91daab70",
-  "notes": "A new Google TV-style Home: Home and Apps tabs, wide cards, circular icons and an Apps library with your saved category filters. Your ShadowFox header is retained. Home shows recommendations shared by installed apps when available, with installed-app shortcuts as the fallback. Allow App recommendations in Settings > Apps & groups for shared TV listings. Continue watching uses real shared records; Recently opened uses actual app launches. Midnight Flow is a new matching static wallpaper with your logo. No background video or autoplay. Your saved apps, groups, icons and settings remain in place; App dashboard and Logo dock are still available."
+  "versionCode": 38,
+  "versionName": "2.2.0",
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.2.0.apk",
+  "sha256": "5ae90cd21dbc9dac4ff2ebc42728ad41167b28517b30f112b6096ca26e571113",
+  "notes": "A refined Google TV-style Home: useful Quick launch and selection details, simpler navigation, complete poster artwork with separate captions, and clearer app logos. Hold OK or press MENU on an app and choose Set Quick launch. Home content settings offer Apps first or Recommendations first. Home and Back reset the app/content rows to their beginnings, and menus restore the selected control after Cancel. Selected categories now show their own app count. App tile boxes Off removes launcher-added backgrounds completely. Your header, static wallpaper, saved apps, groups, artwork and settings are retained."
 }
