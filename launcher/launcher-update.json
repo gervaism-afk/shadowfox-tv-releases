@@ -1,9 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 44,
-  "versionName": "2.5.2",
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/launcher/ShadowFoxTV-Launcher-Pro-2.5.2.apk",
-  "sha256": "5f28dc47118175575db77f9a55ab50905a1aef9490fd236768717697f5cc3502",
-  "notes": "App rows are now centred. Recently opened has been removed entirely. Short Home category rows have equal space on both sides, while longer rows still scroll horizontally. Short rows on the Apps page are centred too. Your category assignments, artwork, wallpaper, weather and 39-wallpaper collection are retained."
+  "versionCode": 49,
+  "versionName": "2.5.7",
+  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.7/ShadowFoxTV-Launcher-Pro-2.5.7.apk",
+  "sha256": "dfb6571b1ccc1f89fdd0148fe25230b7219f045ff242108e8eb3ec3562205827",
+  "notes": "Adds a Settings option beneath the Home/Apps banner. It opens Fire TV native settings on Fire TV and Android system settings on Android TV devices. Existing launcher settings and app data are retained."
 }
-
