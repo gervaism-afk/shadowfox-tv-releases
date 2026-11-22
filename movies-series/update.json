@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 38,
-  "versionName": "0.3.26",
-  "sha256": "bcdd49ca465e05e72d9eecf0bc56858376e431cd83fefd43fa85cb48690d1e22",
+  "versionCode": 39,
+  "versionName": "0.3.27",
+  "sha256": "d61cdfefbf7aa4284c5b886f8bbe2bdbbb74315d139dfaaa73355bf82eaacfd5",
   "sizeBytes": 13820491,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.26.apk",
-  "notes": "The top Home button receives remote focus when the TV app starts or Home is reopened from the launcher. Loading artwork retains your navigation position. Saved login, original logo, themes, Adult visibility, phone touch, detail-return focus and updater are preserved."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.27.apk",
+  "notes": "Settings now follows the flat Launcher Pro style: clear section headings, simple rows and dividers, and slim remote-focus markers. Account controls, theme choices, Playback, Library, Updates and editors share the new look. Saved login/settings, original logo, Adult visibility, phone touch, Home focus and updater are preserved."
 }
