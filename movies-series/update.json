@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 39,
-  "versionName": "0.3.27",
-  "sha256": "d61cdfefbf7aa4284c5b886f8bbe2bdbbb74315d139dfaaa73355bf82eaacfd5",
-  "sizeBytes": 13820491,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.27.apk",
-  "notes": "Settings now follows the flat Launcher Pro style: clear section headings, simple rows and dividers, and slim remote-focus markers. Account controls, theme choices, Playback, Library, Updates and editors share the new look. Saved login/settings, original logo, Adult visibility, phone touch, Home focus and updater are preserved."
+  "versionCode": 40,
+  "versionName": "0.3.28",
+  "sha256": "4dbce35ae381c39a1777cdc1277e6909890c7c2d28eb8d17c80f911cc45c9eac",
+  "sizeBytes": 13836875,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.28.apk",
+  "notes": "Refined settings with sharp section icons, stronger control labels, quieter descriptions, soft focus transitions and clearer On/Off states. Theme choices have a selected checkmark and simpler descriptions. Library refresh failures use readable guidance. Flat styling, saved account/settings, original logo, Home focus, touch editing and updater are preserved."
 }

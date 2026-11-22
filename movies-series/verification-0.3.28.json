@@ -1,0 +1,125 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.28",
+  "versionCode": 40,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.28.apk",
+  "sizeBytes": 13836875,
+  "sha256": "4dbce35ae381c39a1777cdc1277e6909890c7c2d28eb8d17c80f911cc45c9eac",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.28-source.zip",
+  "sourceArchiveSha256": "eafbe9217b6d7a4c07895415f9a6c67f3ef21b9c19eb53b3d67194342e40a17c",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 261,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 145,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home shelf identity/library paging",
+    "player/native audio",
+    "updater security/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoPreservedByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "Sharper visual hierarchy with stronger control labels and quieter descriptions",
+    "Section icons and divider, soft focus fade, explicit TV On/Off states",
+    "Theme selection checkmark and clearer descriptions",
+    "Readable library refresh error presentation"
+  ],
+  "flatSettingsStylePreserved": true,
+  "tvInitialHomeFocusPreserved": true,
+  "settingsNavigationCallbacksAndOrderPreserved": true,
+  "categoryEditorCaretAndCancellationPreserved": true,
+  "savedPreferencesResourcesPlayerAndUpdaterUnchanged": true,
+  "libraryRefreshBackendChanged": false,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/AppearanceSettings.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Fire TV",
+    "versionName": "0.3.28",
+    "versionCode": 40,
+    "installedApkMatchesDeliveredApk": true,
+    "upgradeInPlace": true,
+    "previousVersion": "0.3.27",
+    "existingConfiguredHomeOpened": true,
+    "coldHomeFocusPreserved": true,
+    "appearance": {
+      "focus": [
+        "Cinema",
+        "Warm gold accents and a classic cinema feel."
+      ],
+      "bounds": "[538,393][1848,533]"
+    },
+    "playbackTop": {
+      "focus": [
+        "Autoplay trailers",
+        "Play a muted trailer after a few seconds on the home screen.",
+        "Off"
+      ],
+      "bounds": "[538,340][1848,468]"
+    },
+    "playbackBottom": {
+      "focus": [
+        "Preferred subtitle language",
+        "No preference  \u203a"
+      ],
+      "bounds": "[538,920][1848,1048]"
+    },
+    "library": {
+      "focus": [
+        "Show Adult categories",
+        "Show Adult categories and their titles in your library and Home. Changes save automatically.",
+        "On"
+      ],
+      "bounds": "[538,340][1848,468]"
+    },
+    "updates": {
+      "focus": [
+        "Check for updates",
+        "\u203a"
+      ],
+      "bounds": "[538,800][1848,912]"
+    },
+    "bottomNavigationStopsAtLastRow": true,
+    "sectionReturnRestoresFocus": true,
+    "readableRefreshErrorVisible": false,
+    "realPreferencesActivated": false,
+    "manualRefreshStarted": false,
+    "leftOnAppearanceForReview": true,
+    "providerPlaybackStarted": false,
+    "tanixInputInstallOrLaunch": false,
+    "startupSystemDisplaySettingsChanged": false,
+    "privateAccountValuesCaptured": false,
+    "limitations": [
+      "Fire TV is not rooted; private preference files were not read or fingerprinted.",
+      "Account/storage code is unchanged and the original-signed APK was installed in place without clearing data.",
+      "Provider playback and refresh connectivity were not tested."
+    ]
+  }
+}
