@@ -1,0 +1,90 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.26",
+  "versionCode": 38,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.26.apk",
+  "sizeBytes": 13820491,
+  "sha256": "bcdd49ca465e05e72d9eecf0bc56858376e431cd83fefd43fa85cb48690d1e22",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.26-source.zip",
+  "sourceArchiveSha256": "6b9fce68173e3fd5c68d8422786bea56080973246ab16e29ea5188aafadc3638",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 261,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 145,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home shelf identity/library paging",
+    "player/native audio",
+    "updater security/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoPreservedByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "Top Home button receives initial TV focus",
+    "Launcher reopen requests Home focus without focus stealing during loading"
+  ],
+  "tvInitialFocus": "Home",
+  "loadingUpdatesRetainUserFocus": true,
+  "detailReturnFocusPreserved": true,
+  "savedFiltersAccountPlayerUpdaterAndResourcesUnchanged": true,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/MainActivity.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeViewModel.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomePresentationTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Tanix TX68",
+    "versionName": "0.3.26",
+    "versionCode": 38,
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "coldLaunch": {
+      "focused": "Home",
+      "bounds": "[1233,15][1326,87]"
+    },
+    "dpadRight": {
+      "focused": "Movies",
+      "bounds": "[1334,15][1439,87]"
+    },
+    "loadingRetainsFocus": {
+      "focused": "Movies",
+      "bounds": "[1334,15][1439,87]"
+    },
+    "launcherReopen": {
+      "focused": "Home",
+      "bounds": "[1233,15][1326,87]"
+    },
+    "allSavedPreferencesUnchanged": true,
+    "preferencesBeforeSha256": "4871e5390fef04f47db43b8fde86c5f0d75a6f1a96f4a85f67601600dbd053c6",
+    "preferencesAfterSha256": "4871e5390fef04f47db43b8fde86c5f0d75a6f1a96f4a85f67601600dbd053c6",
+    "leftOnHomeWithHomeFocused": true,
+    "providerPlaybackStarted": false,
+    "fireTvCommandsIssued": false,
+    "systemDisplayAndStartupSettingsChanged": false
+  }
+}

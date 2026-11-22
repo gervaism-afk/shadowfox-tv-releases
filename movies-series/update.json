@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 37,
-  "versionName": "0.3.25",
-  "sha256": "7f1283093cf0d30fc7d98f8e5dc7376de69d43c2f0ffd5a963268e778be72b1d",
+  "versionCode": 38,
+  "versionName": "0.3.26",
+  "sha256": "bcdd49ca465e05e72d9eecf0bc56858376e431cd83fefd43fa85cb48690d1e22",
   "sizeBytes": 13820491,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.25.apk",
-  "notes": "Fixes TV editing: the category filter and other account editors open with the cursor at the end. Cursor movement and typing retain their position. Existing filter text, saved account, original logo, appearance, Adult visibility, history, player and verified updater are retained."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.26.apk",
+  "notes": "The top Home button receives remote focus when the TV app starts or Home is reopened from the launcher. Loading artwork retains your navigation position. Saved login, original logo, themes, Adult visibility, phone touch, detail-return focus and updater are preserved."
 }
