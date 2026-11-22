@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 49,
-  "versionName": "2.5.7",
-  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.7/ShadowFoxTV-Launcher-Pro-2.5.7.apk",
-  "sha256": "dfb6571b1ccc1f89fdd0148fe25230b7219f045ff242108e8eb3ec3562205827",
-  "notes": "Adds a Settings option beneath the Home/Apps banner. It opens Fire TV native settings on Fire TV and Android system settings on Android TV devices. Existing launcher settings and app data are retained."
+  "versionCode": 50,
+  "versionName": "2.5.8",
+  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.8/ShadowFoxTV-Launcher-Pro-2.5.8.apk",
+  "sha256": "8008c76451f17228d028be79fbe9446250a5d98ebc8edd9be703f3f92de3ce40",
+  "notes": "Adds the Settings option for native device settings on Fire TV and Android TV. The built-in Your apps shelf can now be removed from Home and restored from Settings without changing app assignments; apps remain available in Apps. Existing launcher preferences and app data are retained."
 }
