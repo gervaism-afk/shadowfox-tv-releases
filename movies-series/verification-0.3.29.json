@@ -66,10 +66,39 @@
   ],
   "physicalDeviceValidation": {
     "device": "Fire TV",
-    "status": "Pending ADB authorization",
-    "installed": false,
-    "deviceInputOrAppLaunchPerformed": false,
+    "versionName": "0.3.29",
+    "versionCode": 41,
+    "upgradeInPlace": true,
+    "previousVersion": "0.3.24",
+    "installedApkMatchesDeliveredApk": true,
+    "existingConfiguredHomeOpened": true,
+    "coldHomeFocusPreserved": true,
+    "nativeSectionsChecked": [
+      "Appearance",
+      "Playback",
+      "Library",
+      "Updates"
+    ],
+    "bottomNavigationStopsAtLastRow": true,
+    "sectionReturnRestoresFocus": true,
+    "connectionInitiallyUnverified": true,
+    "refreshHistoryStatusDisplayed": true,
+    "nativeEditorCancelRetainsText": true,
+    "nativeEditorButtonsAboveKeyboard": true,
+    "editorCheckUsedRemoteKeys": true,
+    "initialTapDidNotCloseEditor": true,
+    "leftOnAppearanceForReview": true,
+    "realPreferencesActivated": false,
+    "manualConnectionTestStarted": false,
+    "manualRefreshStarted": false,
+    "providerPlaybackStarted": false,
+    "occupiedFireTvAccessed": false,
     "tanixCommandsIssued": false,
-    "reason": "Fire TV reports this computer connection as unauthorized; user was asked to accept its OS debugging popup."
+    "startupSystemDisplaySettingsChanged": false,
+    "privateAccountValuesCaptured": false,
+    "limitations": [
+      "Private preference files were not read/fingerprinted; in-place original-signed update retained app data without clearing it.",
+      "Connection/refresh networking and provider playback were not tested."
+    ]
   }
 }
