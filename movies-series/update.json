@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 40,
-  "versionName": "0.3.28",
-  "sha256": "4dbce35ae381c39a1777cdc1277e6909890c7c2d28eb8d17c80f911cc45c9eac",
+  "versionCode": 41,
+  "versionName": "0.3.29",
+  "sha256": "0e53d50bb121a0b0d8fbf46107b372d073684dfaf4584d5f7ef9bbfd0bb73afb",
   "sizeBytes": 13836875,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.28.apk",
-  "notes": "Refined settings with sharp section icons, stronger control labels, quieter descriptions, soft focus transitions and clearer On/Off states. Theme choices have a selected checkmark and simpler descriptions. Library refresh failures use readable guidance. Flat styling, saved account/settings, original logo, Home focus, touch editing and updater are preserved."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.29.apk",
+  "notes": "Four settings improvements together: read-only Home theme previews, grouped Picture/Sound/Subtitles/Trailers controls, actual connection-test and last-successful-refresh status, and consistent themed editors with clear Done/Save/Cancel guidance. Saved accounts, original logo, Adult visibility, Home focus and updater are preserved."
 }

@@ -1,0 +1,75 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.29",
+  "versionCode": 41,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.29.apk",
+  "sizeBytes": 13836875,
+  "sha256": "0e53d50bb121a0b0d8fbf46107b372d073684dfaf4584d5f7ef9bbfd0bb73afb",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.29-source.zip",
+  "sourceArchiveSha256": "61ee0c7f03f00a91fadceac8815da79d92d2457444b7f9515db7fad124752125",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 268,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 151,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home shelf identity/library paging",
+    "player/native audio",
+    "updater security/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoPreservedByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "Read-only Home theme previews",
+    "Grouped Picture, Sound, Subtitles and Trailers controls",
+    "Actual connection-test and last-successful-refresh status",
+    "Consistent themed account editors and draft/save guidance"
+  ],
+  "previewsUseSampleLayoutAndOriginalArtwork": true,
+  "previewNetworkOrPlaybackRequests": false,
+  "staleConnectionResponsesDiscarded": true,
+  "statusNeverInventsRefreshSuccess": true,
+  "savedStorageSchemaPlayerUpdaterAndResourcesUnchanged": true,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/AppearanceSettings.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsLayout.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsViewModel.kt"
+  ],
+  "addedFiles": [
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsStatus.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsExperienceTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Fire TV",
+    "status": "Pending ADB authorization",
+    "installed": false,
+    "deviceInputOrAppLaunchPerformed": false,
+    "tanixCommandsIssued": false,
+    "reason": "Fire TV reports this computer connection as unauthorized; user was asked to accept its OS debugging popup."
+  }
+}
