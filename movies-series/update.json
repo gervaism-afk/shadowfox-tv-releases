@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 44,
-  "versionName": "0.3.32",
-  "sha256": "a4bca22b3ce38417abf3cfbf1bdfe2be017ffda60707f378e82f7ee7557cb829",
-  "sizeBytes": 13836871,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.32.apk",
-  "notes": "Adds Settings \u2192 About with basic app information, the current version/build, App Created and Developed / Mandy Gervais, and Copyright 2026, ShadowFox TV. Read-only information supports remote scrolling and phone layouts. Original logo, saved accounts, themes, navigation and updater retained."
+  "versionCode": 45,
+  "versionName": "0.3.33",
+  "sha256": "12a6998500f3b1da2fc599f02473b52b5073de7fc67c460eef1d595a7cf85af9",
+  "sizeBytes": 14774443,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.33.apk",
+  "notes": "New launcher icon and Android TV banner using the original ShadowFoxTV crest."
 }
