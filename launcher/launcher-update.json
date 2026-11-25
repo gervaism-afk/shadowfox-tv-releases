@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 64,
-  "versionName": "2.5.22",
-  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.22/ShadowFoxTV-Launcher-Pro-2.5.22.apk",
-  "sha256": "12c8885c57900a5a4003f3d9b675ecfad8a2d9945be6138985216977dcfbf21b",
-  "notes": "The launcher updater is simpler and clearer. Settings now has one Software update entry. The update screen shows the installed version and feed status, and its main action guides you from checking to downloading to installing a verified update. App assignments and launcher settings are retained."
+  "versionCode": 65,
+  "versionName": "2.5.23",
+  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.23/ShadowFoxTV-Launcher-Pro-2.5.23.apk",
+  "sha256": "ec7a84d3d85025ba5ffcddeb10406037463aa252f2f894b45bdaf95f7999056a",
+  "notes": "The first Home app row now sits at the bottom of the opening screen, using measured row height and the available screen height. Other categories remain below the opening screen and are available by scrolling. Existing rows, app assignments, wallpapers and settings are retained."
 }
