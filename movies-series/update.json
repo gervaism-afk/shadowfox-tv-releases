@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 42,
-  "versionName": "0.3.30",
-  "sha256": "3bd74a589e47006ceee080aaac34099acb4f99bdac3917ffacc5d51d07d31753",
+  "versionCode": 43,
+  "versionName": "0.3.31",
+  "sha256": "b0096c4b756b29b71e613641b25ffba33907d4bf2f5c5e04d02456a52ad5e7d5",
   "sizeBytes": 13836871,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.30.apk",
-  "notes": "Cinema refinement: vector Home actions, View all collection links, consistent primary Play buttons, visible movie/series Back controls with predictable remote navigation, and clearer search/loading/empty states. Original logo, saved accounts, Adult visibility, themes, mobile rotation and updater retained."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.31.apk",
+  "notes": "Remote focus repair: returning from the library lands on Home, closing Home settings returns to the gear, and featured details return to the primary action. Shelf details keep their original poster focus. Includes the complete 0.3.30 visual/settings improvements; original logo, saved accounts, Adult visibility, touch/rotation and updater retained."
 }
