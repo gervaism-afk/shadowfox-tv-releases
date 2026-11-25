@@ -1,8 +1,8 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 63,
-  "versionName": "2.5.21",
-  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.21/ShadowFoxTV-Launcher-Pro-2.5.21.apk",
-  "sha256": "cc667b70ce406b6d273a35b3daebd39828cf62b0e7ed3346b16011c02ff7a3b3",
-  "notes": "Home screen update: ShadowFox TV Apps stays at the top of Home, while the remaining category shelves start below the initial screen and are reached by scrolling. Category settings now show each shelf's Home status and clarify that the built-in Your Apps shelf can be hidden but not deleted. Includes saved wallpaper spacing controls. Existing app assignments and launcher preferences are retained."
+  "versionCode": 64,
+  "versionName": "2.5.22",
+  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.22/ShadowFoxTV-Launcher-Pro-2.5.22.apk",
+  "sha256": "12c8885c57900a5a4003f3d9b675ecfad8a2d9945be6138985216977dcfbf21b",
+  "notes": "The launcher updater is simpler and clearer. Settings now has one Software update entry. The update screen shows the installed version and feed status, and its main action guides you from checking to downloading to installing a verified update. App assignments and launcher settings are retained."
 }
