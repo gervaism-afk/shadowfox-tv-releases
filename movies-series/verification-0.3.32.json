@@ -1,0 +1,103 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.32",
+  "versionCode": 44,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.32.apk",
+  "sizeBytes": 13836871,
+  "sha256": "a4bca22b3ce38417abf3cfbf1bdfe2be017ffda60707f378e82f7ee7557cb829",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.32-source.zip",
+  "sourceArchiveSha256": "a0c2df00e2357cc9cbc87e279b2248479b91a051206a231c9a4c1d8fcc673bc8",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 281,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 151,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates",
+    "About"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home shelf identity/library paging",
+    "player/native audio",
+    "updater security/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoPreservedByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "Read-only About section with app identity and actual version/build",
+    "App Created and Developed / Mandy Gervais / Copyright 2026, ShadowFox TV",
+    "Remote-scrollable information and phone layout"
+  ],
+  "creatorCredit": "App Created and Developed",
+  "developerName": "Mandy Gervais",
+  "copyrightText": "Copyright 2026, ShadowFox TV",
+  "aboutInformationIsReadOnly": true,
+  "profilesRemainAbsent": true,
+  "accountStorageDatabaseUpdaterAndResourcesUnchanged": true,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/SettingsScreen.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsCategoriesTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/SettingsRemoteRegressionTest.kt"
+  ],
+  "addedFiles": [
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/settings/AboutSettings.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/settings/AboutSettingsTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Fire TV",
+    "versionName": "0.3.32",
+    "versionCode": 44,
+    "previousVersion": "0.3.31",
+    "upgradeInPlace": true,
+    "installedApkMatchesDeliveredApk": true,
+    "userFreshlyConfirmedFree": true,
+    "coldHomeFocusPreserved": true,
+    "configuredHomeOpened": true,
+    "aboutNavigationReachable": true,
+    "actualVersionAndBuildDisplayed": true,
+    "requestedCreatorCreditDisplayed": true,
+    "creditLines": [
+      "App Created and Developed",
+      "Mandy Gervais",
+      "Copyright 2026, ShadowFox TV"
+    ],
+    "readOnlyInformationRemoteOrderPassed": true,
+    "lastInformationRowStops": true,
+    "footerBackReachable": true,
+    "footerBackFullyVisible": true,
+    "aboutControlFocusRestored": true,
+    "leftOnAboutForReview": true,
+    "realPreferencesActivated": false,
+    "providerPlaybackStarted": false,
+    "manualRefreshStarted": false,
+    "privateAccountValuesCaptured": false,
+    "tanixCommandsIssued": false,
+    "tvOutputDeviceCommandsIssued": false,
+    "audioSystemDisplayServerOrKeySettingsChanged": false,
+    "limitations": [
+      "Private account files were not read; configured Home opened and no app data was cleared.",
+      "Provider playback/audio/connectivity were not tested. Phone layout and larger text were verified locally."
+    ]
+  }
+}

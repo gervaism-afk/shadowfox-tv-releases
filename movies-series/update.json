@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 43,
-  "versionName": "0.3.31",
-  "sha256": "b0096c4b756b29b71e613641b25ffba33907d4bf2f5c5e04d02456a52ad5e7d5",
+  "versionCode": 44,
+  "versionName": "0.3.32",
+  "sha256": "a4bca22b3ce38417abf3cfbf1bdfe2be017ffda60707f378e82f7ee7557cb829",
   "sizeBytes": 13836871,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.31.apk",
-  "notes": "Remote focus repair: returning from the library lands on Home, closing Home settings returns to the gear, and featured details return to the primary action. Shelf details keep their original poster focus. Includes the complete 0.3.30 visual/settings improvements; original logo, saved accounts, Adult visibility, touch/rotation and updater retained."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.32.apk",
+  "notes": "Adds Settings \u2192 About with basic app information, the current version/build, App Created and Developed / Mandy Gervais, and Copyright 2026, ShadowFox TV. Read-only information supports remote scrolling and phone layouts. Original logo, saved accounts, themes, navigation and updater retained."
 }
