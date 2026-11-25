@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 41,
-  "versionName": "0.3.29",
-  "sha256": "0e53d50bb121a0b0d8fbf46107b372d073684dfaf4584d5f7ef9bbfd0bb73afb",
-  "sizeBytes": 13836875,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.29.apk",
-  "notes": "Four settings improvements together: read-only Home theme previews, grouped Picture/Sound/Subtitles/Trailers controls, actual connection-test and last-successful-refresh status, and consistent themed editors with clear Done/Save/Cancel guidance. Saved accounts, original logo, Adult visibility, Home focus and updater are preserved."
+  "versionCode": 42,
+  "versionName": "0.3.30",
+  "sha256": "3bd74a589e47006ceee080aaac34099acb4f99bdac3917ffacc5d51d07d31753",
+  "sizeBytes": 13836871,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.30.apk",
+  "notes": "Cinema refinement: vector Home actions, View all collection links, consistent primary Play buttons, visible movie/series Back controls with predictable remote navigation, and clearer search/loading/empty states. Original logo, saved accounts, Adult visibility, themes, mobile rotation and updater retained."
 }

@@ -1,17 +1,37 @@
-# ShadowFoxTV Movies & Series 0.3.29
+# ShadowFoxTV Movies & Series 0.3.30
 
-[Signed APK](ShadowFoxTV-Movies-Series-0.3.29.apk) · [Complete source](ShadowFoxTV-Movies-Series-0.3.29-source.zip) · [Updater feed](update.json) · [Verification](verification-0.3.29.json)
+[Signed APK](ShadowFoxTV-Movies-Series-0.3.30.apk) · [Source](ShadowFoxTV-Movies-Series-0.3.30-source.zip) · [Updater feed](update.json) · [Verification](verification-0.3.30.json)
 
-All four settings improvements ship together. Appearance offers read-only Home samples in each theme's actual palette, with the exact original artwork. The samples are labelled SAMPLE; they show layout and colours without loading provider content, starting media or adding focus targets. Choosing a theme still requires OK or a tap.
+Home's Play, Details and New picks actions now use consistent vector icons. Movies,
+Series and My List shelves have View all actions into their existing complete collections.
+These links do not start playback. The first Continue Watching card still fits on the
+compact TV layout. The startup Home focus and return-to-poster behavior are retained.
 
-Playback is grouped into Picture, Sound, Subtitles and Trailers. The headings are not remote stops; the six existing controls retain their original settings/callbacks, with an ordered vertical path and remembered return focus. Settings keeps the flat rows and slim marker.
+Movie and series details offer a visible Back button for both touch and remote use.
+Up from the action row reaches Back; Down scrolls the header into view before returning
+to the primary action, including after a long page has disposed that header. Play retains
+initial focus without stealing it when metadata arrives. Primary actions share the
+Home treatment and minimum48dp controls. A missing/loading movie no longer leaves a
+blank canvas: its themed status view includes an exit.
 
-Account shows the actual manual connection-test status, with useful failure guidance and no raw transport URLs. Editing account details invalidates a prior result; an in-flight response cannot verify different credentials. The Library page shows actual refresh progress/error and the existing stored last-successful-refresh time. Loading history, never refreshed, previous success and a newer failure are distinct states. These changes do not trigger a test or refresh automatically and introduce no new stored preference keys.
+Search identifies movies versus series and describes matching results, saved titles
+or the selected collection accurately. Empty results suggest changing the query;
+missing Adult categories still explain the actual provider limitation. Library text
+uses the selected theme's palette; long query subtitles are bounded to one line.
+Continuous paging and remembered grid position remain.
 
-Phone fields and TV editors use consistent theme colours. Done and Cancel have matching touch targets; Done updates the field draft, while Save on the Account page persists account changes. Caret-at-end, manual cursor movement, cancellation, password masking and focus restoration are retained.
+273 tests passed, zero failures; release lint has zero errors. Checks cover
+remote and touch collection links without playback, detail Back/Play navigation,
+phone loading/unavailable exit, contextual counts/empty states, existing TV/phone Home
+bounds, touch targets, Settings editors, saved-account behavior, Adult filtering,
+orientation and updater rules. Rendered previews use synthetic fixture artwork.
 
-268 tests passed with zero failures; release lint has zero errors. New checks cover credential edits during an in-flight connection test, safe status/error output, refresh loading/error precedence, actual grouped remote navigation and bounds, read-only theme previews and narrow-phone selection. Existing editor, saved-account, Adult, orientation, updater and Home-focus checks passed. TV and phone previews were visually reviewed.
+Physical installation is pending availability of the intended Fire TV. No device
+commands were sent in this pass. Physical Fire TV behavior, real provider connectivity/playback and audio
+have not been tested for this release. No performance improvement is claimed.
 
-Installed in place over 0.3.24 on the user's free Fire TV with the original compatible certificate; the installed APK matches the download hash. Native checks verified configured Home/Home focus, previews, grouped controls and final-row stop, real refresh status, initially-unverified connection state, and editor Cancel/reopen text retention with controls above the keyboard. No real preferences, connection-test, manual refresh or provider-playback action was activated. Appearance was left open for review. Private preference files were not read; account persistence/schema is unchanged and no data was cleared. The occupied Fire TV, Tanix and all startup/system/display settings were untouched.
-
-Five existing files and two new files differ from 0.3.28: version, AppearanceSettings, SettingsLayout, SettingsScreen, SettingsViewModel; new SettingsStatus and SettingsExperienceTest. Original logo/resources, saved-account storage, player/database, updater backend and orientation are unchanged. Refresh connectivity and provider playback were not tested. Package `ca.shadowfoxtv.movieseries`, version code 41, Android 7.1/API 25 or newer. Source retains attribution, fonts, Media3/FFmpeg and licences; private keys/local configuration are excluded.
+The original logo and all resources are byte-identical to0.3.29. Account storage/schema,
+database, Settings, native player code, updater backend and orientation are unchanged.
+Only the shared control component changes player button shape/minimum height. Package
+`ca.shadowfoxtv.movieseries`, code42, original compatible signing certificate, minAndroid
+7.1/API25. Source excludes private keys/local configuration and retains licences.

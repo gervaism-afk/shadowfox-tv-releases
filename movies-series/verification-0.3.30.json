@@ -1,0 +1,78 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.30",
+  "versionCode": 42,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.30.apk",
+  "sizeBytes": 13836871,
+  "sha256": "3bd74a589e47006ceee080aaac34099acb4f99bdac3917ffacc5d51d07d31753",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.30-source.zip",
+  "sourceArchiveSha256": "8e28963dc589a9a12d679c2bb917da9018b20d221d192dd0117da8130718bc42",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 273,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 151,
+  "settingsSections": [
+    "Account",
+    "Appearance",
+    "Playback",
+    "Library",
+    "Updates"
+  ],
+  "themes": [
+    "Cinema",
+    "ShadowFox Exclusive"
+  ],
+  "defaultTheme": "Cinema",
+  "preserved": [
+    "settings navigation callbacks and focus requesters",
+    "adult visibility preference and filtering",
+    "saved login/theme/history and database",
+    "Home shelf identity/library paging",
+    "player/native audio",
+    "updater security/orientation"
+  ],
+  "settingsIcon": "Outlined gear",
+  "accessibilityLabel": "Settings",
+  "iconTargetDp": 48,
+  "tvHeaderHeightUnchanged": true,
+  "originalLogoPreservedByteForByte": true,
+  "originalLogoSha256": "84572ab2bce1f453b8b72e4329fc3334d6160621dbfb8410e3180575ad2013f9",
+  "logoRendering": "Original 320px artwork loaded without density downsampling; Inside scaling prevents enlargement",
+  "rejectedRedesignRemoved": true,
+  "launcherIconsAndBannersUnchanged": true,
+  "improvements": [
+    "Vector Home actions and direct full-collection shelf links",
+    "Visible detail Back action with explicit remote Up/Down path",
+    "Themed loading/unavailable detail screens",
+    "Contextual search/count/empty-state presentation",
+    "Consistent prominent Play actions and 48dp controls"
+  ],
+  "accountStorageDatabaseUpdaterAndResourcesUnchanged": true,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/detail/DetailScaffold.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/detail/MovieDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/home/HomeScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/seriesdetail/SeriesDetailScreen.kt",
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/theme/CinemaActionButton.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomePhoneNavigationTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomePresentationTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/home/HomeRichSpotlightTest.kt"
+  ],
+  "addedFiles": [
+    "app/src/main/java/nl/vanvrouwerff/iptv/ui/library/LibraryPresentation.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/detail/DetailNavigationTest.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/ui/library/LibraryPresentationTest.kt"
+  ],
+  "physicalDeviceValidation": {
+    "device": "Fire TV",
+    "installed": false,
+    "status": "Pending device availability",
+    "deviceCommandsIssued": false,
+    "tanixCommandsIssued": false,
+    "reason": "The intended Fire TV was reported occupied during release preparation. No installation or device interaction was performed."
+  }
+}
