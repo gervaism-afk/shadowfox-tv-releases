@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 45,
-  "versionName": "0.3.33",
-  "sha256": "12a6998500f3b1da2fc599f02473b52b5073de7fc67c460eef1d595a7cf85af9",
-  "sizeBytes": 14774443,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.33.apk",
-  "notes": "New launcher icon and Android TV banner using the original ShadowFoxTV crest."
+  "versionCode": 47,
+  "versionName": "0.3.35",
+  "sha256": "2d979113fbce87c1c626b7727bf9a53b3e6aa8e9f1115ff4d2ad52e670ab4af3",
+  "sizeBytes": 13599592,
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.35-Logo-B.apk",
+  "notes": "Blue-ring artwork on startup and Home. Rounded adaptive TV icon and refreshed app banners."
 }
