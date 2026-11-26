@@ -1,9 +1,9 @@
 {
   "packageName": "ca.shadowfoxtv.movieseries",
-  "versionCode": 48,
-  "versionName": "0.3.36",
-  "sha256": "c1cff21d7ddc4cac4087381d0e971e697703e96765242e1c5f841f8692ccbfa7",
+  "versionCode": 49,
+  "versionName": "0.3.37",
+  "sha256": "9329eb21749eaa83a88af5c94c76a4e237b425ddf82c0c1378445664a154dedd",
   "sizeBytes": 13599596,
-  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.36.apk",
-  "notes": "Cobalt Chrome is now the default ShadowFox Exclusive finish. Cinema remains available, with saved theme selections kept."
+  "apkUrl": "https://raw.githubusercontent.com/gervaism-afk/shadowfox-tv-releases/main/movies-series/ShadowFoxTV-Movies-Series-0.3.37.apk",
+  "notes": "Fixes the false signing-certificate mismatch on Fire OS/API 28. Existing affected installs need one manual in-place installation of this original-signed repair APK; future updater checks request the compatible certificate fields. Exact signer, checksum, package and version checks remain enforced. Saved accounts and existing themes/UI are retained."
 }

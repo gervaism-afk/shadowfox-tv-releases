@@ -1,0 +1,56 @@
+{
+  "packageName": "ca.shadowfoxtv.movieseries",
+  "versionName": "0.3.37",
+  "versionCode": 49,
+  "apk": "ShadowFoxTV-Movies-Series-0.3.37.apk",
+  "sizeBytes": 13599596,
+  "sha256": "9329eb21749eaa83a88af5c94c76a4e237b425ddf82c0c1378445664a154dedd",
+  "sourceArchive": "ShadowFoxTV-Movies-Series-0.3.37-source.zip",
+  "sourceArchiveSha256": "405538002e5e15c869be4b98046db5186aa8c204e25eececd07afbe11b0b2a4d",
+  "signingSha256": "c018a048630b67d1b82a80308bb5e5c725fbbd7487eca6c0c461464884984e90",
+  "certificateMatchesPreviousRelease": true,
+  "tests": 287,
+  "testFailures": 0,
+  "lintErrors": 0,
+  "lintWarnings": 187,
+  "modifiedExistingFiles": [
+    "app/build.gradle.kts",
+    "app/src/main/java/nl/vanvrouwerff/iptv/updates/UpdateController.kt"
+  ],
+  "addedFiles": [
+    "app/src/main/java/nl/vanvrouwerff/iptv/updates/UpdateCertificates.kt",
+    "app/src/test/java/nl/vanvrouwerff/iptv/UpdateCertificatesTest.kt"
+  ],
+  "logoPreservedFromBaseline036": true,
+  "accountStorageDatabaseUiPlayerManifestAndResourcesUnchanged": true,
+  "modernAndLegacySignatureFlagsRequestedOnApi28Plus": true,
+  "legacyUsedOnlyWhenModernMetadataMissing": true,
+  "strictCertificateEqualityAndDownloadGuardsRetained": true,
+  "missingCertificatesStillRejected": true,
+  "fireStickApi28FailureReproducedWithoutAppInstall": true,
+  "repairBootstrapRequiresManualInPlaceUpdate": true,
+  "physicalInstallationPerformed": false,
+  "deviceDataCleared": false,
+  "probeProcessesAndTemporaryFilesCleaned": true,
+  "logoSha256": "9e4a8183848749613ec43e532ba3526e6174407cce65c90361814897e7d9e1e5",
+  "physicalCompatibilityValidation": {
+    "device": "User-designated Fire Stick",
+    "androidApi": 28,
+    "installedVersion": "0.3.29",
+    "actualCertificatesMatch": true,
+    "oldModernOnlyArchiveMetadataMissing": true,
+    "combinedFlagsReadActualRepairCertificate": false,
+    "repairVersion": "0.3.37",
+    "appInstallOrUiLaunchPerformed": false,
+    "finalApkNativeRecheck": false,
+    "deviceOfflineAtFinalRecheck": true,
+    "platformReproductionArchiveVersion": "0.3.36",
+    "preferencesOrDataChanged": false,
+    "temporaryProbeFilesRemoved": true,
+    "limitations": [
+      "Actual repair installation and subsequent in-app update await the user's manual in-place install.",
+      "No playback, audio, account-file or UI navigation checks were performed for this updater-only change.",
+      "Device went offline before final 0.3.37 archive recheck. Platform behavior was reproduced with installed 0.3.29 and public 0.3.36; final 0.3.37 certificate was verified on the build host."
+    ]
+  }
+}
