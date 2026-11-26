@@ -1,8 +1,9 @@
 {
   "packageName": "com.shadowfox.tvlauncher.review",
-  "versionCode": 65,
-  "versionName": "2.5.23",
-  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.23/ShadowFoxTV-Launcher-Pro-2.5.23.apk",
-  "sha256": "ec7a84d3d85025ba5ffcddeb10406037463aa252f2f894b45bdaf95f7999056a",
-  "notes": "The first Home app row now sits at the bottom of the opening screen, using measured row height and the available screen height. Other categories remain below the opening screen and are available by scrolling. Existing rows, app assignments, wallpapers and settings are retained."
+  "versionCode": 66,
+  "versionName": "2.5.24",
+  "apkUrl": "https://github.com/gervaism-afk/shadowfox-tv-releases/releases/download/v2.5.24/ShadowFoxTV-Launcher-Pro-2.5.24.apk",
+  "sha256": "0492db5f02bf8245a9efc89e90127399864f27bb3c3204d148fdceeef52fe1ae",
+  "notes": "Cobalt Chrome is now ShadowFox Exclusive and the default launcher theme. Previously saved themes and wallpaper selections are kept.",
+  "sizeBytes": 35518741
 }
